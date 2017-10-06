@@ -5,7 +5,7 @@ description: Website Sofie Vergauwe
 baseurl: ""
 url: "https://sofievergauwe.be/"
 github_username: sofievergauwe
-repository: "sofievergauwe/sofievergauwe.github.io"
+repository: "sofievergauwe/sofievergauwe.be"
 
 # Build settings
 markdown: kramdown
