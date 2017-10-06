@@ -1,0 +1,13 @@
+%focus-effect {
+  @include focus-effect-background(color(white, 0, 0.1));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 0%;
+  transition: background-size .4s ease-in-out, color .2s ease-in-out;
+
+  &:active,
+  &:focus {
+    background-size: 240%;
+  }
+
+}

@@ -1,0 +1,3 @@
+%button {
+  @include map-print-key($global-button, 'mobile');
+}

@@ -1,0 +1,19 @@
+// font-size helper function
+@function font-size($n: 1) {
+  @return unit(map-deep-get($config, 'layout', 'font-size') * $n);
+}
+
+// line-height function
+@function line-height($n: 1) {
+  @return map-deep-get($config, 'layout', 'line-height') * $n;
+}
+
+// spacing helper function
+@function spacing($n: 1, $b: map-deep-get($config, 'layout', 'font-size')) {
+  @return unit(map-deep-get($config, 'layout', 'spacing') * $n, $b);
+}
+
+// breakpoint helper function
+@function breakpoint($breakpoint) {
+  @return map-deep-get($config, 'breakpoints', $breakpoint);
+}

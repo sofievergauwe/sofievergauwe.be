@@ -1,0 +1,24 @@
+@mixin map-print($map) {
+  @each $selector, $properties in $map {
+    #{$selector} {
+      @each $property, $value in $properties {
+        #{$property}: $value;
+      }
+    }
+  }
+}
+
+
+@mixin map-print-key($map, $key) {
+  $map: map-get($map, $key);
+  @each $property, $value in $map {
+    #{$property}: $value;
+  }
+}
+
+
+@mixin map-print-properties($map) {
+  @each $property, $value in $map {
+    #{$property}: $value;
+  }
+}

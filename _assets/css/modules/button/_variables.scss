@@ -1,0 +1,28 @@
+$global-button: (
+
+  'default': (
+    display: inline-block,
+    padding: spacing(0.6) spacing(0.8),
+    margin: 0 0 spacing(0.5),
+    color: color(white),
+    background-color: color(primary),
+    cursor: pointer,
+    transition: background-color 0.2s ease-in-out,
+  ),
+
+  'mobile': (
+    display: block,
+    width: 100%,
+    margin: 0 0 .5em
+  ),
+
+  'hover': (
+    color: color(white),
+    background-color: color(primary, 5),
+  ),
+
+  'disabled': (
+    opacity: 0.75
+  ),
+
+);

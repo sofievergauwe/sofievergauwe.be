@@ -1,0 +1,104 @@
+# Site settings
+title: De wereld van Sofie
+email: info@sofievergauwe.be
+description: Website Sofie Vergauwe
+baseurl: ""
+url: "https://sofievergauwe.be/"
+github_username: sofievergauwe
+repository: "sofievergauwe/sofievergauwe.github.io"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-assets
+  - jekyll-email-protect
+  - jekyll-include-cache
+
+# Includes
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .cache
+
+# Do not process folders
+keep_files:
+  - favicons
+  - media
+
+# jekyll-assets
+assets:
+  compress:
+    css: false
+    js: true
+  cache: .cache
+  prefix: /
+  digest: false
+  sources:
+    - _assets
+  autoprefixer:
+    browsers:
+      - last 2 versions
+      - IE > 9
+
+# cloudinary
+cloudinary:
+  id: sofievergauwe
+  banner:
+    crop: fill
+    width: 1400
+    height: 640
+    sizes:
+    - media: 'min-width: 1400px'
+      width: 1400
+      height: 640
+    - media: 'min-width: 640px'
+      width: 960
+      height: 640
+    - media: 'max-width: 640px'
+      width: 640
+      height: 480
+  teaser:
+    crop: fill
+    width: 360
+    height: 240
+  gallery:
+    crop: fill
+    width: 320
+    height: 320
+  sidebar:
+    crop: fill
+    width: 420
+    height: 420
+
+# liquid compress html
+compress_html:
+  clippings: all
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+# jekyll-assets
+assets:
+  compress:
+    css: false
+    js: true
+  cache: .cache
+  prefix: /
+  digest: false
+  sources:
+    - _assets
+  autoprefixer:
+    browsers:
+      - last 2 versions
+      - IE > 9

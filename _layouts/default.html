@@ -1,0 +1,29 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="nl">
+
+  {% include_cached head.html info=site.data.info title=page.title %}
+
+  <body>
+
+    {% include_cached svg/icons.svg %}
+
+    <h1>{{ site.title }}</h1>
+
+    <header>
+      <a href="/" alt="{{ site.name }}">
+        {% img "svg/logo.svg" %}
+      </a>
+      {% include navigation.html %}
+    </header>
+
+    {{ content }}
+
+    {% include_cached footer.html %}
+    {% include_cached scripts.html %}
+
+  </body>
+</html>

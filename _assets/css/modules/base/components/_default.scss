@@ -1,0 +1,78 @@
+// create renderable base map
+$base-map: map-extend($normalize, $global-defaults, true);
+
+// extend base map with local defaults
+@if variable-exists(base) {
+  $base-map: map-extend($base-map, $base, true);
+}
+
+// print base map
+@include map-print($base-map);
+
+// extend display block
+li,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+input,
+figcaption,
+figure,
+main,
+details,
+menu {
+  @extend %display-block;
+}
+
+// extend default margin
+p,
+hr,
+dl,
+ol,
+ul,
+fieldset,
+table,
+button,
+form,
+form > div,
+blockquote {
+  @extend %default-margin;
+}
+
+// extend hidden
+[hidden] {
+  @extend %hidden;
+}
+
+// extend input elements
+input:not([type="submit"]):not([type="reset"]),
+select,
+textarea,
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+  @extend %input;
+
+  &:hover {
+    @extend %input-hover;
+  }
+
+}
+
+// extend input focus elements
+input:not([type="submit"]):not([type="reset"]),
+select,
+textarea {
+
+  &:active,
+  &:focus {
+    @extend %input-focus;
+  }
+
+}
+
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+  @extend %content;
+}

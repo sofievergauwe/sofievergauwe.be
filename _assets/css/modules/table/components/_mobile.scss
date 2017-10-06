@@ -1,0 +1,49 @@
+table {
+  display: block;
+  position: relative;
+
+  thead,
+  tbody {
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    vertical-align: top;
+  }
+
+  thead {
+    width: map-deep-get($global-table, 'mobile', 'thead-width');
+    border-right: map-deep-get($global-table, 'mobile', 'separation-border');
+
+    tr {
+      display: block;
+    }
+
+  }
+
+  tbody {
+    width: map-deep-get($global-table, 'mobile', 'tbody-width');
+    white-space: nowrap;
+
+    tr {
+      display: inline-block;
+      min-width: 100%;
+    }
+
+    td {
+      border-right: map-deep-get($global-table, 'mobile', 'separation-border');
+    }
+
+  }
+
+  th,
+  td {
+    padding: map-deep-get($global-table, 'mobile', 'padding');
+    display: block;
+    width: 100%;
+  }
+
+  th {
+    padding-left: 0;
+  }
+
+}

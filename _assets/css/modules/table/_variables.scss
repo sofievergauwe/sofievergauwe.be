@@ -1,0 +1,21 @@
+$global-table: (
+
+  'default': (
+    border-color: color(border),
+    border-style: solid,
+    border-width: 0 0 1px,
+    padding: spacing(.4) 0,
+  ),
+
+  'head': (
+    font-weight: bold,
+  ),
+
+  'mobile': (
+    thead-width: 30%,
+    tbody-width: 70%,
+    padding: spacing(.3) spacing(.6),
+    separation-border: 1px dotted color(border),
+  )
+
+);

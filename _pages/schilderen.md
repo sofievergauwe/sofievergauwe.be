@@ -1,0 +1,24 @@
+---
+title: Schilderen
+permalink: /schilderen
+layout: page
+banner: /media/schilderen.jpg
+gallery: schilderen
+prices:
+- name: Portret (1 gezicht) op canvas 50x80cm, olieverf
+  time: 30'
+  price: € 200
+extra: De prijs van een portret is afhankelijk van de afmetingen van het doek en het aantal schilderuren (1 of meerdere gezichten).
+---
+
+_Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten** die je in de galerij kan bekijken, zijn een goede weergave van mijn huidige schildervorm. Ik maak gebruik van **olieverf**._
+
+### Meditatief proces
+
+Doordat je je tijdens het maken van een schilderij een hele tijd moet focussen op de afbeelding, ervaar ik het schilderen als een meditatief proces. Het is steeds een heel nauwkeurig voelend onderzoek van het desbetreffende beeld. Schilderen brengt me in het hier & nu en maakt mijn geest vrij van alledaagse gedachten.
+
+### Portret
+
+Het maken van een **portret** vind ik een erg boeiend proces. Elke keer ervaar ik een zoektocht en een uitdaging om
+de typerende details van het gezicht, maar ook het karakter van een persoon, via **kleuren** en **penseelstreken**, in beeld te brengen op doek.
+Als ik de persoon kan 'voelen' bij het bekijken van mijn doek, dan weet ik dat het ik dat het klaar is.

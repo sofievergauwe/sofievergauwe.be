@@ -1,0 +1,70 @@
+// calculate em
+@function em($n, $b: 16) {
+  @if (unitless($n)) and not (unitless($b)) {
+    $n: em($n);
+  }
+  @if (unitless($b)) and not (unitless($n)) {
+    $b: em($b);
+  }
+  @return decimal-round(($n/$b), 2) * 1em;
+}
+
+
+// calculate rem
+@function rem($n, $b: 16) {
+  @return decimal-round(($n/$b), 2) * 1rem;
+}
+
+
+// add unit to n
+@function unit($n, $b: map-deep-get($config, layout, font-size)) {
+
+  $unit: map-deep-get($config, layout, unit);
+
+  @if $unit == 'em' {
+    @return em($n, $b);
+  }
+
+  @elseif $unit == 'rem' {
+    @return rem($n, $b);
+  }
+
+  @else {
+    @return $n + $unit;
+  }
+
+}
+
+
+// round with decimals
+@function decimal-round($number, $digits: 0, $mode: round) {
+  $n: 1;
+  // $number must be a number
+  @if type-of($number) != number {
+      @warn '#{ $number } is not a number.';
+      @return $number;
+  }
+  // $digits must be a unitless number
+  @if type-of($digits) != number {
+      @warn '#{ $digits } is not a number.';
+      @return $number;
+  } @else if not unitless($digits) {
+      @warn '#{ $digits } has a unit.';
+      @return $number;
+  }
+  @if $digits > 0 {
+      @for $i from 1 through $digits {
+          $n: $n * 10;
+      }
+  }
+  @if $mode == round {
+      @return round($number * $n) / $n;
+  } @else if $mode == ceil {
+      @return ceil($number * $n) / $n;
+  } @else if $mode == floor {
+      @return floor($number * $n) / $n;
+  } @else {
+      @warn '#{ $mode } is undefined keyword.';
+      @return $number;
+  }
+}

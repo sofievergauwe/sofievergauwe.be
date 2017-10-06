@@ -1,0 +1,47 @@
+// import color variables and module first (already used in config file...)
+@import
+  "variables/colors",
+  "modules/colors/import";
+
+// import config
+@import
+  "config";
+
+// import modules
+@import
+  "modules/unit/import",
+  "modules/map/import",
+  "modules/svg/import",
+  "modules/base/import",
+  "modules/button/import",
+  "modules/table/import",
+  "modules/list/import",
+  "modules/blockquote/import",
+  "modules/grid/import",
+  "modules/wrapper/import",
+  "modules/focus-effect/import",
+  "modules/text-link/import";
+
+// import variables
+@import
+  "variables/base",
+  "variables/button",
+  "variables/table";
+
+// import components
+@import
+  "modules/base/components/default",
+  "modules/button/components/default",
+  "modules/table/components/default",
+  "modules/list/components/default",
+  "modules/blockquote/components/default",
+  "modules/focus-effect/components/default",
+  "modules/text-link/components/default",
+  "partials/layout/default";
+
+// import components for tiny and small screens
+@media screen and (max-width: breakpoint(small)) {
+  @import
+    "modules/button/components/mobile",
+    "modules/table/components/mobile";
+}

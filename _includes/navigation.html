@@ -1,0 +1,15 @@
+<nav>
+  <h2 data-dropdown>
+    <svg class="icon-menu"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-menu"></use></svg><span>Menu</span>
+  </h2>
+  <ul data-dropdown-menu>
+    {% for item in site.data.menu %}
+      <li>
+        <a href="{{ item.link }}"{% if item.link == page.permalink or (item.link.size > 4 and page.permalink contains item.link) %} class="active"{% endif %}>
+          {{ item.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  {% include_cached social.html %}
+</nav>

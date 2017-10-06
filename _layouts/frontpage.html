@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+
+<article>
+  <figure>
+    {% include_cached image.html file=page.image style='teaser' alt=page.title %}
+  </figure>
+  <h3>{{ page.title }}</h3>
+  {{ content }}
+
+  {% if page.buttons %}
+  <footer>
+    {% include buttons.html items=page.buttons %}
+  </footer>
+  {% endif %}
+
+</article>

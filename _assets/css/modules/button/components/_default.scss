@@ -1,0 +1,28 @@
+// extend global map with local map
+@if variable-exists(button) {
+  $global-button: map-extend($global-button, $button, true);
+}
+
+
+%button {
+  @include map-print-key($global-button, 'default');
+
+  &:hover,
+  &:active,
+  &:focus {
+    @include map-print-key($global-button, 'hover');
+  }
+
+  &:disabled {
+    @include map-print-key($global-button, 'disabled');
+  }
+
+}
+
+
+// extend
+input[type="submit"],
+input[type="reset"],
+button {
+  @extend %button;
+}

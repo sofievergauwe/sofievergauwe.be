@@ -1,0 +1,22 @@
+$button: (
+
+  'default': (
+    color: mix(color(black), color(primary), 85),
+    padding: unit(16) unit(20),
+    margin: 0 0 unit(8),
+    text-align: center,
+    text-transform: uppercase,
+    letter-spacing: 0.1em,
+    font-weight: 300,
+  ),
+
+  'hover': (
+    color: mix(color(black), color(primary), 95),
+    background-color: color(primary, 5),
+  ),
+
+  'mobile': (
+    margin: 0 0 unit(8)
+  ),
+
+);

@@ -1,0 +1,50 @@
+// base
+$base: (
+
+  body: (
+    padding: 5%,
+  ),
+
+  'b, strong': (
+    font-weight: 500,
+  ),
+
+  'a:hover, a:focus, a:active': (
+    color: color(black),
+  ),
+
+  '%input': (
+    padding: spacing(.75),
+    box-shadow: inset 0 0 0 color(black, 0, 0),
+  ),
+
+  '%input-focus': (
+    border-color: color(border, 25),
+    box-shadow: inset 0 -2px 0 color(primary),
+  ),
+
+  'legend, label': (
+    text-transform: uppercase,
+    letter-spacing: .1em,
+    font-size: unit(18),
+    font-weight: 300,
+  ),
+
+  'label > span': (
+    color: mix(color(red), red, 50),
+  ),
+
+  'input[type="checkbox"] + label, input[type="radio"] + label': (
+    font-weight: inherit,
+    font-size: inherit,
+    letter-spacing: inherit,
+    text-transform: inherit,
+  ),
+
+  'input[type="checkbox"] + label:before, input[type="radio"] + label:before': (
+    width: 1.1em,
+    height: 1.1em,
+    margin: -.25em .6em 0 0,
+  ),
+
+);

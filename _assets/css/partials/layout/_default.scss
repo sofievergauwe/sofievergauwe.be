@@ -1,0 +1,12 @@
+// button class
+.button {
+  @extend %button;
+}
+
+// focus effect
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  @extend %focus-effect;
+}

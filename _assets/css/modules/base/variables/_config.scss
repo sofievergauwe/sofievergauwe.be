@@ -1,0 +1,29 @@
+// default config map
+$global-config: (
+
+  layout: (
+    unit: em,
+    font-family: "Roboto, Helvetica, sans-serif",
+    font-size: 16,
+    line-height: 2,
+    spacing: 24
+  ),
+
+  breakpoints: (
+    tiny: 380px,
+    small: 640px,
+    medium: 960px,
+    large: 1180px,
+    huge: 1360px
+  ),
+
+  colors: (
+    text: color(black),
+    link: color(blue),
+    focus: color(blue, 15),
+    border: color(grey),
+    primary: color(blue),
+    secondary: color(green)
+  )
+
+);
