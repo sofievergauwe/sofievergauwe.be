@@ -5,8 +5,13 @@
   <ul data-nav-menu>
     {% for item in site.data.menu %}
       <li>
-        <a href="{{ item.link }}"{% if item.link == page.permalink or (item.link.size > 4 and page.permalink contains item.link) %} class="active"{% endif %}>
-          {{ item.title }}
+        <a {% if item.link contains 'http' %} target="_blank"{% endif %} href="{{ item.link }}"{% if item.link == page.permalink or (item.link.size > 4 and page.permalink contains item.link) %} class="active"{% endif %}>
+          {% if item.icon %}
+          <svg class="icon-{{ item.icon }}">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-{{ item.icon }}" />
+          </svg>
+          {% endif %}
+          <span>{{ item.title }}</span>
         </a>
       </li>
     {% endfor %}

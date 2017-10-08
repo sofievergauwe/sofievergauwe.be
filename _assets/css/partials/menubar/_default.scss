@@ -33,6 +33,13 @@ body > header > nav {
     &.active {
       color: color(focus);
     }
+
+    & > svg + span {
+      display: none;
+    }
+
   }
+
+
 
 }

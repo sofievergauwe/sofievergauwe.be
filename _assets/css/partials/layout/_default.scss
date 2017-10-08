@@ -8,10 +8,6 @@ body {
   padding-top: $header-height + spacing(1);
   position: relative;
   background-color: color(silver, 65);
-
-  @media screen and (max-width: breakpoint(tiny)) {
-    font-size: 70%;
-  }
 }
 
 
@@ -28,6 +24,7 @@ body > header {
   top: -1px;
   left: 0;
   right: 0;
+  z-index: 99;
   background-color: color(white);
   border-bottom: 1px solid color(border, 70);
   transition: font-size 0.2s ease-in-out;
@@ -88,4 +85,13 @@ blockquote em {
   font-weight: 700;
   color: color(text, 35);
   margin-bottom: .75em;
+}
+
+main > article > h2 {
+  border-bottom: 2px solid color(focus);
+  display: inline-block;
+  padding-bottom: spacing(.25);
+  font-weight: 300;
+  font-size: unit(36);
+  margin: 0 0 .5em;
 }

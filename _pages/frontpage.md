@@ -2,6 +2,7 @@
 title: Welkom in de wereld van Sofie
 layout: frontpage
 permalink: /
+quote: null
 banner: /media/kaarsgieten.jpg
 teasers:
   - title: Massage

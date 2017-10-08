@@ -36,4 +36,15 @@ body > header > nav {
     }
   }
 
+  a > svg {
+    margin: unit(-5) 0;
+    transition: fill 0.2s ease-in-out;
+
+    &:hover,
+    &:focus,
+    &:active {
+      fill: color(focus);
+    }
+  }
+
 }

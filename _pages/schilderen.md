@@ -3,6 +3,7 @@ title: Schilderen
 permalink: /schilderen
 layout: page
 banner: /media/schilderen.jpg
+quote: Als ik schilder, voel ik me tijdloos...
 gallery: schilderen
 prices:
 - name: Portret (1 gezicht) op canvas 50x80cm, olieverf

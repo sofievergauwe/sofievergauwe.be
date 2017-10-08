@@ -4,5 +4,10 @@ body > header > nav {
   & > ul {
     line-height: line-height(1);
     right: spacing(-1);
+    text-align: left;
+  }
+
+  svg {
+    fill: white;
   }
 }

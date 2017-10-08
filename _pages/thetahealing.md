@@ -3,6 +3,7 @@ title: ThetaHealing®
 permalink: /thetahealing
 layout: page
 banner: /media/thetahealing.jpg
+quote: Opnieuw heel worden
 prices:
 - name: Thetasessie
   time: 60'

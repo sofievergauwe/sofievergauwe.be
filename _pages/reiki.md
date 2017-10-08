@@ -3,6 +3,7 @@ title: Reiki
 permalink: /reiki
 layout: page
 banner: /media/reiki.jpg
+quote: Where attention goes, energy flows…
 prices:
 - name: Reiki
   time: 30'
@@ -11,8 +12,6 @@ prices:
   time: 60'
   price: € 35
 ---
-
-> Where attention goes, energy flows...
 
 _Reiki is een oude **Japanse helingswijze** waarbij universele levensenergie via de heler wordt overgedragen op de cliënt. De **energie** kan via handoplegging of van op afstand worden doorgegeven. De **energie** komt binnen in je syteem en stroomt dan via de je energiebanen (nadi) naar plekken in het lichaam waar een disbalans aanwezig is._
 
