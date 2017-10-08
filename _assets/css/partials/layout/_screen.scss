@@ -2,7 +2,7 @@ body {
   padding-top: $header-height + spacing(1);
 }
 
-body > figure > div {
+body > .banner > figure {
   position: relative;
   overflow: hidden;
 

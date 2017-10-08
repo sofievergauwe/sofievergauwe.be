@@ -60,7 +60,7 @@ body > header {
 
 
 // banner
-body > figure figcaption {
+.banner figcaption {
   color: color(white);
   padding: spacing(.5) unit(spacing(1), 1.25em);
   font-size: 1.25em;

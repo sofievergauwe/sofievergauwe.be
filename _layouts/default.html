@@ -21,16 +21,16 @@ layout: compress
     </header>
 
     {% if page.banner and page.banner != '' %}
-    <figure>
-      <div>
+    <div class="banner">
+      <figure>
         {% include_cached image.html file=page.banner style='banner' alt=page.title %}
         {% if page.quote %}
         <figcaption>
           {{ page.quote }}
         </figcaption>
         {% endif %}
-      </div>
-    </figure>
+      </figure>
+    </div>
     {% endif %}
 
     <main>
