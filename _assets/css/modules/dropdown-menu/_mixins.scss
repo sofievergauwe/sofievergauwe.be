@@ -7,13 +7,14 @@
   & > ul {
     position: absolute;
     overflow-y: auto;
-    top: -100em;
+    top: 100%;
     right: 0;
     left: auto;
     background: $bg;
     padding: $padding;
-    z-index: -1;
-    transition: top 0.2s ease-in-out;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.26s ease;
     margin: 0;
 
     a {
@@ -28,7 +29,7 @@
     }
 
     &.active {
-      top: 100%;
+      transform: scaleY(1);
     }
 
   }

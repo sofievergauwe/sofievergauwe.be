@@ -1,3 +1,8 @@
 body > header > nav {
-  @include dropdown-menu();
+  @include dropdown-menu($bg: color(focus, 0, 0.975), $padding: 2em 2.5em);
+
+  & > ul {
+    line-height: line-height(1);
+    right: spacing(-1);
+  }
 }
