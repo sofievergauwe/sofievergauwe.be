@@ -2,8 +2,10 @@
 title: Massage
 permalink: /massage
 layout: page
-banner: /media/massage.jpg
-quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
+banner:
+  image: /media/massage.jpg
+  quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
+  align: middle center
 prices:
 - name: Hoofdmassage
   time: 30'

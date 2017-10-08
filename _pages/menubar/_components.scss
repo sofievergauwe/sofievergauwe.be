@@ -1,0 +1,131 @@
+#{$menubar-selector} {
+  background: $menubar-background;
+  height: $menubar-height;
+  @include -menubar;
+
+  @if $menubar-position == fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+  }
+
+  svg {
+    fill: $menubar-color;
+    width: $menubar-icon-size;
+    height: $menubar-icon-size;
+
+    @if $menubar-icon-margin > 0 {
+      margin-right: $menubar-icon-margin;
+
+      span + & {
+        margin-left: $menubar-icon-margin;
+        margin-right: 0;
+      }
+
+    }
+
+    @include -menubar-icon;
+
+  }
+
+  & > #{$menubar-header},
+  & > ul > li {
+    display: inline-block;
+    margin: $menubar-item-margin;
+  }
+
+  a {
+    display: block;
+  }
+
+  & > #{$menubar-header},
+  & > ul > li > a {
+    font-size: $menubar-font-size;
+    line-height: em($menubar-height, $menubar-font-size);
+    color: $menubar-color;
+    padding: $menubar-item-padding;
+    @include -menubar-item;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: $menubar-color-focus;
+
+      svg {
+        fill: $menubar-color-focus;
+      }
+
+    }
+
+    & > span {
+      vertical-align: middle;
+    }
+
+  }
+
+  & > #{$menubar-header} {
+    display: none;
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+    @include -menubar-dropdown-trigger;
+  }
+
+  @media screen and (max-width: $menubar-breakpoint) {
+    @include -menubar-mobile;
+
+    & > ul[data-dropdown-menu] {
+      position: fixed;
+      float: none;
+      top: $menubar-height;
+      left: -100%;
+      bottom: 0;
+      width: 100%;
+      background-color: $menubar-dropdown-background;
+      padding: $menubar-dropdown-padding;
+      transition: all 0.4s ease-in-out;
+      z-index: 99;
+      opacity: 0.98;
+      @include -menubar-dropdown-menu;
+
+      li {
+        display: block;
+
+        @if $menubar-dropdown-item-border != 0 {
+          border-bottom: $menubar-dropdown-item-border;
+
+          &:first-child {
+            border-bottom: $menubar-dropdown-item-border;
+          }
+
+        }
+
+      }
+
+      a {
+        color: $menubar-dropdown-color;
+
+        &:hover,
+        &.active {
+          color: $menubar-dropdown-color-focus;
+        }
+
+      }
+
+    }
+
+    & > #{$menubar-header} {
+      display: inline-block;
+
+      &.active + ul[data-dropdown-menu] {
+        left: 0;
+      }
+
+    }
+
+  }
+
+}

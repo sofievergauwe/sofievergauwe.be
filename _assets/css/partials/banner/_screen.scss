@@ -1,0 +1,50 @@
+body > figure {
+  position: relative;
+  overflow: hidden;
+
+  & > figcaption  {
+    @include wrapper(48, breakpoint(huge));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    & > blockquote {
+      font-size: 1.75em;
+      color: color(white);
+      text-shadow: 0 unit(2) unit(5) color(black);
+      display: inline-block;
+      position: relative;
+      padding: spacing(1);
+      margin: 0;
+
+      /*
+      animation: caption .5s forwards;
+
+      @keyframes caption {
+        0%    { bottom: -100%; }
+        100%  { bottom: 0; }
+      }
+      */
+    }
+
+    &.center {
+      text-align: center;
+    }
+
+    &.right {
+      text-align: right;
+    }
+
+    &.middle > blockquote {
+      top: 40%;
+    }
+
+    &.bottom > blockquote {
+      top: 76%;
+    }
+
+  }
+
+}

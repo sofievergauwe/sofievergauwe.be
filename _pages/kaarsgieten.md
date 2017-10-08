@@ -2,8 +2,10 @@
 title: Kaarsgieten
 layout: page
 permalink: /kaarsgieten
-banner: /media/kaarsgieten.jpg
-quote: Come on baby, light my fire...
+banner:
+  image: /media/kaarsgieten.jpg
+  quote: Come on baby, light my fire...
+  align: top right
 gallery: kaarsgieten
 ---
 

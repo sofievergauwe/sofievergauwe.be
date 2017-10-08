@@ -2,8 +2,10 @@
 title: ThetaHealing®
 permalink: /thetahealing
 layout: page
-banner: /media/thetahealing.jpg
-quote: Het evenwicht tussen lichaam en geest
+banner:
+  image: /media/thetahealing.jpg
+  quote: Het evenwicht tussen lichaam en geest
+  align: middle center
 prices:
 - name: Thetasessie
   time: 60'

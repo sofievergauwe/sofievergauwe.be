@@ -43,7 +43,8 @@
   "modules/text-link/components/default",
   "partials/extend",
   "partials/layout/default",
-  "partials/menubar/default";
+  "partials/menubar/default",
+  "partials/banner/default";
 
 
 // import components for mobile devices
@@ -59,5 +60,6 @@
 @media screen and (min-width: breakpoint(medium)) {
   @import
     "partials/layout/screen",
-    "partials/menubar/screen";
+    "partials/menubar/screen",
+    "partials/banner/screen";
 }

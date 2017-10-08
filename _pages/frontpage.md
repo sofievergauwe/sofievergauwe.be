@@ -2,8 +2,10 @@
 title: Welkom in de wereld van Sofie
 layout: frontpage
 permalink: /
-quote: null
-banner: /media/kaarsgieten.jpg
+banner:
+  image: /media/kaarsgieten.jpg
+  quote: Welkom in de wereld van Sofie...
+  align: top right
 teasers:
   - title: Massage
     image: /media/massage.jpg

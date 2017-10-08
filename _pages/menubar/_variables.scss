@@ -1,0 +1,21 @@
+$menubar-selector: "body > nav";
+$menubar-height: em(64);
+$menubar-background: rgba($clr-black, 0.95);
+$menubar-font-size: .8em;
+$menubar-color: darken($clr-white, 10);
+$menubar-color-focus: $clr-primary;
+$menubar-position: fixed;
+$menubar-header: "h2";
+$menubar-item-margin: 0 -.8em 0 0;
+$menubar-item-padding: 0 1.5em;
+
+$menubar-icon-size: 1.8em;
+$menubar-icon-margin: 1.2em;
+
+$menubar-breakpoint: $breakpoint-large;
+
+$menubar-dropdown-padding: 2em;
+$menubar-dropdown-background: $clr-primary;
+$menubar-dropdown-color: $clr-text;
+$menubar-dropdown-color-focus: mix($clr-text, $clr-primary, 75);
+$menubar-dropdown-item-border: 1px solid mix($clr-primary, #000, 95);

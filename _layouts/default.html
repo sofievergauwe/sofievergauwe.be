@@ -20,17 +20,15 @@ layout: compress
       {% include navigation.html %}
     </header>
 
-    {% if page.banner and page.banner != '' %}
-    <div class="banner">
-      <figure>
-        {% include_cached image.html file=page.banner style='banner' alt=page.title %}
-        {% if page.quote %}
-        <figcaption>
-          {{ page.quote }}
-        </figcaption>
-        {% endif %}
-      </figure>
-    </div>
+    {% if page.banner.image %}
+    <figure>
+      {% include_cached image.html file=page.banner.image style='banner' alt=page.title %}
+      {% if page.banner.quote %}
+      <figcaption class="{{ page.banner.align }}">
+        <blockquote>{{ page.banner.quote }}</blockquote>
+      </figcaption>
+      {% endif %}
+    </figure>
     {% endif %}
 
     <main>
