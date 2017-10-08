@@ -20,7 +20,11 @@
   "modules/grid/import",
   "modules/wrapper/import",
   "modules/focus-effect/import",
-  "modules/text-link/import";
+  "modules/text-link/import",
+  "modules/inline-menu/import",
+  "modules/dropdown-menu/import",
+  "modules/animations/import";
+
 
 // import variables
 @import
@@ -28,7 +32,7 @@
   "variables/button",
   "variables/table";
 
-// import components
+// import default components
 @import
   "modules/base/components/default",
   "modules/button/components/default",
@@ -37,11 +41,22 @@
   "modules/blockquote/components/default",
   "modules/focus-effect/components/default",
   "modules/text-link/components/default",
-  "partials/layout/default";
+  "partials/extend",
+  "partials/layout/default",
+  "partials/menubar/default";
 
-// import components for tiny and small screens
-@media screen and (max-width: breakpoint(small)) {
+
+// import components for mobile devices
+@media screen and (max-width: breakpoint(medium)) {
   @import
     "modules/button/components/mobile",
-    "modules/table/components/mobile";
+    "modules/table/components/mobile",
+    "partials/menubar/mobile";
+}
+
+// import components for normal screens
+@media screen and (min-width: breakpoint(medium)) {
+  @import
+    "partials/layout/screen",
+    "partials/menubar/screen";
 }

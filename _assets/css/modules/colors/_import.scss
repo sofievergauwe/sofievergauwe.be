@@ -1,2 +1,11 @@
 @import
+  "variables",
   "functions";
+
+@if variable-exists(colors) {
+  $colors: map-merge($global-colors, $colors);
+}
+
+@else {
+  $colors: $global-colors;
+}

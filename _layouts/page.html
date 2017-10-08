@@ -3,13 +3,8 @@ layout: default
 ---
 
 {% if page.content != '' %}
-<article{% if page.style %} class="{{ page.style }}"{% endif %}>
-  {% if page.banner and page.banner != '' %}
-  {% include_cached image.html file=page.banner style='banner' alt=page.title %}
-  {% endif %}
+<article>
   <h2><span>{{ page.title }}</span></h2>
-  <div class="content">
   {{ content }}
-  </div>
 </article>
 {% endif %}

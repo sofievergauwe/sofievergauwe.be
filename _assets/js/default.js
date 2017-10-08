@@ -1,4 +1,4 @@
-//= require js/plugins/drop.min.js
+//= require js/plugins/astro.min.js
 //= require js/plugins/lazysizes.min.js
 
-drop.init();
+astro.init();

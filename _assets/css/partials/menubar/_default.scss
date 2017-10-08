@@ -1,0 +1,40 @@
+body > header > nav {
+  text-align: right;
+
+  & > h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: unit((88 - 24) / 2);
+    background-color: color(silver, 0, 0.4);
+    border-left: 1px solid color(silver);
+    margin: 0;
+    font-size: 1em;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &.active {
+      background-color: color(focus);
+    }
+
+    @include hamburger-icon();
+
+  }
+
+  a {
+    font-size: .8em;
+    color: color(text);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+
+    &:hover,
+    &:active,
+    &:focus,
+    &.active {
+      color: color(focus);
+    }
+  }
+
+}

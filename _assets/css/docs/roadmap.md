@@ -23,6 +23,9 @@ current: 0.1 alpha
 ## dropdown menu
 - create module & mixins
 
+## extend issue
+- selectors in variables map?
+
 
 
 # 0.2
@@ -32,9 +35,6 @@ current: 0.1 alpha
 
 ## unit
 - cleanup functions
-
-## color module
-- bug with global & local variables
 
 ## focus-effect
 - more styles

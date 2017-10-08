@@ -1,0 +1,38 @@
+body > header > nav {
+  @include dropdown-menu-hidden();
+
+  & > ul {
+    @include inline-menu(unit(24));
+
+    & > li:first-child {
+      display: none;
+    }
+
+    & > li > a {
+
+      &:after {
+        content: "";
+        display: block;
+        position: relative;
+        bottom: unit(-4);
+        height: 1px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 0%;
+        transition: background-size .2s ease-in-out;
+      }
+
+      &:focus,
+      &:active,
+      &.active {
+
+        &:after {
+          background-size: 100%;
+        }
+
+      }
+
+    }
+  }
+
+}

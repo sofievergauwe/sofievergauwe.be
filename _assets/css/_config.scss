@@ -3,7 +3,7 @@ $config: (
 
   layout: (
     unit: em,
-    font-family: (Roboto, Helvetica, sans-serif),
+    font-family: (Merriweather, serif),
     font-size: 16,
     line-height: 2,
     spacing: 24
@@ -18,16 +18,20 @@ $config: (
   ),
 
   colors: (
-    text: color(black, 15),
-    link: color(black, 5),
-    focus: color(yellow),
+    text: color(black, 20),
+    link: color(black, 10),
+    focus: chocolate,
     border: color(grey, 20),
-    primary: color(yellow),
-    secondary: color(red)
+    primary: chocolate,
+    secondary: color(silver)
   ),
 
   footer: (
-    height: unit(200),
+    height: 200,
+  ),
+
+  logo: (
+    width: 240,
   ),
 
 );

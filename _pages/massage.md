@@ -2,7 +2,7 @@
 title: Massage
 permalink: /massage
 layout: page
-banner: null
+banner: /media/massage.jpg
 prices:
 - name: Hoofdmassage
   time: 30'
@@ -22,6 +22,8 @@ extra: inclusief water/thee
 _Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het **onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam**._
 
 ### Loslaten
+
+> Via massage kunnen **trauma en shock**, die vaak opgeslagen liggen in de huid, losgelaten worden.
 
 Via massage kunnen **trauma en shock**, die vaak opgeslagen liggen in de huid, losgelaten worden. Dit ondersteunt en stimuleert het zelfhelende en regenererende vermogen van de huid. **Spanningen** die zich vastzetten in de spieren kunnen met behulp van massage losgemaakt en afgevoerd worden.
 

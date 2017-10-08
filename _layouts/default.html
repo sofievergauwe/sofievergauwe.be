@@ -15,13 +15,18 @@ layout: compress
 
     <header>
       <a href="/" alt="{{ site.name }}">
-        {% img "svg/logo.svg" %}
+        {% img "svg/logo.svg" 'alt="Sofie Vergauwe - De wereld van Sofie"' %}
       </a>
       {% include navigation.html %}
     </header>
 
-    {{ content }}
+    {% if page.banner and page.banner != '' %}
+    {% include_cached image.html file=page.banner style='banner' alt=page.title %}
+    {% endif %}
 
+    <main>
+      {{ content }}
+    </main>
     {% include_cached footer.html %}
     {% include_cached scripts.html %}
 

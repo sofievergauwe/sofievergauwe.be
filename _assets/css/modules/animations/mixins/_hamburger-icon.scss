@@ -1,0 +1,53 @@
+@mixin hamburger-icon() {
+
+  & > span,
+  & > span:before,
+  & > span:after {
+    display: block;
+    width: unit(24);
+    height: unit(3);
+    border-radius: em(1.5);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  & > span {
+    position: relative;
+    margin: unit(10.5) 0;
+    text-indent: 9999%;
+    background-color: color(text);
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      background-color: inherit;
+    }
+
+    &:before {
+      top: unit(8);
+    }
+
+    &:after {
+      top: unit(-8);
+    }
+  }
+
+  &.active {
+
+    & > span {
+      transform: rotate(45deg);
+      background-color: color(white);
+
+      &:before,
+      &:after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+
+    }
+
+  }
+
+}

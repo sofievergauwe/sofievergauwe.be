@@ -1,0 +1,42 @@
+@mixin dropdown-menu($bg: color(focus), $color: color(white), $padding: spacing(2)) {
+
+  & > h2 {
+    display: inline-block;
+  }
+
+  & > ul {
+    position: absolute;
+    overflow-y: auto;
+    top: -100em;
+    right: 0;
+    left: auto;
+    background: $bg;
+    padding: $padding;
+    z-index: -1;
+    transition: top 0.2s ease-in-out;
+    margin: 0;
+
+    a {
+      color: $color;
+
+      &:hover,
+      &:focus,
+      &:active,
+      &.active {
+        color: mix($bg, $color, 40);
+      }
+    }
+
+    &.active {
+      top: 100%;
+    }
+
+  }
+
+}
+
+@mixin dropdown-menu-hidden() {
+  & > h2 {
+    display: none;
+  }
+}

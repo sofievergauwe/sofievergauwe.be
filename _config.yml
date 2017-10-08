@@ -60,10 +60,10 @@ cloudinary:
       height: 640
     - media: 'min-width: 640px'
       width: 960
-      height: 640
+      height: 480
     - media: 'max-width: 640px'
       width: 640
-      height: 480
+      height: 320
   teaser:
     crop: fill
     width: 360

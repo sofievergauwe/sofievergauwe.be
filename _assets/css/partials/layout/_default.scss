@@ -1,12 +1,92 @@
-// button class
-.button {
-  @extend %button;
+// variables
+$logo-width: unit(map-deep-get($config, 'logo', 'width'));
+
+
+body {
+  padding-top: unit(88);
+  position: relative;
+  background-color: color(silver, 75);
+
+  @media screen and (max-width: breakpoint(tiny)) {
+    font-size: 70%;
+  }
 }
 
-// focus effect
-input[type="submit"],
-input[type="reset"],
-button,
-.button {
-  @extend %focus-effect;
+// header
+body > header {
+  position: fixed;
+  height: unit(88);
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: color(white);
+  box-shadow: 0 unit(6) unit(24) color(black, 0, 0.25);
+  transition: font-size 0.2s ease-in-out;
+
+  & > a,
+  & > nav {
+    display: inline-block;
+    vertical-align: top;
+    height: inherit;
+  }
+
+  & > a {
+    width: $logo-width;
+    padding: unit(22) 0 unit(22) unit(28);
+
+    & > img {
+      width: unit(212);
+    }
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+
+  & > nav {
+    width: calc(100% - #{$logo-width});
+    padding: unit(28);
+    background-color: inherit;
+  }
+
+  &.small {
+    font-size: .8em;
+  }
+
+}
+
+body > img,
+body > picture > img {
+  width: 100%;
+}
+
+
+// main
+body > main {
+  padding-top: unit(40);
+}
+
+
+// wrappers
+body > main,
+body > footer {
+  @include wrapper(48, breakpoint(huge));
+}
+
+
+// svg icons
+svg {
+  width: unit(24);
+  height: unit(24);
+  fill: color(text);
+}
+
+
+blockquote em {
+  display: block;
+  line-height: 1.4;
+  font-size: .65em;
+  font-weight: 700;
+  color: color(text, 35);
+  margin-bottom: .75em;
 }
