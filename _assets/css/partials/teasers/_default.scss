@@ -1,0 +1,42 @@
+// teaser
+.teaser {
+  padding-bottom: spacing(1);
+
+  & > figure > img {
+    width: 100%;
+  }
+
+  // custom media queries
+  @media screen and (max-width: breakpoint(medium)) {
+    font-size: unit(15);
+    line-height: 1.8;
+  }
+
+  // custom media queries
+  @media screen and (min-width: breakpoint(small)) and (max-width: breakpoint(large)) {
+
+    & > figure {
+      width: 33.333%;
+    }
+
+    &:nth-of-type(2),
+    &:nth-of-type(4) {
+
+      & > figure,
+      & > .block {
+        position: relative;
+      }
+
+      & > figure  {
+        left: 66.666%;
+      }
+
+      & > .block  {
+        left: -33.333%;
+      }
+
+    }
+
+  }
+
+}

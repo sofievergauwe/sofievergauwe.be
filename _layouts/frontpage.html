@@ -3,17 +3,29 @@ layout: default
 ---
 
 
-<article>
-  <figure>
-    {% include_cached image.html file=page.image style='teaser' alt=page.title %}
-  </figure>
-  <h3>{{ page.title }}</h3>
-  {{ content }}
+<section class="teasers">
+  <h2 class="hidden">{{ page.title }}</h2>
 
-  {% if page.buttons %}
-  <footer>
-    {% include buttons.html items=page.buttons %}
-  </footer>
-  {% endif %}
+  {% for teaser in page.teasers %}
+
+  <article class="teaser">
+
+    <figure>
+      {% include_cached image.html file=teaser.image style='teaser' alt=teaser.title %}
+    </figure>
+
+    <div class="block">
+
+      <h3>{{ teaser.title }}</h3>
+      {{ teaser.description | markdownify }}
+      <footer>
+        <a href="{{ teaser.link }}">Lees meer</a>
+      </footer>
+
+    </div>
+
+  </article>
+
+  {% endfor %}
 
 </article>

@@ -30,7 +30,8 @@
 @import
   "variables/base",
   "variables/button",
-  "variables/table";
+  "variables/table",
+  "variables/text-link";
 
 // import default components
 @import
@@ -44,8 +45,8 @@
   "partials/extend",
   "partials/layout/default",
   "partials/menubar/default",
-  "partials/banner/default";
-
+  "partials/banner/default",
+  "partials/teasers/default";
 
 // import components for mobile devices
 @media screen and (max-width: breakpoint(medium)) {
@@ -56,10 +57,28 @@
     "partials/menubar/mobile";
 }
 
+// import components for small screens
+@media screen and (min-width: breakpoint(small)) {
+  @import
+    "partials/teasers/screen";
+}
+
 // import components for normal screens
 @media screen and (min-width: breakpoint(medium)) {
   @import
     "partials/layout/screen",
     "partials/menubar/screen",
     "partials/banner/screen";
+}
+
+// import components for large screens
+@media screen and (min-width: breakpoint(large)) {
+  @import
+    "partials/teasers/large";
+}
+
+// import components for large screens
+@media screen and (min-width: breakpoint(huge)) {
+  @import
+    "partials/layout/huge";
 }

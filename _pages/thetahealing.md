@@ -18,7 +18,7 @@ Met behulp van deze techniek kunnen we ons bewust worden van overtuigingen, die 
 
 Als de heler zich afstemt, dan komt hij/zij in een intuïtieve en diep meditatieve staat, in een thetastaat. De hersengolven in deze toestand zijn **theta-golven**, vandaar de benaming van de helingsmethode. Deze hersengolven worden eveneens opgemerkt tijdens hypnose, trance en dromen.
 
-ThetaHealing® kan toegepast worden bij mensen, bij dieren en andere organismen.
+> ThetaHealing® kan toegepast worden bij mensen, bij dieren en andere organismen.
 
 ### Uitstraling
 
@@ -30,8 +30,8 @@ Deze uitstraling is het deel van jezelf dat je de wereld instuurt en dus wat and
 
 De wet van aantrekkingskracht speelt hierbij een essentiële rol. Want **wat we uitzenden, krijgen we terug**.  Wie van ons heeft nog nooit een pechdag ervaren?  Je staat op met het verkeerde been uit bed en alles, maar dan ook alles gaat tegen.
 
-> You don't attract what you want.  
-You attract what you are. *Dr. Wayne Dyer*
+> You don't attract what you want. You attract what you are.
+> *Dr. Wayne Dyer*
 
 ### Geloofsovertuigingen
 

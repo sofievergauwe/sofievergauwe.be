@@ -6,8 +6,8 @@ $global-blockquote: (
     font-size: font-size(1.2),
     color: color(text, 20),
     font-style: italic,
-    line-height: line-height(0.85),
-    padding: .2em 0 .2em 1em,
+    line-height: line-height(0.75),
+    padding: .2em 0 .2em .75em,
   ),
 
   'border': (
@@ -22,5 +22,5 @@ $global-blockquote: (
   'paragraph': (
     margin: 0 spacing(.3),
   )
-  
+
 );

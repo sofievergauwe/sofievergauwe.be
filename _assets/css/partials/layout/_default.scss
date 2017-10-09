@@ -1,19 +1,11 @@
 // variables
-$header-height: unit(64);
-$logo-width: unit(180);
-
-
-// body
-body {
-  padding-top: $header-height;
-  position: relative;
-  background-color: color(silver, 65);
-}
+$header-height: unit(get('header', 'height'));
+$logo-width: unit(get('logo', 'width'));
 
 
 // wrappers
 body > * {
-  @include wrapper(48, breakpoint(huge));
+  @include wrapper(spacing(2), breakpoint(large));
 }
 
 
@@ -25,9 +17,8 @@ body > header {
   left: 0;
   right: 0;
   z-index: 99;
-  background-color: color(white);
+  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
   border-bottom: 1px solid color(border, 65);
-  transition: font-size 0.2s ease-in-out;
 
   & > a,
   & > nav {
@@ -61,7 +52,41 @@ body > header {
 
 // main
 body > main {
-  padding-top: unit(40);
+  padding-top: spacing(1);
+  padding-bottom: spacing(2);
+
+  & > article {
+
+    & > h2:first-child {
+     border-bottom: 2px solid color(focus);
+     display: inline-block;
+     padding-bottom: spacing(.25);
+     font-weight: 300;
+     font-size: unit(36);
+     margin: .5em 0;
+   }
+
+   & > h3 {
+     margin-top: 2em;
+   }
+
+ }
+
+}
+
+aside .button {
+  display: block;
+  margin: 0;
+}
+
+
+// footer
+body > footer {
+  background: color(focus, -10, 0.85) url(asset_path("img/paper-chocolate.png")) repeat center center;
+  color: color(white);
+  padding-top: spacing(1);
+  padding-bottom: spacing(1);
+
 }
 
 
@@ -72,6 +97,10 @@ svg {
   fill: color(text);
 }
 
+figure > img,
+picture > img {
+  width: 100%;
+}
 
 // lazyload
 noscript + picture > img,
@@ -92,16 +121,43 @@ blockquote em {
   font-size: .65em;
   font-weight: 700;
   color: color(text, 35);
-  margin-bottom: .75em;
+  margin: .5em 0 .75em;
 }
 
+em strong {
+  font-weight: 700;
+}
 
-// article title
-main > article > h2 {
-  border-bottom: 2px solid color(focus);
-  display: inline-block;
-  padding-bottom: spacing(.25);
-  font-weight: 300;
-  font-size: unit(36);
-  margin: 0 0 .5em;
+// block
+.block {
+  padding: spacing(1.5);
+  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
+  box-shadow: 0 0 unit(2) color(black, 0, 0.15);
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+dl.prices {
+  line-height: 1.5;
+  margin-bottom: 0;
+
+  dd, dt {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  dt {
+    width: calc(100% - #{unit(60, unit(14))});
+    font-size: unit(14);
+  }
+
+  dd {
+    width: unit(60);
+  }
+
+  & + p {
+    margin-top: .5em;
+  }
 }

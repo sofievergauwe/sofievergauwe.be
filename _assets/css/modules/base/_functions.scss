@@ -1,19 +1,26 @@
+
+// get function
+@function get($key, $propery) {
+  @return map-deep-get($config, $key, $propery);
+}
+
+
 // font-size helper function
 @function font-size($n: 1) {
-  @return unit(map-deep-get($config, 'layout', 'font-size') * $n);
+  @return unit(get('layout', 'font-size') * $n);
 }
 
 // line-height function
 @function line-height($n: 1) {
-  @return map-deep-get($config, 'layout', 'line-height') * $n;
+  @return get('layout', 'line-height') * $n;
 }
 
 // spacing helper function
-@function spacing($n: 1, $b: map-deep-get($config, 'layout', 'font-size')) {
-  @return unit(map-deep-get($config, 'layout', 'spacing') * $n, $b);
+@function spacing($n: 1, $b: get('layout', 'font-size')) {
+  @return unit(get('layout', 'spacing') * $n, $b);
 }
 
 // breakpoint helper function
 @function breakpoint($breakpoint) {
-  @return map-deep-get($config, 'breakpoints', $breakpoint);
+  @return get('breakpoints', $breakpoint);
 }

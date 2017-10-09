@@ -1,0 +1,6 @@
+$global-text-link: (
+  selector: 'article a',
+  border: 1px solid color(focus),
+  border-focus-color: color(focus, -10),
+  line-height: line-height(.8),
+);

@@ -43,6 +43,7 @@ blockquote {
 }
 
 // extend hidden
+.hidden,
 [hidden] {
   @extend %hidden;
 }

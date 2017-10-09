@@ -63,11 +63,18 @@ cloudinary:
       height: 480
     - media: 'max-width: 640px'
       width: 640
-      height: 320
+      height: 480
   teaser:
     crop: fill
-    width: 360
-    height: 240
+    width: 480
+    height: 480
+    sizes:
+    - media: 'max-width: 560px'
+      width: 480
+      height: 400
+    - media: 'max-width: 960px'
+      width: 960
+      height: 400
   gallery:
     crop: fill
     width: 320
@@ -91,7 +98,7 @@ compress_html:
 # jekyll-assets
 assets:
   compress:
-    css: false
+    css: true
     js: true
   cache: .cache
   prefix: /

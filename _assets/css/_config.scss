@@ -10,20 +10,24 @@ $config: (
   ),
 
   breakpoints: (
-    tiny: 380px,
-    small: 640px,
-    medium: 960px,
-    large: 1180px,
-    huge: 1360px
+    tiny: 480px,
+    small: 960px,
+    medium: 1080px,
+    large: 1360px,
+    huge: 1440px,
   ),
 
   colors: (
     text: color(black, 20),
-    link: color(black, 10),
+    link: chocolate,
     focus: chocolate,
     border: color(grey, 20),
     primary: chocolate,
     secondary: color(silver)
+  ),
+
+  header: (
+    height: 64,
   ),
 
   footer: (
@@ -31,7 +35,7 @@ $config: (
   ),
 
   logo: (
-    width: 240,
+    width: 180,
   ),
 
 );

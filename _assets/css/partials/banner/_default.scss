@@ -1,27 +1,80 @@
-// caption
-body > figure > figcaption > blockquote {
-  color: color(text, 25);
-  padding: 0;
-  border: 0;
-  margin: spacing(.5) 0 0;
-  font-size: 1.25em;
-  line-height: 1.5;
-  font-style: italic;
-  font-weight: 300;
+// banner
+body > figure {
+  position: relative;
 
-  &:before,
-  &:after {
-    display: inline-block;
-    vertical-align: top;
-  }
+  & > figcaption {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 
-  &:before {
-    content: '\201C';
-  }
+    &.left {
+      text-align: left;
+    }
 
-  &:after {
-    content: '\201D';
-    margin: .6em 0 -.6em .2em;
+    &.center {
+      text-align: center;
+    }
+
+    &.right {
+      text-align: right;
+    }
+
+    &.top > blockquote {
+      top: 0;
+      transform: translateY(0);
+    }
+
+    &.middle > blockquote {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &.bottom > blockquote {
+      top: 100%;
+      transform: translateY(-100%);
+    }
+
+    & > blockquote {
+      font-size: 1.5em;
+      line-height: 1.5;
+      font-style: italic;
+      font-weight: 300;
+      color: color(white);
+      text-shadow: 0 0 .25em color(black);
+      display: inline-block;
+      position: relative;
+      padding: spacing(1, 1.25em);
+      border: 0;
+      margin: 0;
+      animation: caption .5s forwards;
+
+      @keyframes caption {
+        0%    { opacity: 0; margin-top: 50%; }
+        50%   { opacity: 0; }
+        100%  { opacity: 1; margin-top: 0; }
+      }
+
+      &:before,
+      &:after {
+        display: inline-block;
+        vertical-align: top;
+      }
+
+      &:before {
+        content: '\201C';
+        margin: -.1em .1em 0 -.3em;
+      }
+
+      &:after {
+        content: '\201D';
+        margin: .6em 0 -.6em .2em;
+      }
+
+    }
+
   }
 
 }

@@ -1,8 +1,19 @@
 // base
 $base: (
 
+  body: (
+    font-weight: 300,
+    background: url(asset_path("img/paper-beige.png")) repeat center center,
+    padding-top: unit(get('header', 'height')),
+    position: relative,
+  ),
+
   'b, strong': (
     font-weight: 500,
+  ),
+
+  em: (
+    font-size: 1.1em,
   ),
 
   'a:hover, a:focus, a:active': (

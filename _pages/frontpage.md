@@ -3,9 +3,9 @@ title: Welkom in de wereld van Sofie
 layout: frontpage
 permalink: /
 banner:
-  image: /media/kaarsgieten.jpg
+  image: /media/sofie.jpg
   quote: Welkom in de wereld van Sofie...
-  align: top right
+  align: bottom left
 teasers:
   - title: Massage
     image: /media/massage.jpg
@@ -14,7 +14,7 @@ teasers:
   - title: ThetaHealing®
     image: /media/thetahealing.jpg
     link: /thetahealing
-    description: ThetaHealing® is een energetische genezingswijze ontwikkeld door Vianna Stibal. Met behulp van deze techniek kunnen we ons bewust worden van overtuigingen, die ons beperken en tegenhouden in wat we willen bereiken in het leven en kunnen we deze vervangen door ondersteunende en stimulerende overtuigingen.
+    description: ThetaHealing® is een energetische genezingswijze ontwikkeld door Vianna Stibal. Met behulp van deze techniek kunnen we ons bewust worden van overtuigingen, die ons beperken en tegenhouden in wat we willen bereiken in het leven.
   - title: Kaarsgieten
     image: /media/kaarsgieten.jpg
     link: /kaarsgieten

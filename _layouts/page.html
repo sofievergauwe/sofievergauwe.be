@@ -2,9 +2,40 @@
 layout: default
 ---
 
-{% if page.content != '' %}
-<article>
+<article {% if page.prices or page.footnote %}class="sidebar"{% endif %}>
   <h2><span>{{ page.title }}</span></h2>
   {{ content }}
 </article>
+
+{% if page.prices or page.footnote %}
+<aside>
+
+  {% if page.prices %}
+  <section class="block">
+    <h3>Prijzen</h3>
+
+    <dl class="prices">
+      {% for item in page.prices %}
+      <dt>{{ item.name }} <span>{{ item.time }}</span></dt>
+      <dd>{{ item.price }}</dd>
+      {% endfor %}
+    </dl>
+
+    {% if page.footnote %}
+    {{ page.footnote | markdownify }}
+    {% endif %}
+
+    <a class="button" href="#">Afspraak maken</a>
+
+  </section>
+
+  {% elsif page.footnote %}
+  <section class="block">
+    <h3 class="hidden">Meer informatie</h3>
+    {{ page.footnote | markdownify }}
+  </sectio>
+  {% endif %}
+
+</aside>
+
 {% endif %}

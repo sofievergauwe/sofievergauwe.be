@@ -1,11 +1,11 @@
 @mixin wrapper($padding, $breakpoint) {
 
-  padding-right: em($padding);
-  padding-left: em($padding);
+  padding-right: $padding;
+  padding-left: $padding;
 
   @media screen and (min-width: $breakpoint) {
-    padding-right: calc(50% - #{($breakpoint / 2) - $padding});
-    padding-left: calc(50% - #{($breakpoint / 2) - $padding});
+    padding-right: calc(50% - #{unit($breakpoint / 2px) - $padding});
+    padding-left: calc(50% - #{unit($breakpoint / 2px) - $padding});
   }
 
 }

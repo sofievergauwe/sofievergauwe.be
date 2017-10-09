@@ -5,7 +5,7 @@ layout: page
 banner:
   image: /media/reiki.jpg
   quote: Where attention goes, energy flows…
-  align: top right
+  align: bottom left
 prices:
 - name: Reiki
   time: 30'
@@ -24,6 +24,6 @@ Het is een **zachte, liefdevolle en tegelijk krachtige techniek** die je een eno
 
 De **intentie** van de Reikigever is naar mijn mening zijn/haar meest waardevolle werkinstrument. **Aandacht** is nodig om de intentie te kunnen richten, in het systeem van de cliënt. Als Reiki op een liefdevolle en onvoorwaardelijke wijze wordt gegeven, zal de kans op genezende effecten enorm toenemen.
 
-## Usui system
+### Usui system
 
 Het **Usui System of Natural Healing** is de benaming van de oorspronkelijke manier van toepassen van Reiki. Als dit vermeld staat, dan weet je dat de Reikigever deze methode volgens de **oude traditionele wijze**, zoals door Dr. Mikao Usui werd ontwikkeld, aangeleerd heeft gekregen.  Ik ben ingewijd in de eerste graad Reiki volgens het Usui Sytem of Natural Healing (of Usui Shiki Ryoho) door Reiki master Marie-Christine Vervinck te Wondelgem.
