@@ -6,20 +6,23 @@ banner:
   image: /media/massage.jpg
   quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
   align: middle center
-prices:
-- name: Hoofdmassage
-  time: 30'
-  price: € 20
-- name: Rugmassage
-  time: 30'
-  price: € 20
-- name: Rugmassage
-  time: 60'
-  price: € 35
-- name: Full body massage
-  time: 120'
-  price: € 60
-footnote: inclusief water/thee
+info:
+  image: /media/reiki.jpg
+  description: Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen met behulp van massage losgemaakt en afgevoerd worden.
+  prices:
+  - name: Hoofdmassage
+    time: 30'
+    price: € 20
+  - name: Rugmassage
+    time: 30'
+    price: € 20
+  - name: Rugmassage
+    time: 60'
+    price: € 35
+  - name: Full body massage
+    time: 120'
+    price: € 60
+  prices-footnote: _Alle massages zijn inclusief water/thee_
 ---
 
 _Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het **onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam**._

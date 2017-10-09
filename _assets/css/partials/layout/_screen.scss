@@ -18,12 +18,12 @@ article.sidebar + aside {
 }
 
 article.sidebar {
-  padding-right: spacing(.5);
+  padding-right: spacing(1);
   width: 66.333%;
 }
 
 article.sidebar + aside {
   margin-top: spacing(1.5);
-  padding-left: spacing(.5);
+  padding-left: spacing(1);
   width: 33.333%;
 }

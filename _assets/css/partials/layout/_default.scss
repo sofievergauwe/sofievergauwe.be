@@ -74,11 +74,24 @@ body > main {
 
 }
 
-aside .button {
-  display: block;
-  margin: 0;
-}
+aside {
+  font-size: unit(14);
+  color: color(text, 10);
 
+  .button {
+    display: block;
+    margin: 0;
+  }
+
+  figure,
+  .block {
+    margin-bottom: spacing(1, unit(14));
+
+    & + .description {
+      margin-top: spacing(-1, unit(14));
+    }
+  }
+}
 
 // footer
 body > footer {
@@ -134,9 +147,14 @@ em strong {
   background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
   box-shadow: 0 0 unit(2) color(black, 0, 0.15);
 
-  h3 {
+  & > :first-child {
     margin-top: 0;
   }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
 }
 
 dl.prices {
@@ -159,5 +177,13 @@ dl.prices {
 
   & + p {
     margin-top: .5em;
+    font-size: .8em;
+    font-style: italic;
+  }
+
+  span {
+    color: color(text, 25);
+    font-weight: 500;
+    margin-left: spacing(.25);
   }
 }

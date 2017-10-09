@@ -2,28 +2,43 @@
 layout: default
 ---
 
-<article {% if page.prices or page.footnote %}class="sidebar"{% endif %}>
+{% assign sidebar = null %}
+{% if page.info.image or page.info.description or page.info.prices %}
+  {% assign sidebar = true %}
+{% endif %}
+
+<article {% if sidebar %}class="sidebar"{% endif %}>
   <h2><span>{{ page.title }}</span></h2>
   {{ content }}
 </article>
 
-{% if page.prices or page.footnote %}
+{% if sidebar %}
 <aside>
 
-  {% if page.prices %}
+  {% if page.info.image %}
+  <figure>
+    {% include_cached image.html file=page.info.image style='sidebar' alt=page.title %}
+  </figure>
+  {% endif %}
+
+  {% if page.info.description %}
+  <div class="block description">
+    {{ page.info.description | markdownify }}
+  </div>
+  {% endif %}
+
+  {% if page.info.prices %}
   <section class="block">
     <h3>Prijzen</h3>
 
     <dl class="prices">
-      {% for item in page.prices %}
+      {% for item in page.info.prices %}
       <dt>{{ item.name }} <span>{{ item.time }}</span></dt>
       <dd>{{ item.price }}</dd>
       {% endfor %}
     </dl>
 
-    {% if page.footnote %}
-    {{ page.footnote | markdownify }}
-    {% endif %}
+    {{ page.info.prices-footnote | markdownify }}
 
     <a class="button" href="#">Afspraak maken</a>
 

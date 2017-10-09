@@ -82,7 +82,11 @@ cloudinary:
   sidebar:
     crop: fill
     width: 420
-    height: 420
+    height: 320
+    sizes:
+    - media: 'max-width: 960px'
+      width: 960
+      height: 400
 
 # liquid compress html
 compress_html:
@@ -98,7 +102,7 @@ compress_html:
 # jekyll-assets
 assets:
   compress:
-    css: true
+    css: false
     js: true
   cache: .cache
   prefix: /
