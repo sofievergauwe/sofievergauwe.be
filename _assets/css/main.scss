@@ -1,84 +1,64 @@
-// import color variables and module first (already used in config file...)
-@import
-  "variables/colors",
-  "modules/colors/import";
-
-// import config
-@import
-  "config";
-
 // import modules
 @import
-  "modules/unit/import",
-  "modules/map/import",
-  "modules/svg/import",
-  "modules/base/import",
-  "modules/button/import",
-  "modules/table/import",
-  "modules/list/import",
-  "modules/blockquote/import",
-  "modules/grid/import",
-  "modules/wrapper/import",
-  "modules/focus-effect/import",
-  "modules/text-link/import",
-  "modules/inline-menu/import",
-  "modules/dropdown-menu/import",
-  "modules/animations/import";
+  "modules/map",
+  "modules/color",
+  "modules/unit",
+  "modules/layout",
+  "modules/wrap",
+  "modules/grid",
+  "modules/svg";
 
 
-// import variables
+// import component variables
 @import
-  "variables/base",
-  "variables/button",
-  "variables/table",
-  "variables/text-link";
+  "variables/components/base",
+  "variables/components/button";
 
-// import default components
+
+// import default components and partials
 @import
-  "modules/base/components/default",
-  "modules/button/components/default",
-  "modules/table/components/default",
-  "modules/list/components/default",
-  "modules/blockquote/components/default",
-  "modules/focus-effect/components/default",
-  "modules/text-link/components/default",
-  "partials/extend",
-  "partials/layout/default",
-  "partials/menubar/default",
-  "partials/banner/default",
-  "partials/teasers/default";
+  "components/base/base.default",
+  "components/button/button.default",
+  "components/blockquote/blockquote.default",
+  "components/list/list.default",
+  "components/table/table.default",
+  "components/text-link/text-link.default",
+  "components/inline-menu/inline-menu.default",
+  "components/focus-effect/focus-effect.default",
+  "components/animations/animations.default",
+  "components/dropdown-menu/dropdown-menu.default",
+  "partials/layout/layout.default",
+  "partials/menubar/menubar.default",
+  "partials/banner/banner.default",
+  "partials/teasers/teasers.default";
 
-// import components for mobile devices
+
+// import components and partials for small screens
 @media screen and (max-width: breakpoint(medium)) {
   @import
-    "modules/button/components/mobile",
-    "modules/table/components/mobile",
-    "partials/layout/mobile",
-    "partials/menubar/mobile";
+    "components/button/button.small",
+    "partials/layout/layout.small",
+    "partials/menubar/menubar.small";
 }
 
-// import components for small screens
+// import components and partials for medium screens
 @media screen and (min-width: breakpoint(small)) {
   @import
-    "partials/teasers/screen";
+    "partials/teasers/teasers.medium";
 }
 
-// import components for normal screens
+
+// import components and partials for medium screens
 @media screen and (min-width: breakpoint(medium)) {
   @import
-    "partials/layout/screen",
-    "partials/menubar/screen",
-    "partials/banner/screen";
+    "partials/menubar/menubar.medium",
+    "partials/layout/layout.medium",
+    "partials/banner/banner.medium";
 }
 
-// import components for large screens
+
+// import components and partials for large screens
 @media screen and (min-width: breakpoint(large)) {
   @import
-    "partials/teasers/large";
-}
-
-// import components for large screens
-@media screen and (min-width: breakpoint(huge)) {
-  @import
-    "partials/layout/huge";
+    "partials/teasers/teasers.large";
 }

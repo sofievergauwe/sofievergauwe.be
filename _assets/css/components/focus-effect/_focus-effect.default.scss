@@ -1,0 +1,19 @@
+// background color mixin
+@mixin focus-effect-background($clr) {
+  background-image: svg-url('<svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" viewBox="0 0 16 16" version="1.1"><circle cx="8" cy="8" r="8" fill="#{$clr}"/></svg>');
+}
+
+// default component
+%focus-effect {
+  @include focus-effect-background(color(white, 0, 0.1));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 0%;
+  transition: background-size .4s ease-in-out, color .2s ease-in-out;
+
+  &:active,
+  &:focus {
+    background-size: 240%;
+  }
+
+}

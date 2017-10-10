@@ -1,0 +1,71 @@
+$wrapper-spacing: map-deep-get($layout, "spacing", "large");
+$wrapper-width: map-deep-get($layout, "breakpoints", "large") - ($wrapper-spacing * 2);
+$teaser-spacing: map-deep-get($layout, "spacing", "medium");
+$teaser-ver: ($wrapper-width - $teaser-spacing) / 3;
+$teaser-hor: $teaser-ver * 2;
+
+.teasers {
+  margin-bottom: spacing(-1);
+}
+
+.teaser {
+  width: auto;
+
+  & > figure,
+  & > .block {
+    width: unit($teaser-ver);
+    height: unit($teaser-ver);
+  }
+
+  &:nth-of-type(1),
+  &:nth-of-type(3) {
+    width: unit($teaser-hor);
+    height: unit($teaser-ver);
+    padding-right: spacing(1);
+  }
+
+  &:nth-of-type(2),
+  &:nth-of-type(4) {
+    width: unit($teaser-ver);
+    height: unit($teaser-hor);
+    margin-left: unit($teaser-hor);
+    padding-left: spacing(1);
+
+    & > figure,
+    & > .block {
+      display: block;
+    }
+  }
+
+  &:nth-of-type(2) {
+    margin-top: unit(-$teaser-ver - $teaser-spacing);
+  }
+
+  &:nth-of-type(3) {
+    margin-top: unit(-$teaser-ver);
+
+    & > figure,
+    & > .block {
+      position: relative;
+    }
+
+    & > figure  {
+      left: 50%;
+    }
+
+    & > .block  {
+      left: -50%;
+    }
+
+  }
+
+  &:nth-of-type(4) {
+    margin-top: unit(-$teaser-spacing);
+  }
+
+  &:nth-of-type(5) {
+    margin-top: unit(-$teaser-hor);
+    margin-bottom: unit($teaser-ver);
+  }
+
+}

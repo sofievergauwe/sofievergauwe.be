@@ -1,0 +1,9 @@
+// wrappers
+body > * {
+  padding-left: spacing();
+  padding-right: spacing();
+}
+
+body > figure {
+  padding: 0;
+}

@@ -1,0 +1,75 @@
+// import base map
+@import "base.map";
+
+// extend global map with local map
+@if variable-exists(base) {
+  $global-base: map-extend($global-base, $base, true);
+}
+
+// print base map
+@include map-deep-print($global-base);
+
+// extend display block
+li,
+article,
+aside,
+footer,
+header,
+nav,
+section,
+input,
+figcaption,
+figure,
+picture,
+main,
+details,
+menu {
+  @extend %display-block;
+}
+
+// extend default margin
+p,
+hr,
+dl,
+ol,
+ul,
+fieldset,
+table,
+button,
+form,
+form > div,
+blockquote {
+  @extend %default-margin;
+}
+
+// extend hidden
+.hidden,
+[hidden] {
+  @extend %hidden;
+}
+
+// extend input elements
+input:not([type="submit"]):not([type="reset"]),
+select,
+textarea,
+[type="checkbox"] + label:before,
+[type="radio"] + label:before {
+  @extend %input;
+
+  &:hover {
+    @extend %input-hover;
+  }
+
+}
+
+// extend input focus elements
+input:not([type="submit"]):not([type="reset"]),
+select,
+textarea {
+
+  &:active,
+  &:focus {
+    @extend %input-focus;
+  }
+
+}

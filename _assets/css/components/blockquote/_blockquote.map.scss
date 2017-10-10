@@ -1,0 +1,26 @@
+$global-blockquote: (
+
+  'style': border,
+
+  'default': (
+    font-size: font-size(1.2),
+    color: color(text, 20),
+    font-style: italic,
+    line-height: line-height(0.75),
+    padding: .2em 0 .2em .5em,
+  ),
+
+  'border': (
+    border-left: 4px solid color(primary),
+  ),
+
+  'quotes': (
+    font-size: font-size(2),
+    font-family: Georgia,
+  ),
+
+  'paragraph': (
+    margin: 0 spacing(.3),
+  )
+
+);

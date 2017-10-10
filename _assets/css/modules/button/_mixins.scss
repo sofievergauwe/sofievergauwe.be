@@ -1,9 +1,0 @@
-@mixin button-color($bg, $clr) {
-  background-color: $bg;
-
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: mix($bg, color(white), 95);
-  }
-}

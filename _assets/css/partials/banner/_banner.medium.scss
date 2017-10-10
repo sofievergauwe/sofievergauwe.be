@@ -1,0 +1,16 @@
+body > figure {
+  position: relative;
+  overflow: hidden;
+
+  & > figcaption  {
+    @include wrap(spacing(huge), breakpoint(large));
+    right: 0;
+    left: 0;
+
+    & > blockquote {
+      font-size: unit(32);
+    }
+
+  }
+
+}

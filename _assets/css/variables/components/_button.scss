@@ -1,0 +1,24 @@
+$button: (
+
+  'default': (
+    color: color(white),
+    padding: spacing(small) spacing(),
+    margin: 0 0 spacing(tiny),
+    text-align: center,
+    text-transform: uppercase,
+    letter-spacing: 0.1em,
+    font-weight: 300,
+    background: color(focus, -10, 0.85) url(asset_path("img/paper-chocolate.png")) repeat center center,
+  ),
+
+  'hover': (
+    color: color(white),
+    opacity: .95,
+    background-color: color(focus, -10, 0.85),
+  ),
+
+  'mobile': (
+    margin: 0 0 spacing(tiny)
+  ),
+
+);

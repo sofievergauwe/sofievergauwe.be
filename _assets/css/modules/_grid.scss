@@ -1,0 +1,47 @@
+// grid mixin
+@mixin grid($map) {
+
+  $length: length($map);
+
+  @each $breakpoint, $columns, $gutter in $map {
+
+    $index: index($map, ($breakpoint, $columns, $gutter));
+
+    @if $index == 1 {
+      @media screen and (min-width: $breakpoint) {
+        display: inline-block;
+        vertical-align: top;
+        @if $length == 1 {
+          @include set_grid($columns, $gutter);
+        }
+      }
+    }
+
+    @if $length > 1 {
+
+      @if $index != $length {
+        $max-width: nth(nth($map, $index + 1), 1);
+        @media screen and (min-width: $breakpoint) and (max-width: #{$max-width}) {
+          @include set_grid($columns, $gutter);
+        }
+      }
+
+      @else {
+        @media screen and (min-width: $breakpoint) {
+          @include set_grid($columns, $gutter);
+        }
+      }
+
+    }
+
+  }
+
+}
+
+
+@mixin set_grid($columns, $gutter) {
+  width: calc(#{100% / $columns} - #{em(($gutter * ($columns - 1)) / $columns)});
+  &:not(:nth-of-type(#{$columns}n)):not(:last-of-type) {
+    margin-right: em($gutter);
+  }
+}

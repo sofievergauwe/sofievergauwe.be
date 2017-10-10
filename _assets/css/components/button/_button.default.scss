@@ -1,0 +1,44 @@
+// import button map
+@import "button.map";
+
+// extend global map with local map
+@if variable-exists(button) {
+  $global-button: map-extend($global-button, $button, true);
+}
+
+// default button component
+%button {
+  @include map-print-key($global-button, 'default');
+
+  &:hover,
+  &:active,
+  &:focus {
+    @include map-print-key($global-button, 'hover');
+  }
+
+  &:disabled {
+    @include map-print-key($global-button, 'disabled');
+  }
+
+}
+
+
+// extend
+input[type="submit"],
+input[type="reset"],
+button,
+#{map-get($global-button, 'class')} {
+  @extend %button;
+}
+
+
+// color mixin
+@mixin button-color($bg, $clr) {
+  background-color: $bg;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: mix($bg, color(white), 95);
+  }
+}

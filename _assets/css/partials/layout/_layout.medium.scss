@@ -1,0 +1,29 @@
+body {
+  padding-top: $header-height + spacing();
+  padding-bottom: unit(get('footer', 'height'));
+}
+
+body > footer {
+  height: unit(get('footer', 'height'));
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+article.sidebar,
+article.sidebar + aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+article.sidebar {
+  padding-right: spacing();
+  width: 66.333%;
+}
+
+article.sidebar + aside {
+  margin-top: spacing(large);
+  padding-left: spacing();
+  width: 33.333%;
+}

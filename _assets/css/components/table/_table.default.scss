@@ -1,0 +1,29 @@
+// import table map
+@import "table.map";
+
+// extend global map with local map
+@if variable-exists(table) {
+  $global-table: map-extend($global-table, $table, true);
+}
+
+// default table component
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+td,
+th {
+  @include map-print-key($global-table, 'default');
+}
+
+th {
+  @include map-print-key($global-table, 'head');
+}

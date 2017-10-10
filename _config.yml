@@ -102,7 +102,7 @@ compress_html:
 # jekyll-assets
 assets:
   compress:
-    css: true
+    css: false
     js: true
   cache: .cache
   prefix: /

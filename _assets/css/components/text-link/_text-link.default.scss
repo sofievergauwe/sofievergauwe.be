@@ -1,0 +1,20 @@
+// import text link map
+@import "text-link.map";
+
+// extend global map with local map
+@if variable-exists(text-link) {
+  $global-text-link: map-extend($global-text-link, $text-link, true);
+}
+
+// default text-link component
+#{map-get($global-text-link, 'selector')} {
+  display: inline-block;
+  border-bottom: map-get($global-text-link, 'border');
+  line-height: map-get($global-text-link, 'line-height');
+
+  &:focus,
+  &:active,
+  &:hover {
+    border-bottom-color: map-get($global-text-link, 'border-focus-color');
+  }
+}
