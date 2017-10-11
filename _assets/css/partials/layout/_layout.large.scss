@@ -1,0 +1,11 @@
+body {
+  padding-top: $header-height + spacing();
+}
+
+// wrappers
+body > header,
+body > figure,
+body > main,
+body > footer {
+  @include wrap(spacing(large), breakpoint(large));
+}

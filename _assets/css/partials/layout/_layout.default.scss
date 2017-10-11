@@ -2,18 +2,16 @@
 $header-height: unit(get('header', 'height'));
 $logo-width: unit(get('logo', 'width'));
 
-
-// wrappers
-body > * {
-  @include wrap(spacing(large), breakpoint(large));
-}
-
-
 // body h1
 body > h1 {
   @extend %hidden;
 }
 
+// wrappers
+body > * {
+  padding-right: spacing();
+  padding-left: spacing();
+}
 
 // header
 body > header {
@@ -52,6 +50,11 @@ body > header {
 }
 
 
+body > figure {
+  padding: 0;
+}
+
+
 // main
 body > main {
   padding-top: spacing();
@@ -62,9 +65,10 @@ body > main {
     & > h2:first-child {
      border-bottom: 2px solid color(focus);
      display: inline-block;
-     padding-bottom: spacing(tiny);
+     padding-bottom: spacing(tiny, font-size(huge));
      font-weight: 300;
      font-size: font-size(huge);
+     line-height: line-height(tiny);
      margin: spacing(tiny) 0;
    }
 
@@ -146,7 +150,7 @@ blockquote em {
   font-size: font-size(tiny);
   font-weight: 700;
   color: color(text, 35);
-  margin: spacing(small) 0;
+  margin: spacing(tiny) 0 spacing(small);
 }
 
 

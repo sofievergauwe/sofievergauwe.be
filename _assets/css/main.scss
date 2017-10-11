@@ -33,32 +33,26 @@
   "partials/teasers/teasers.default";
 
 
-// import components and partials for small screens
-@media screen and (max-width: breakpoint(medium)) {
+// import components and partials for small screens and below
+@media screen and (max-width: breakpoint(small)) {
   @import
-    "components/button/button.small",
-    "partials/layout/layout.small",
-    "partials/menubar/menubar.small";
+    "components/button/button.tiny",
+    "partials/menubar/menubar.tiny";
 }
 
 // import components and partials for medium screens
 @media screen and (min-width: breakpoint(small)) {
   @import
-    "partials/teasers/teasers.medium";
-}
-
-
-// import components and partials for medium screens
-@media screen and (min-width: breakpoint(medium)) {
-  @import
-    "partials/menubar/menubar.medium",
-    "partials/layout/layout.medium",
-    "partials/banner/banner.medium";
+    "partials/layout/layout.small",
+    "partials/teasers/teasers.small",
+    "partials/menubar/menubar.small";
 }
 
 
 // import components and partials for large screens
 @media screen and (min-width: breakpoint(large)) {
   @import
-    "partials/teasers/teasers.large";
+    "partials/layout/layout.large",
+    "partials/teasers/teasers.large",
+    "partials/banner/banner.large";
 }
