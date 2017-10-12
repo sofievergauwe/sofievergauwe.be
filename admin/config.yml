@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: sofievergauwe/sofievergauwe.be
+  branch: master
+
+media_folder: "media"
+
+collections:
+  - name: "pages"
+    label: "Page"
+    folder: "_pages"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
