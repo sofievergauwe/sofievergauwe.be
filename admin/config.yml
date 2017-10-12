@@ -16,7 +16,6 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
       - {label: "Image", name: "image", widget: "image", required: false }
-      - {label: "Body", name: "body", widget: "markdown" }
       - label: "Caption"
         name: caption
         required: false
@@ -26,6 +25,7 @@ collections:
           - {label: "Cite", name: "cite", widget: "string" }
           - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
           - {label: "Horizontal align", name: "Horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
+      - {label: "Body", name: "body", widget: "markdown" }
       - label: "Information"
         name: info
         required: false
