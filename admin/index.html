@@ -23,9 +23,6 @@
           body: this.props.widgetFor('body')
         }
 
-        // placeholders
-        var banner = '';
-
         // article
         var article = h('main', {},
           h('article', {},
@@ -34,13 +31,7 @@
           )
         );
 
-        // banner
-        var banner = h('noscript', {}), h('picture', {},
-          h('img', {src: data.image.toString()}),
-        );
-
-
-        return h('figure', {}, banner), article;
+        return article;
 
       }
     });
