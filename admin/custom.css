@@ -1,0 +1,79 @@
+.cms__ControlPane__control input,
+.cms__ControlPane__control textarea,
+.cms__ControlPane__control select {
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.cms__ControlPane__control input,
+.cms__ControlPane__control textarea,
+.cms__ControlPane__control select,
+.ProseMirror {
+  border: 1px solid lightgrey;
+}
+
+.cms__FileControl__imageUpload {
+  border: 1px dashed grey;
+}
+
+.ProseMirror {
+  padding-top: 0;
+}
+
+.cms__ListControl__item {
+  padding-left: 0;
+}
+
+.cms__ListControl__toggleButton {
+  background: transparent;
+  z-index: 3;
+}
+
+select {
+  height: 42px;
+  padding-top: 0 4px;
+}
+
+.cms__Card__card p {
+  font-size: 12px;
+}
+
+.cms__EntryListing__cardList {
+  margin: 4px 0;
+}
+
+.cms__EntryListing__card {
+  position: relative;
+}
+
+.cms__EntryListing__card:after {
+  content: "";
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+74 */
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 74%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 74%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 74%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.cms__ListControl__addButton {
+  background-color: lightgrey;
+}
+
+.cms__ListControl__addButtonText {
+  display: none;
+}
+
+.cms__ListControl__item .material-icons {
+  opacity: .5;
+  padding: 0 2px;
+}
+
+[data-react-toolbox="avatar"] {
+  display: none;
+}
