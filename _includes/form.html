@@ -1,7 +1,7 @@
 {% assign form = site.data.forms | where:"name", include.form | first %}
 
 <form action="thank-you" name="contact" netlify netlify-honeypot="gotcha">
-  <input type="hidden" name="_next" value="{{ site.url }}{{ page.url }}" />
+
   <input type="text" name="gotcha" style="display:none" />
 
   {% for field in form.fields %}
