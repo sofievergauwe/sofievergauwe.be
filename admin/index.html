@@ -29,14 +29,14 @@
         var banner = '';
         var article = '';
 
-
+/*
         // caption
         if (data.quote != null) {
           caption = h('figcaption', {},
             h('blockquote', {}, h('p', {}, data.quote )),
           );
         }
-/*
+
         // banner
         if (data.image != null) {
           banner = h('div', {style: 'width: 100%; height: 400%; background: url(' + data.image + ') no-repeat center center; background-size: cover;'}, caption);
@@ -50,7 +50,7 @@
           )
         );
 
-        return h('div', {}, caption, article);
+        return h('div', {}, article);
 
       }
     });
