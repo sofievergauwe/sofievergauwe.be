@@ -30,13 +30,9 @@
 
         // banner
         if (data.image != null) {
-          var banner = h('figure', {},
-            h('picture', {},
-              h('img', {src: data.image, className: 'lazyloaded'}),
-            ),
-            h('figcaption', {},
-              h('blockquote', {}, h('p', {}, data.quote )),
-            ),
+          var banner = h('div', {style: 'width: 100%; height: 400%; background: url(' + data.image + ') no-repeat center center; background-size: cover;'}),
+          h('figcaption', {},
+            h('blockquote', {}, h('p', {}, data.quote )),
           );
         }
 
