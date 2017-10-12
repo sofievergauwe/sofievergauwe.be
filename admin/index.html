@@ -16,15 +16,22 @@
     var PagesPreview = createClass({
       render: function() {
 
-        var entry = this.props.entry;
-        var title = entry.getIn(['data', 'title']);
-        var image = entry.getIn(['data', 'image']);
-        var body = this.props.widgetFor('body');
+        // content data
+        var data = {
+          title: this.props.entry.getIn(['data', 'title']),
+          image: this.props.entry.getIn(['data', 'image']),
+          body: this.props.widgetFor('body')
+        }
 
-        return h('main', {}, h('article', {},
-          h('h2', {}, h('span', {}, title)),
-          h('div', {"className": "content"}, body),
-        ));
+        // article
+        var article = h('main', {},
+          h('article', {},
+            h('h2', {}, h('span', {}, data.title)),
+            h('div', {"className": "content"}, data.body),
+          )
+        );
+
+        return article;
 
       }
     });
