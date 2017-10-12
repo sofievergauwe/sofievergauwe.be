@@ -50,7 +50,11 @@
           )
         );
 
-        return h('div', {}, caption, article);
+        return (
+          <main>
+            <h2>{ data.title}</h2>
+            { data.body }
+        );
 
       }
     });
