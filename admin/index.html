@@ -29,7 +29,7 @@
         // article
         var article = h('main', {},
           h('article', {},
-            h('h2', {}, h('span', {}, data.title)),
+            h('h2', {}, h('span', {}, data.image)),
             h('div', {"className": "content"}, data.body),
           )
         );
@@ -44,7 +44,7 @@
           );
         }
 
-        return banner + article;
+        return banner, article;
 
       }
     });
