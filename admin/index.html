@@ -35,15 +35,12 @@
         );
 
         // banner
-          var banner = h('figure', {},
-            h('noscript', {}),
-            h('picture', {},
-              h('img', {src: data.image.toString()}),
-            ),
-          );
-        
+        var banner = h('noscript', {}), h('picture', {},
+          h('img', {src: data.image.toString()}),
+        );
 
-        return banner, article;
+
+        return h('figure', {}, banner), article;
 
       }
     });
