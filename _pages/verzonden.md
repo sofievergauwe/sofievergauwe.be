@@ -1,5 +1,6 @@
 ---
 title: Bericht verzonden
+layout: page
 permalink: /bericht-verzonden
 ---
 
