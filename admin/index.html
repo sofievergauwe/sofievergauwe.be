@@ -23,6 +23,19 @@
           body: this.props.widgetFor('body')
         }
 
+        // placeholders
+        var banner = '';
+
+        // banner
+        if (data.image != null) {
+          var banner = h('figure', {},
+            h('noscript', {}),
+            h('picture', {},
+              h('img', {src: '/media/' + data.image}),
+            ),
+          );
+        }
+
         // article
         var article = h('main', {},
           h('article', {},
@@ -30,13 +43,6 @@
             h('div', {"className": "content"}, data.body),
           )
         );
-
-        // banner
-        var banner = '';
-        if (data.image != null) {
-          var bg = this.props.getAsset(data.image);
-          banner = h('div', {className: 'bg-img banner', style: {'width: 100%; height: 400px; background-image': 'url(' + bg.toString() + ')'}}, '')
-        }
 
         return h('body', {}, banner, article);
 
