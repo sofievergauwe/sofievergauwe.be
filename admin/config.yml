@@ -1,8 +1,9 @@
 backend:
   name: github
-  repo: sofievergauwe/sofievergauwe.be
+  repo: "sofievergauwe/sofievergauwe.be"
   branch: master
 
+upload_folder: "media"
 media_folder: "media"
 
 collections:
