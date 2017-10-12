@@ -55,13 +55,13 @@ cloudinary:
     width: 1400
     height: 640
     sizes:
-    - media: 'min-width: 1400px'
-      width: 1400
+    - media: 'min-width: 1280px'
+      width: 1280
       height: 640
-    - media: 'min-width: 640px'
+    - media: 'min-width: 720px'
       width: 960
       height: 480
-    - media: 'max-width: 640px'
+    - media: 'max-width: 720px'
       width: 640
       height: 480
   teaser:
@@ -69,12 +69,15 @@ cloudinary:
     width: 480
     height: 480
     sizes:
-    - media: 'max-width: 560px'
+    - media: 'min-width: 1024px'
       width: 480
-      height: 400
-    - media: 'max-width: 960px'
+      height: 480
+    - media: 'min-width: 560px'
       width: 960
       height: 400
+    - media: 'max-width: 560px'
+      width: 480
+      height: 480
   gallery:
     crop: fill
     width: 320

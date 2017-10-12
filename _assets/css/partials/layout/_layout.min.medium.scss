@@ -1,15 +1,30 @@
+// body footer padding
 body {
   padding-bottom: unit(get('footer', 'height'));
 }
 
+
+// sticky footer
 body > footer {
   height: unit(get('footer', 'height'));
   position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
+
+  & > * {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 50%
+  }
+
+  .credentials {
+    text-align: right;
+  }
 }
 
+
+// main with sidebar on right side
 main {
   display: table;
   table-layout: fixed;

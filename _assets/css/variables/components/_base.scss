@@ -8,6 +8,11 @@ $base: (
     position: relative,
   ),
 
+  h3: (
+    margin: spacing(small) 0 spacing(-0.25),
+    font-weight: 500,
+  ),
+
   strong: (
     font-weight: 500,
   ),
@@ -52,6 +57,10 @@ $base: (
     width: 1.1em,
     height: 1.1em,
     margin: -.25em .6em 0 0,
+  ),
+
+  textarea: (
+    min-height: unit(300),
   ),
 
 );

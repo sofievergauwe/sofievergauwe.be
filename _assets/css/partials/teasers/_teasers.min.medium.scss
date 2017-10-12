@@ -8,4 +8,8 @@
     display: table-cell;
     vertical-align: top;
   }
+
+  & > figure {
+    width: 33.333%;
+  }
 }

@@ -40,7 +40,12 @@ body > header {
     }
 
     &:hover {
-      opacity: 0.85;
+      opacity: 0.75;
+    }
+
+    &:focus,
+    &:active {
+      opacity: 0.5;
     }
   }
 
@@ -73,18 +78,13 @@ main {
       font-weight: 300;
       font-size: font-size(huge);
       line-height: line-height(tiny);
-      margin: spacing(tiny) 0;
-    }
-
-    & > h3 {
-      margin: spacing() 0 spacing(-0.5);
+      margin: spacing(tiny) 0 spacing(.2);
     }
 
   }
 
   // main sidebar
   & > aside {
-    font-size: font-size(small);
     color: color(text, 10);
 
     .button {
@@ -110,8 +110,39 @@ main {
 // footer
 body > footer {
   background: color(focus, -10, 0.85) url(asset_path("img/paper-chocolate.png")) repeat center center;
-  color: color(white);
-  padding-top: spacing();
-  padding-bottom: spacing();
+  color: mix(color(white), color(focus), 75);
+  padding-top: spacing(large);
+  padding-bottom: spacing(large);
+
+  a {
+    color: inherit;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: color(white);
+    }
+  }
+
+  .credentials {
+    font-size: font-size(tiny);
+    line-height: line-height(small);
+    margin-bottom: unit(1);
+  }
+}
+
+
+// block class
+.block {
+  padding: spacing(large);
+  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
+  box-shadow: 0 0 unit(2) color(black, 0, 0.15);
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
 
 }

@@ -29,11 +29,11 @@ $layout: (
   ),
 
   breakpoints: (
-    tiny: 560,
-    small: 960,
+    tiny: 480,
+    small: 720,
     medium: 1024,
     large: 1280,
-    huge: 1440,
+    huge: 1600,
   ),
 
   colors: (
@@ -54,7 +54,7 @@ $layout: (
   ),
 
   footer: (
-    height: 200,
+    height: 180,
   ),
 
 );

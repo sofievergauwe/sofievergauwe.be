@@ -1,0 +1,58 @@
+// focus effect on buttons
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  @extend %focus-effect;
+}
+
+
+// svg icons
+svg {
+  width: unit(24);
+  height: unit(24);
+  fill: color(text);
+}
+
+
+// images
+figure > img,
+picture > img {
+  width: 100%;
+}
+
+picture {
+  background-color: color(black, 0, 0.1);
+}
+
+// lazyload
+noscript + picture > img,
+noscript + img {
+  opacity: 0;
+
+  &.lazyloaded {
+    @keyframes image-fade-in {
+      50%   { opacity: 0; }
+      100%  { opacity: 1; }
+    }
+
+    animation: image-fade-in 0.5s forwards;
+  }
+}
+
+
+// blockquote em
+blockquote em {
+  display: block;
+  line-height: line-height(tiny);
+  font-size: font-size(tiny);
+  font-weight: 700;
+  color: color(text, 35);
+  margin: spacing(tiny) 0 spacing(small);
+}
+
+
+// em strong
+em strong {
+  font-weight: 700;
+}

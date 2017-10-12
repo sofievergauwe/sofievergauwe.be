@@ -9,3 +9,8 @@ body > main,
 body > footer {
   @include wrap(spacing(large), breakpoint(large));
 }
+
+// block fit font-size
+.block p {
+  font-size: font-size(small);
+}

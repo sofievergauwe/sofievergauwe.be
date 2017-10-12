@@ -1,0 +1,32 @@
+// data lists -> component ?
+dl {
+  font-size: font-size(small);
+  line-height: line-height(small);
+  margin-bottom: 0;
+
+  dd, dt {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  dt {
+    width: calc(100% - #{unit(60, unit(14))});
+    font-size: font-size(small);
+  }
+
+  dd {
+    width: unit(60);
+  }
+
+  & + p {
+    margin-top: spacing(small);
+    font-size: font-size(small);
+    font-style: italic;
+  }
+
+  span {
+    color: color(text, 25);
+    font-weight: 500;
+    margin-left: spacing(tiny);
+  }
+}

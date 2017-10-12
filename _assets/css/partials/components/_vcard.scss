@@ -1,0 +1,18 @@
+.vcard {
+  font-size: font-size(small);
+  line-height: line-height(small);
+
+  .org {
+    display: inline-block;
+    font-size: font-size(1.5);
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: spacing(.2);
+  }
+
+  .adr {
+
+    font-style: normal;
+  }
+
+}

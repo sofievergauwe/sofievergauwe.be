@@ -49,10 +49,11 @@ body > figure {
       padding: spacing(large, unit(24));
       border: 0;
       margin: 0;
-      animation: caption .5s forwards;
+      opacity: 0;
+      margin-top: 50%;
+      animation: caption .5s forwards .5s;
 
       @keyframes caption {
-        0%    { opacity: 0; margin-top: 50%; }
         50%   { opacity: 0; }
         100%  { opacity: 1; margin-top: 0; }
       }
