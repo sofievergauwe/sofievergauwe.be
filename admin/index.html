@@ -35,14 +35,13 @@
         );
 
         // banner
-        if (data.image != null) {
           var banner = h('figure', {},
             h('noscript', {}),
             h('picture', {},
               h('img', {src: data.image.toString()}),
             ),
           );
-        }
+        
 
         return banner, article;
 
