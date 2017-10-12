@@ -2,7 +2,7 @@
 $header-height: unit(get('header', 'height'));
 $logo-width: unit(get('logo', 'width'));
 
-// body h1
+// body title
 body > h1 {
   @extend %hidden;
 }
@@ -31,6 +31,7 @@ body > header {
     height: inherit;
   }
 
+  // header logo
   & > a {
     width: $logo-width;
 
@@ -43,6 +44,7 @@ body > header {
     }
   }
 
+  // header nav
   & > nav {
     width: calc(100% - #{$logo-width});
   }
@@ -50,54 +52,60 @@ body > header {
 }
 
 
+// banner
 body > figure {
   padding: 0;
 }
 
 
 // main
-body > main {
+main {
   padding-top: spacing();
   padding-bottom: spacing(huge);
 
+  // main article
   & > article {
 
     & > h2:first-child {
-     border-bottom: 2px solid color(focus);
-     display: inline-block;
-     padding-bottom: spacing(tiny, font-size(huge));
-     font-weight: 300;
-     font-size: font-size(huge);
-     line-height: line-height(tiny);
-     margin: spacing(tiny) 0;
-   }
-
-   & > h3 {
-     margin-top: spacing(large);
-   }
-
- }
-
-}
-
-aside {
-  font-size: font-size(small);
-  color: color(text, 10);
-
-  .button {
-    display: block;
-    margin: 0;
-  }
-
-  figure,
-  .block {
-    margin-bottom: spacing(1, unit(14));
-
-    & + .description {
-      margin-top: spacing(-1, unit(14));
+      border-bottom: 2px solid color(focus);
+      display: inline-block;
+      padding-bottom: spacing(tiny, font-size(huge));
+      font-weight: 300;
+      font-size: font-size(huge);
+      line-height: line-height(tiny);
+      margin: spacing(tiny) 0;
     }
+
+    & > h3 {
+      margin: spacing() 0 spacing(-0.5);
+    }
+
   }
+
+  // main sidebar
+  & > aside {
+    font-size: font-size(small);
+    color: color(text, 10);
+
+    .button {
+      display: block;
+      margin: 0;
+    }
+
+    figure,
+    .block {
+      margin-bottom: spacing(1, unit(14));
+
+      & + .description {
+        margin-top: spacing(-1, unit(14));
+      }
+
+    }
+
+  }
+
 }
+
 
 // footer
 body > footer {
@@ -106,105 +114,4 @@ body > footer {
   padding-top: spacing();
   padding-bottom: spacing();
 
-}
-
-
-// focus effect
-input[type="submit"],
-input[type="reset"],
-button,
-.button {
-  @extend %focus-effect;
-}
-
-
-// svg icons
-svg {
-  width: unit(24);
-  height: unit(24);
-  fill: color(text);
-}
-
-figure > img,
-picture > img {
-  width: 100%;
-}
-
-
-// lazyload
-noscript + picture > img,
-noscript + img {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-
-  &.lazyloaded {
-    opacity: 1;
-  }
-}
-
-
-// blockquote em
-blockquote em {
-  display: block;
-  line-height: line-height(tiny);
-  font-size: font-size(tiny);
-  font-weight: 700;
-  color: color(text, 35);
-  margin: spacing(tiny) 0 spacing(small);
-}
-
-
-// em strong
-em strong {
-  font-weight: 700;
-}
-
-
-// block
-.block {
-  padding: spacing(large);
-  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
-  box-shadow: 0 0 unit(2) color(black, 0, 0.15);
-
-  & > :first-child {
-    margin-top: 0;
-  }
-
-  & > :last-child {
-    margin-bottom: 0;
-  }
-
-}
-
-
-// prices
-dl.prices {
-  line-height: line-height(small);
-  margin-bottom: 0;
-
-  dd, dt {
-    display: inline-block;
-    vertical-align: top;
-  }
-
-  dt {
-    width: calc(100% - #{unit(60, unit(14))});
-    font-size: font-size(small);
-  }
-
-  dd {
-    width: unit(60);
-  }
-
-  & + p {
-    margin-top: spacing(small);
-    font-size: font-size(small);
-    font-style: italic;
-  }
-
-  span {
-    color: color(text, 25);
-    font-weight: 500;
-    margin-left: spacing(tiny);
-  }
 }

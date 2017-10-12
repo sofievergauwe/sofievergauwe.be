@@ -10,19 +10,25 @@ body > footer {
   left: 0;
 }
 
-article.sidebar,
-article.sidebar + aside {
-  display: inline-block;
-  vertical-align: top;
-}
+main {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 
-article.sidebar {
-  padding-right: spacing();
-  width: 66.333%;
-}
+  & > article,
+  & > aside {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: spacing();
+  }
 
-article.sidebar + aside {
-  margin-top: spacing(large);
-  padding-left: spacing();
-  width: 33.333%;
+  & > article > h2:first-child {
+    margin-top: unit(-4);
+  }
+
+  & > aside {
+    padding-left: spacing(huge);
+    width: 33.333%;
+  }
+
 }

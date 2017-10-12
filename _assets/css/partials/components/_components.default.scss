@@ -1,0 +1,101 @@
+// focus effect
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  @extend %focus-effect;
+}
+
+
+// svg icons
+svg {
+  width: unit(24);
+  height: unit(24);
+  fill: color(text);
+}
+
+
+// images
+figure > img,
+picture > img {
+  width: 100%;
+}
+
+
+// lazyload
+noscript + picture > img,
+noscript + img {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  &.lazyloaded {
+    opacity: 1;
+  }
+}
+
+
+// blockquote em
+blockquote em {
+  display: block;
+  line-height: line-height(tiny);
+  font-size: font-size(tiny);
+  font-weight: 700;
+  color: color(text, 35);
+  margin: spacing(tiny) 0 spacing(small);
+}
+
+
+// em strong
+em strong {
+  font-weight: 700;
+}
+
+
+// data lists -> component ?
+dl {
+  line-height: line-height(small);
+  margin-bottom: 0;
+
+  dd, dt {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  dt {
+    width: calc(100% - #{unit(60, unit(14))});
+    font-size: font-size(small);
+  }
+
+  dd {
+    width: unit(60);
+  }
+
+  & + p {
+    margin-top: spacing(small);
+    font-size: font-size(small);
+    font-style: italic;
+  }
+
+  span {
+    color: color(text, 25);
+    font-weight: 500;
+    margin-left: spacing(tiny);
+  }
+}
+
+
+// block
+.block {
+  padding: spacing(large);
+  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
+  box-shadow: 0 0 unit(2) color(black, 0, 0.15);
+
+  & > :first-child {
+    margin-top: 0;
+  }
+
+  & > :last-child {
+    margin-bottom: 0;
+  }
+
+}
