@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: sofievergauwe/sofievergauwe.be
   branch: master
 
 media_folder: "media"
