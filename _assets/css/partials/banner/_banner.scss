@@ -58,24 +58,27 @@ body > figure {
         100%  { opacity: 1; margin-top: 0; }
       }
 
-      &:before,
-      &:after {
-        display: inline-block;
-        vertical-align: top;
-      }
+      & > p {
 
-      &:before {
-        content: '\201C';
-        margin: -.1em .1em 0 -.3em;
-      }
+        &:before,
+        &:after {
+          display: inline-block;
+          vertical-align: top;
+        }
 
-      &:after {
-        content: '\201D';
-        margin: .6em 0 -.6em .2em;
-      }
+        &:before {
+          content: '\201C';
+          margin: -.1em .1em 0 -.3em;
+        }
 
+        &:after {
+          content: '\201D';
+          margin: .6em 0 -.6em .2em;
+        }
+
+      }
     }
-
+    
   }
 
 }

@@ -2,10 +2,11 @@
 title: Welkom in de wereld van Sofie
 layout: frontpage
 permalink: /
-banner:
-  image: /media/sofie.jpg
+image: /media/sofie.jpg
+caption:
   quote: Welkom in de wereld van Sofie...
-  align: bottom left
+  vertical-align: bottom
+  horizontal-align: left
 teasers:
   - title: Massage
     image: /media/massage.jpg

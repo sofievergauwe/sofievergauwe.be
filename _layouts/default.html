@@ -20,12 +20,12 @@ layout: compress
       {% include navigation.html %}
     </header>
 
-    {% if page.banner.image %}
+    {% if page.image %}
     <figure>
-      {% include_cached image.html file=page.banner.image style='banner' alt=page.title %}
-      {% if page.banner.quote %}
-      <figcaption class="{{ page.banner.align }}">
-        <blockquote>{{ page.banner.quote }}</blockquote>
+      {% include_cached image.html file=page.image style='banner' alt=page.title %}
+      {% if page.caption.quote %}
+      <figcaption class="{{ page.caption.vertical-align }} {{ page.caption.Horizontal-align }}">
+        <blockquote>{{ page.caption.quote | markdownify }}</blockquote>
       </figcaption>
       {% endif %}
     </figure>

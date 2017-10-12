@@ -2,10 +2,11 @@
 title: Contact
 layout: page
 permalink: /contact
-banner:
-  image: /media/paardje.jpg
+image: /media/paardje.jpg
+caption:
   quote: Iedereen is welkom!
-  align: bottom right
+  vertical-align: bottom
+  horizontal-align: right
 ---
 
 {% include form.html form="contact" %}

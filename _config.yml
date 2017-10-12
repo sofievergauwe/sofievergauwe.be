@@ -78,11 +78,7 @@ cloudinary:
       height: 400
     - media: 'max-width: 560px'
       width: 480
-      height: 480
-  gallery:
-    crop: fill
-    width: 320
-    height: 320
+      height: 320
   sidebar:
     crop: fill
     width: 420
