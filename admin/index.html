@@ -50,11 +50,7 @@
           )
         );
 
-        return (
-          <main>
-            <h2>{ data.title}</h2>
-            { data.body }
-        );
+        return h('main', {}, article), h('figure', {}, caption);
 
       }
     });
