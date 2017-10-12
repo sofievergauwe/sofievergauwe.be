@@ -52,7 +52,7 @@
         );
         banner = '<figure><picture><img src="' + data.image + '"/></picture></figure>';
         article = '<main><article><h2>' + data.title + '</h2>' + data.body + '</article></main>';
-        return h('div', {}, banner, article);
+        return banner + article;
 
       }
     });
