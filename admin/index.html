@@ -23,9 +23,6 @@
           body: this.props.widgetFor('body')
         }
 
-        // placeholders
-        var banner = '';
-
         // article
         var article = h('main', {},
           h('article', {},
@@ -38,7 +35,7 @@
         var banner = '';
         if (data.image != null) {
           var bg = this.props.getAsset(data.image);
-          var banner = h('div', {className: 'bg-img banner', style: {'width: 100%; height: 400px; background-image': 'url(' + bg.toString() + ')'}}, '')
+          banner = h('div', {className: 'bg-img banner', style: {'width: 100%; height: 400px; background-image': 'url(' + bg.toString() + ')'}}, '')
         }
 
         return h('div', {}, banner), article;
