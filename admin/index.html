@@ -23,6 +23,9 @@
           body: this.props.widgetFor('body')
         }
 
+        // placeholders
+        var banner = '';
+
         // article
         var article = h('main', {},
           h('article', {},
@@ -31,7 +34,17 @@
           )
         );
 
-        return article;
+        // banner
+        if (data.image != null) {
+          var banner = h('figure', {},
+            h('noscript', {}),
+            h('picture', {},
+              h('img', {src: data.image.toString()}),
+            ),
+          );
+        }
+
+        return banner, article;
 
       }
     });
