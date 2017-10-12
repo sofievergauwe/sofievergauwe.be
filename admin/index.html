@@ -35,16 +35,13 @@
         );
 
         // banner
+        var banner = '';
         if (data.image != null) {
-          banner = h('figure', {},
-            h('noscript', {}),
-            h('picture', {},
-              h('img', {src: this.props.getAsset(data.image).toString()}),
-            ),
-          );
+          var bg = this.props.getAsset(data.image);
+          var banner = h('div', {className: 'bg-img banner', style: {'width: 100%; height: 400px; background-image': 'url(' + bg.toString() + ')'}}, '')
         }
 
-        return banner, article;
+        return h('div', {}, banner), article;
 
       }
     });
