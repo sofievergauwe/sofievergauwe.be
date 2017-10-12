@@ -1,5 +1,6 @@
 - name: contact
   title: Contactformulier
+  success: /bericht-verzonden
   fields:
   - name: name
     label: Volledige naam
