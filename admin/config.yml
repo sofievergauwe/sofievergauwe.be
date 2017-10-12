@@ -8,5 +8,5 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     fields:
-      - {label: Title, name: title, widget: string}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
