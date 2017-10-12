@@ -20,7 +20,7 @@
         var data = {
           title: this.props.entry.getIn(['data', 'title']),
           image: this.props.entry.getIn(['data', 'image']),
-          imageAsset: this.props.getAsset(image);
+          imageAsset: this.props.getAsset(image).toString(),
           body: this.props.widgetFor('body')
         }
 
