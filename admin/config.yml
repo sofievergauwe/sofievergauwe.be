@@ -42,15 +42,15 @@ collections:
               - {label: "Time", name: "time", widget: "string"}
               - {label: "Price", name: "price", widget: "string"}
 
-- name: "menu"
-  label: "Menu"
-  editor:
-    preview: false
-  files:
-    - name: "mainmenu"
-      label: "Mainmenu"
-      file: "_data/menu.yml"
-      fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Link", name: "link", widget: "string"}
-        - {label: "Description", name: "description", widget: "text"}
+  - name: "menu"
+    label: "Menu"
+    editor:
+      preview: false
+    files:
+      - name: "mainmenu"
+        label: "Mainmenu"
+        file: "_data/menu.yml"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
