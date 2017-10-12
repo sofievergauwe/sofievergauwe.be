@@ -25,8 +25,10 @@
         }
 
         // placeholders
-        var banner = '';
         var caption = '';
+        var banner = '';
+        var article = '';
+
 
         // caption
         if (data.quote != null) {
@@ -41,7 +43,7 @@
         }
 
         // article
-        var article = h('main', {},
+        article = h('main', {},
           h('article', {},
             h('h2', {}, h('span', {}, data.title)),
             h('div', {"className": "content"}, data.body),
