@@ -42,6 +42,8 @@
           banner = h('div', {style: 'width: 100%; height: 400%; background: url(' + data.image + ') no-repeat center center; background-size: cover;'}, caption);
         }
 */
+      article = '<main><article><h2>' + data.title + '</h2>' + data.body + '</article></main>';
+/*
         // article
         article = h('main', {},
           h('article', {},
@@ -49,8 +51,8 @@
             h('div', {"className": "content"}, data.body),
           )
         );
-
-        return h('div', {}, article);
+*/
+        return article;
 
       }
     });
