@@ -15,10 +15,13 @@
     // page preview
     var PagesPreview = createClass({
       render: function() {
+        var entry = this.props.entry;
+
         return h('main', {}, h('article', {},
           h('h2', {}, h('span', {}, entry.getIn(['data', 'title']))),
           h('div', {"className": "content"}, this.props.widgetFor('body')),
         ));
+        
       }
     });
 
