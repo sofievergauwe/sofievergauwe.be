@@ -17,15 +17,15 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown" }
-    - label: "Caption"
-      name: caption
-      required: false
-      widget: "object"
-      fields:
-        - {label: "Quote", name: "quote", widget: "string" }
-        - {label: "Cite", name: "cite", widget: "string" }
-        - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
-        - {label: "Horizontal align", name: "Horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
+      - label: "Caption"
+        name: caption
+        required: false
+        widget: "object"
+        fields:
+          - {label: "Quote", name: "quote", widget: "string" }
+          - {label: "Cite", name: "cite", widget: "string" }
+          - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
+          - {label: "Horizontal align", name: "Horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
     - label: "Information"
       name: info
       required: false
