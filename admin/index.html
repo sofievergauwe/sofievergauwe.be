@@ -29,7 +29,7 @@
         // article
         var article = h('main', {},
           h('article', {},
-            h('h2', {}, h('span', {}, data.image)),
+            h('h2', {}, h('span', {}, data.title)),
             h('div', {"className": "content"}, data.body),
           )
         );
@@ -39,7 +39,7 @@
           var banner = h('figure', {},
             h('noscript', {}),
             h('picture', {},
-              h('img', {src: data.image.toString()}),
+              h('img', {src: '/media/' + data.image}),
             ),
           );
         }
