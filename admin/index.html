@@ -20,8 +20,10 @@
         var data = {
           title: this.props.entry.getIn(['data', 'title']),
           image: this.props.entry.getIn(['data', 'image']),
+          quote: this.props.entry.getIn(['data', 'caption', 'quote']),
           body: this.props.widgetFor('body')
         }
+
 
         // placeholders
         var banner = '';
@@ -31,6 +33,9 @@
           var banner = h('figure', {},
             h('picture', {},
               h('img', {src: data.image, className: 'lazyloaded'}),
+            ),
+            h('figcaption', {},
+              h('blockquote', {}, h('p', {}, data.quote )),
             ),
           );
         }
