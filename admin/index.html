@@ -20,12 +20,10 @@
         var data = {
           title: this.props.entry.getIn(['data', 'title']),
           image: this.props.entry.getIn(['data', 'image']),
-          quote: this.props.entry.getIn(['data', 'caption', 'quote']),
           body: this.props.widgetFor('body')
         }
 
         // placeholders
-        var caption = '';
         var banner = '';
         var article = '';
 
@@ -36,17 +34,22 @@
         // banner
         if (data.image != null) {
 
-          var imageUrl = this.props.getAsset(data.image);
+          var url = this.props.getAsset(data.image);
+          var quote = this.props.entry.getIn(['data', 'caption', 'quote']);
+          var caption = '';
 
-          if (data.quote != null) {
-            caption = h('figcaption', {},
-              h('blockquote', {}, h('p', {}, data.quote )),
+          if (quote != null) {
+
+            var verticalAlign = this.props.entry.getIn(['data', 'caption', 'vertical-align']);
+            var horizontalAlign = this.props.entry.getIn(['data', 'caption', 'horizontal-align']);
+
+            caption = h('figcaption', {className: verticalAlign + " " + horizontalAlign},
+              h('blockquote', {}, h('p', {}, quote )),
             );
           }
 
           banner = h('figure', {className: "banner"},
-            h('noscript', {}, ""),
-            h('picture', {style: {'background': "url(" + imageUrl.toString() + ") no-repeat center center", "background-size": "cover", "height": "400px"}}, ""),
+            h('picture', {style: {'background': "url(" + url.toString() + ") no-repeat center center", "background-size": "cover", "height": "400px"}}, ""),
             caption,
           );
         }
