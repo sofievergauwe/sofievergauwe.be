@@ -4,9 +4,9 @@ body {
 
 // wrappers
 body > header,
-figure.banner,
-body > main,
-body > footer {
+body > footer,
+main,
+.banner {
   @include wrap(spacing(large), breakpoint(large));
 }
 

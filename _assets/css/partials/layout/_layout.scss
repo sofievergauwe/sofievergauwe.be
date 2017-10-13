@@ -8,7 +8,9 @@ body > h1 {
 }
 
 // wrappers
-body > * {
+body > header,
+body > footer,
+main {
   padding-right: spacing();
   padding-left: spacing();
 }
@@ -58,7 +60,7 @@ body > header {
 
 
 // banner
-figure.banner {
+.banner {
   padding: 0;
 }
 
