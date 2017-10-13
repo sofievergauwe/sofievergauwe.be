@@ -1,5 +1,5 @@
 // banner
-body > figure {
+figure.banner {
   position: relative;
 
   & > figcaption {
@@ -78,7 +78,7 @@ body > figure {
 
       }
     }
-    
+
   }
 
 }

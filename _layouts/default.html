@@ -21,7 +21,7 @@ layout: compress
     </header>
 
     {% if page.image %}
-    <figure>
+    <figure class="banner">
       {% include_cached image.html file=page.image style='banner' alt=page.title %}
       {% if page.caption.quote %}
       <figcaption class="{{ page.caption.vertical-align }} {{ page.caption.horizontal-align }}">
