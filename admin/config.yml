@@ -15,8 +15,8 @@ collections:
       - {label: "Title", name: "title", widget: "string", tagname: "h2" }
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
-      - {label: "Image", name: "image", widget: "image", required: false }
-      - label: "Image caption"
+      - {label: "Banner", name: "image", widget: "image", required: false }
+      - label: "Banner caption"
         name: caption
         required: false
         widget: "object"
@@ -26,21 +26,16 @@ collections:
           - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
           - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
       - {label: "Body", name: "body", widget: "markdown" }
-      - label: "Information"
-        name: info
+      - {label: "Sidebar image", name: "info-image", widget: "image", required: false }
+      - {label: "More information", name: "info", widget: "markdown" }
+      - label: "Prices"
+        name: prices
         required: false
-        widget: "object"
+        widget: "list"
         fields:
-          - {label: "Image", name: "image", widget: "image", required: false }
-          - {label: "Description", name: "description", widget: "markdown" }
-          - label: "Prices"
-            name: prices
-            required: false
-            widget: "list"
-            fields:
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Time", name: "time", widget: "string"}
-              - {label: "Price", name: "price", widget: "string"}
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Time", name: "time", widget: "string"}
+          - {label: "Price", name: "price", widget: "string"}
 
   - name: "menu"
     label: "Menu"

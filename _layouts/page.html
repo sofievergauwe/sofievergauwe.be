@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign sidebar = null %}
-{% if page.info.image or page.info.description or page.info.prices %}
+{% if page.info-image or page-info or page.prices %}
   {% assign sidebar = true %}
 {% endif %}
 
@@ -15,40 +15,35 @@ layout: default
 {% if sidebar %}
 <aside>
 
-  {% if page.info.image %}
+  {% if page.info-image %}
   <figure>
-    {% include_cached image.html file=page.info.image style='sidebar' alt=page.title %}
+    {% include_cached image.html file=page.info-image style='sidebar' alt=page.title %}
   </figure>
   {% endif %}
 
-  {% if page.info.description %}
-  <div class="block description">
-    {{ page.info.description | markdownify }}
-  </div>
+  {% if page.info %}
+  <section class="block description">
+    <h3 class="hidden">Meer informatie</h3>
+    {{ page.info | markdownify }}
+  </section>
   {% endif %}
 
-  {% if page.info.prices %}
+  {% if page.prices %}
   <section class="block">
     <h3>Prijzen</h3>
 
     <dl class="prices">
-      {% for item in page.info.prices %}
+      {% for item in page.prices %}
       <dt>{{ item.name }} <span>{{ item.time }}</span></dt>
       <dd>{{ item.price }}</dd>
       {% endfor %}
     </dl>
 
-    {{ page.info.footnote | markdownify }}
+    {{ page.footnote | markdownify }}
 
     <a class="button" href="#">Afspraak maken</a>
 
   </section>
-
-  {% elsif page.footnote %}
-  <section class="block">
-    <h3 class="hidden">Meer informatie</h3>
-    {{ page.footnote | markdownify }}
-  </sectio>
   {% endif %}
 
 </aside>

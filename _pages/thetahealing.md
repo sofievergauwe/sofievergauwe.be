@@ -11,7 +11,7 @@ prices:
 - name: Thetasessie
   time: 60'
   price: € 50
-extra: Ik geef sessies aan mens en dier! Een ThetaHealing®sessie duurt ongeveer 60'. Het is mogelijk dat dit uitloopt (zonder extra kosten).
+footnote: Ik geef sessies aan mens en dier! Een ThetaHealing®sessie duurt ongeveer 60'. Het is mogelijk dat dit uitloopt (zonder extra kosten).
 ---
 
 _De ThetaHealing® techniek is een **energetische geneeswijze** ontwikkeld door de Amerikaanse Vianna Stibal in 1995.
