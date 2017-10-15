@@ -62,14 +62,14 @@ collections:
           - {label: "Cite", name: "cite", widget: "string" }
           - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
           - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
-          - name: teasers
-            label: Teasers
-            widget: list
-            fields:
-              - {label: "Title", name: "title", widget: "string" }
-              - {label: "Image", name: "image", widget: "image" }
-              - {label: "Link", name: "link", widget: "string", required: false}
-              - {label: "Description", name: "description", widget: "markdown"}
+      - name: teasers
+        label: Teasers
+        widget: list
+        fields:
+          - {label: "Title", name: "title", widget: "string" }
+          - {label: "Image", name: "image", widget: "image" }
+          - {label: "Link", name: "link", widget: "string", required: false}
+          - {label: "Description", name: "description", widget: "markdown"}
 
   - name: "menu"
     label: "Menu"
