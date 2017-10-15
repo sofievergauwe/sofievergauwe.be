@@ -7,9 +7,35 @@ backend:
 media_folder: "/media/"
 
 collections:
+
+  - name: "frontpage"
+    label: "Frontpage"
+    folder: "_pages"
+    filter:
+      field: layout
+      value: frontpage
+    create: false
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h2" }
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
+      - {label: "Banner", name: "image", widget: "image", required: false }
+      - label: "Banner caption"
+        name: caption
+        required: false
+        widget: "object"
+        fields:
+          - {label: "Quote", name: "quote", widget: "string" }
+          - {label: "Cite", name: "cite", widget: "string" }
+          - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
+          - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
+
   - name: "pages"
     label: "Pages"
     folder: "_pages"
+    filter:
+      field: layout
+      value: page
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string", tagname: "h2" }
