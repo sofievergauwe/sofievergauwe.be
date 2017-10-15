@@ -24,9 +24,10 @@ dl {
     font-style: italic;
   }
 
-  span {
-    color: color(text, 25);
-    font-weight: 500;
-    margin-left: spacing(tiny);
-  }
+}
+
+span.time {
+  color: color(text, 25);
+  font-weight: 500;
+  margin-left: spacing(tiny);
 }

@@ -1,0 +1,9 @@
+.body {
+  margin-top: -5em;
+}
+
+.image {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}

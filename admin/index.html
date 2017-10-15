@@ -5,111 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
   <link rel="stylesheet" href="https://unpkg.com/netlify-cms@~0.5/dist/cms.css" />
-  <link rel="stylesheet" href="custom.css" />
-  <script src="https://identity-js.netlify.com/v1/netlify-identity-widget.js"></script>
+  <link rel="stylesheet" href="css/custom.css" />
 </head>
 <body>
   <script src="https://unpkg.com/netlify-cms@~0.5/dist/cms.js"></script>
+  <script src="js/pages-preview.js"></script>
+
   <script>
-
-
-
-    // page preview
-    var PagesPreview = createClass({
-      render: function() {
-
-        // entry var
-        var entry = this.props.entry;
-
-        // placeholder vars
-        var banner = '';
-        var article = '';
-        var info = '';
-
-        // data object
-        var data = {
-          title: entry.getIn(['data', 'title']),
-          image: entry.getIn(['data', 'image']),
-          body: this.props.widgetFor('body'),
-          infoImage: entry.getIn(['data', 'info-image']),
-          info: entry.getIn(['data', 'description']),
-          prices: entry.getIn(['data', 'prices']),
-        }
-
-        // banner
-        if (data.image != null) {
-
-          var url = this.props.getAsset(data.image);
-          var quote = entry.getIn(['data', 'caption', 'quote']);
-          var caption = '';
-
-          if (quote != null) {
-
-            var verticalAlign = entry.getIn(['data', 'caption', 'vertical-align']);
-            var horizontalAlign = entry.getIn(['data', 'caption', 'horizontal-align']);
-
-            caption = h('figcaption', {className: verticalAlign + " " + horizontalAlign},
-              h('blockquote', {}, h('p', {}, quote )),
-            );
-          }
-
-          banner = h('figure', {className: "banner"},
-            h('picture', {style: {'background': "url(" + url.toString() + ") no-repeat center center", "background-size": "cover", "height": "400px"}}, ""),
-            caption,
-          );
-        }
-
-
-
-        // aside
-        if (data.infoImage != null || data.info != null || data.prices != null) {
-
-          var image = '';
-          var info = '';
-          var prices = '';
-
-          if (data.infoImage != null) {
-            var url = this.props.getAsset(data.infoImage);
-            image = h('figure', {},
-              h('picture', {style: {'background': "url(" + url.toString() + ") no-repeat center center", "background-size": "cover", "height": "400px"}}, ""),
-            );
-          }
-
-          if (data.info != null) {
-            info = h('div', {className: "block description"}, data.info);
-          }
-/*
-          if (data.prices != null) {
-            prices = this.props.widgetsFor('prices').map(function(price, index) {
-              return h('strong', {}, price.getIn(['data', 'name']));
-            });
-          }
-*/
-          info = h('aside', {}, image, info, prices)
-
-        }
-
-
-        // article
-        article = h('main', {},
-          h('article', {},
-            h('h2', {}, h('span', {}, data.title)),
-            h('div', {"className": "content"}, data.body),
-          ), info,
-        );
-
-
-
-        // return
-        return h('div', {style: {'margin-top': '-4em'}}, banner, article);
-
-      }
-    });
-
     CMS.registerPreviewStyle("https://sofievergauwe.netlify.com/css/main.css");
     CMS.registerPreviewStyle("https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i");
-    CMS.registerPreviewTemplate("pages", PagesPreview);
-
+    CMS.registerPreviewStyle("css/preview.css");
   </script>
 </body>
 </html>
