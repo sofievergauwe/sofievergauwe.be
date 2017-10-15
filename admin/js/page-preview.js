@@ -1,5 +1,5 @@
 // pages preview
-var PagesPreview = createClass({
+var PagePreview = createClass({
 
   render: function() {
 
@@ -45,7 +45,7 @@ var PagesPreview = createClass({
 
       // banner
       banner = h('figure', {className: "banner"},
-        h('picture', {className: 'image sidebar', style: {'background-image': 'url(' + url.toString() + ')'}}),
+        h('picture', {className: 'image image-banner', style: {'background-image': 'url(' + url.toString() + ')'}}),
         caption,
       );
 
@@ -63,7 +63,7 @@ var PagesPreview = createClass({
       if (data.infoImage != null) {
         var url = this.props.getAsset(data.infoImage);
         image = h('figure', {},
-          h('picture', {className: 'image sidebar', style: {'background-image': 'url(' + url.toString() + ')'}}),
+          h('picture', {className: 'image image-sidebar', style: {'background-image': 'url(' + url.toString() + ')'}}),
         );
       }
 
@@ -109,4 +109,4 @@ var PagesPreview = createClass({
 
 
 // register preview template
-CMS.registerPreviewTemplate("pages", PagesPreview);
+CMS.registerPreviewTemplate("pages", PagePreview);
