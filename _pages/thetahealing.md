@@ -7,11 +7,13 @@ caption:
   quote: Het evenwicht tussen lichaam en geest
   vertical-align: middle
   horizontal-align: center
-prices:
-- name: Thetasessie
-  time: 60'
-  price: € 50
-footnote: Ik geef sessies aan mens en dier! Een ThetaHealing®sessie duurt ongeveer 60'. Het is mogelijk dat dit uitloopt (zonder extra kosten).
+datalist:
+  title: Prijzen
+  list:
+  - title: Thetasessie
+    info: 60'
+    data: € 50
+  footnote: Ik geef sessies aan mens en dier! Een ThetaHealing®sessie duurt ongeveer 60'. Het is mogelijk dat dit uitloopt (zonder extra kosten).
 ---
 
 _De ThetaHealing® techniek is een **energetische geneeswijze** ontwikkeld door de Amerikaanse Vianna Stibal in 1995.

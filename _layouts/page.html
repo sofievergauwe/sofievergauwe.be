@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% assign sidebar = null %}
-{% if page.info-image or page-info or page.prices %}
+{% if page.info-image or page-info or page.datalist.title %}
   {% assign sidebar = true %}
 {% endif %}
 
@@ -28,21 +28,22 @@ layout: default
   </section>
   {% endif %}
 
-  {% if page.prices %}
+  {% if page.datalist %}
   <section class="block">
-    <h3>Prijzen</h3>
+    <h3>{{ page.datalist.title }}</h3>
 
-    <dl class="prices">
-      {% for item in page.prices %}
-      <dt>{{ item.name }} <span>{{ item.time }}</span></dt>
-      <dd>{{ item.price }}</dd>
+    <dl>
+      {% for item in page.datalist.list %}
+      <dt>{{ item.title }} <span>{{ item.info }}</span></dt>
+      <dd>{{ item.data }}</dd>
       {% endfor %}
     </dl>
 
-    {{ page.footnote | markdownify }}
+    {{ page.datalist.footnote | markdownify }}
 
-    <a class="button" href="#">Afspraak maken</a>
-
+    {% if page.datalist.link.title %}
+    <a class="button" href="{{ page.datalist.link.url }}">{{ page.datalist.link.title }}</a>
+    {% endif %}
   </section>
   {% endif %}
 

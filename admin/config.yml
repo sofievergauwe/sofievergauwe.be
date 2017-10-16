@@ -62,15 +62,27 @@ collections:
       - {label: "Body", name: "body", widget: "markdown" }
       - {label: "Sidebar image", name: "info-image", widget: "image", required: false }
       - {label: "Sidebar body", name: "info", widget: "markdown", required: false }
-      - label: "Prices"
-        name: prices
+      - label: "Datalist"
+        name: datalist
         required: false
-        widget: "list"
+        widget: object
         fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Time", name: "time", widget: "string"}
-          - {label: "Price", name: "price", widget: "string"}
-
+          - {label: "Title", name: "title", widget: "string" }
+          - label: "List"
+            name: list
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Info", name: "info", widget: "string"}
+              - {label: "Data", name: "data", widget: "string"}
+          - label: "Link"
+            name: link
+            required: false
+            widget: object
+            fields:
+              - {label: "Title", name: "title", widget: "string" }
+              - {label: "Url", name: "url", widget: "string" }
+              
   - name: "forms"
     label: "Forms"
     editor:
@@ -113,11 +125,11 @@ collections:
         label: "Info"
         file: "_data/info.yml"
         fields:
-          - {label: "Title", name: "title", widget: "string" }
-          - {label: "Name", name: "name", widget: "string" }
-          - {label: "Street", name: "street", widget: "string" }
-          - {label: "Postal", name: "postal", widget: "string" }
-          - {label: "Locality", name: "locality", widget: "string" }
-          - {label: "Phone", name: "tel", widget: "string" }
-          - {label: "Mobile", name: "mobile", widget: "string" }
-          - {label: "Email", name: "email", widget: "string" }
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Name", name: "name", widget: "string", required: false }
+          - {label: "Street", name: "street", widget: "string", required: false }
+          - {label: "Postal", name: "postal", widget: "string", required: false }
+          - {label: "Locality", name: "locality", widget: "string", required: false }
+          - {label: "Phone", name: "tel", widget: "string", required: false }
+          - {label: "Mobile", name: "mobile", widget: "string", required: false }
+          - {label: "Email", name: "email", widget: "string", required: false }

@@ -8,10 +8,13 @@ caption:
   vertical-align: bottom
   horizontal-align: left
 prices:
-- name: Portret (1 gezicht) op canvas 50x80cm, olieverf
-  time: 30'
-  price: € 200
-footnote: De prijs van een portret is afhankelijk van de afmetingen van het doek en het aantal schilderuren (1 of meerdere gezichten).
+datalist:
+  title: Prijzen
+  list:
+  - title: Portret (1 gezicht) op canvas 50x80cm, olieverf
+    info: 30'
+    data: € 200
+  footnote: De prijs van een portret is afhankelijk van de afmetingen van het doek en het aantal schilderuren (1 of meerdere gezichten).
 ---
 
 _Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten** die je in de galerij kan bekijken, zijn een goede weergave van mijn huidige schildervorm. Ik maak gebruik van **olieverf**._
