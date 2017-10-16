@@ -32,8 +32,10 @@ links:
       mijn huidige schildervorm. Ik maak gebruik van olieverf.
     link: /schilderen
     title: Schilderen
-  - link: /contact
-    title: Contact
   - description: Aarzel niet mij te contacteren
+    link: /contact
+    title: Contact
+  - description: ''
+    icon: facebook
     link: 'https://www.facebook.com/vergauwe.sofie'
     title: Volg mij op Facebook
