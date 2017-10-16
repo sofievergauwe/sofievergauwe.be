@@ -8,41 +8,8 @@ media_folder: "/media/"
 
 collections:
 
-  - name: "pages"
-    label: "Pages"
-    folder: "_pages"
-    filter:
-      field: layout
-      value: page
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string" }
-      - {label: "Permalink", name: "permalink", widget: "string" }
-      - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
-      - {label: "Banner", name: "image", widget: "image", required: false }
-      - label: "Banner caption"
-        name: caption
-        required: false
-        widget: "object"
-        fields:
-          - {label: "Quote", name: "quote", widget: "string" }
-          - {label: "Cite", name: "cite", widget: "string" }
-          - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
-          - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
-      - {label: "Body", name: "body", widget: "markdown" }
-      - {label: "Sidebar image", name: "info-image", widget: "image", required: false }
-      - {label: "Sidebar body", name: "info", widget: "markdown" }
-      - label: "Prices"
-        name: prices
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Time", name: "time", widget: "string"}
-          - {label: "Price", name: "price", widget: "string"}
-
   - name: "frontpage"
-    label: "Frontpages"
+    label: "Frontpage"
     folder: "_pages"
     filter:
       field: layout
@@ -71,13 +38,66 @@ collections:
           - {label: "Link", name: "link", widget: "string", required: false}
           - {label: "Description", name: "description", widget: "markdown"}
 
-  - name: "menu"
-    label: "Menus"
+  - name: "pages"
+    label: "Pages"
+    folder: "_pages"
+    filter:
+      field: layout
+      value: page
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
+      - {label: "Banner", name: "image", widget: "image", required: false }
+      - label: "Banner caption"
+        name: caption
+        required: false
+        widget: "object"
+        fields:
+          - {label: "Quote", name: "quote", widget: "string", required: false }
+          - {label: "Cite", name: "cite", widget: "string", required: false }
+          - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
+          - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
+      - {label: "Body", name: "body", widget: "markdown" }
+      - {label: "Sidebar image", name: "info-image", widget: "image", required: false }
+      - {label: "Sidebar body", name: "info", widget: "markdown", required: false }
+      - label: "Prices"
+        name: prices
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Time", name: "time", widget: "string"}
+          - {label: "Price", name: "price", widget: "string"}
+
+  - name: "forms"
+    label: "Forms"
+    editor:
+      preview: false
+    folder: "_forms"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Success link", name: "success", widget: "string"}
+      - label: "Fields"
+        name: fields
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Label", name: label, widget: string}
+          - {label: "Type", name: "type", widget: "select", options: ["text", "textarea", "email", "number", "file"], default: "text" }
+          - {label: "Required", name: "required", widget: "boolean", default: false}
+          - {label: "Options", name: options, widget: "list", required: false}
+
+  - name: "site"
+    label: "Site"
     editor:
       preview: false
     files:
-      - name: "mainmenu"
-        label: "Main menu"
+      - name: "menu"
+        label: "Menu"
         file: "_data/menu.yml"
         fields:
           - {label: "Title", name: "title", widget: "string" }
@@ -88,21 +108,15 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
-
-  - name: "forms"
-    label: "Forms"
-    folder: "_forms"
-    create: true
-    fields:
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Success link", name: "success", widget: "string"}
-      - label: "Fields"
-        name: fields
-        widget: "list"
+      - name: "info"
+        label: "Info"
+        file: "_data/info.yml"
         fields:
-          - {label: "Name", name: name, widget: string}
-          - {label: "Label", name: label, widget: string}
-          - {label: "type", name: type, widget: string}
-          - {label: "Required", name: "required", widget: "boolean", default: false}
-          - {label: "Options", name: options, widget: "list"}
+          - {label: "Title", name: "title", widget: "string" }
+          - {label: "Name", name: "name", widget: "string" }
+          - {label: "Street", name: "street", widget: "string" }
+          - {label: "Postal", name: "postal", widget: "string" }
+          - {label: "Locality", name: "locality", widget: "string" }
+          - {label: "Phone", name: "tel", widget: "string" }
+          - {label: "Mobile", name: "mobile", widget: "string" }
+          - {label: "Email", name: "email", widget: "string" }
