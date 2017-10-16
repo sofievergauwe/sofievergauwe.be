@@ -54,7 +54,7 @@ var FrontPagePreview = createClass({
 
         var title = teaser.getIn(['data', 'title']);
         var image = teaser.getIn(['data', 'image']);
-        var description = teaser.getIn(['data', 'description']);
+        var description = teaser.getIn(['widgets', 'description']);
 
         return h('article', {className: 'teaser'},
           h('figure', {}, h('picture', {className: 'image image-teaser', style: {'background-image': 'url(' + image + ')'}})),
