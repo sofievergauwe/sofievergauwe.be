@@ -17,7 +17,7 @@ collections:
     create: false
     fields:
       - {label: "Title", name: "title", widget: "string" }
-      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Link", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "frontpage" }
       - {label: "Banner", name: "image", widget: "image", required: false }
       - label: "Banner caption"
@@ -47,7 +47,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string" }
-      - {label: "Permalink", name: "permalink", widget: "string" }
+      - {label: "Link", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
       - {label: "Banner", name: "image", widget: "image", required: false }
       - label: "Banner caption"

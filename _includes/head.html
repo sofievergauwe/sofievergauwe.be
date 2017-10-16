@@ -1,9 +1,11 @@
+{% assign current-menu-link = site.data.menu.links | where:"link", page.url | first %}
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ include.info.title }} - {{ include.title }}</title>
-  <meta name="description" content="{{ include.info.description }}">
+  <title>{{ site.data.info.title }} - {{ page.title }}</title>
+  <meta name="description" content="{{ current-menu-link.description }}">
   {% css css/main %}
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
