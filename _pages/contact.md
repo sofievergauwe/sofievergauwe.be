@@ -1,12 +1,16 @@
 ---
 title: Contact
-layout: page
 permalink: /contact
+layout: page
 image: /media/paardje.jpg
 caption:
+  horizontal-align: right
   quote: Iedereen is welkom!
   vertical-align: bottom
-  horizontal-align: right
+info-image: /media/stoepe.jpg
+info: >-
+  De wereld van Sofie is gelegen bij de bedevaartkapel van ‘Onze-Lieve-Vrouw van
+  Stoepe’ te Ertvelde - omgeven door groen en bomen...
 ---
 
 {% include form.html form="contact" %}
