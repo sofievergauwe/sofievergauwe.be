@@ -78,6 +78,8 @@ select {
   padding: 0 2px;
 }
 
+.cms__AppHeader__homeLink,
+.cms__AppHeader__homeLink + div,
 [data-react-toolbox="avatar"] {
   display: none;
 }
