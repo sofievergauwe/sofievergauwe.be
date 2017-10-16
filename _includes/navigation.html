@@ -1,9 +1,9 @@
 <nav>
   <h2 data-nav-toggle="[data-nav-menu]">
-    <span>Menu</span>
+    <span>site.data.menu.title</span>
   </h2>
   <ul data-nav-menu>
-    {% for item in site.data.menu %}
+    {% for item in site.data.menu.links %}
       <li>
         <a {% if item.link contains 'http' %} target="_blank"{% endif %} href="{{ item.link }}"{% if item.link == page.permalink or (item.link.size > 4 and page.permalink contains item.link) %} class="active"{% endif %}>
           {% if item.icon %}

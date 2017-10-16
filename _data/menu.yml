@@ -1,17 +1,19 @@
-- title: Home
-  link: "/"
-- title: Massage
-  link: "/massage"
-- title: Reiki
-  link: "/reiki"
-- title: Thetahealing
-  link: "/thetahealing"
-- title: Kaarsgieten
-  link: "/kaarsgieten"
-- title: Schilderen
-  link: "/schilderen"
-- title: Contact
-  link: "/contact"
-- title: Volg mij op Facebook
-  link: "https://www.facebook.com/vergauwe.sofie"
-  icon: facebook
+title: Menu
+links:
+  - title: Home
+    link: "/"
+  - title: Massage
+    link: "/massage"
+  - title: Reiki
+    link: "/reiki"
+  - title: Thetahealing
+    link: "/thetahealing"
+  - title: Kaarsgieten
+    link: "/kaarsgieten"
+  - title: Schilderen
+    link: "/schilderen"
+  - title: Contact
+    link: "/contact"
+  - title: Volg mij op Facebook
+    link: "https://www.facebook.com/vergauwe.sofie"
+    icon: facebook
