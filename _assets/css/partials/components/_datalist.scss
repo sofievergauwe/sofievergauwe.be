@@ -10,12 +10,12 @@ dl {
   }
 
   dt {
-    width: calc(100% - #{unit(60, unit(14))});
+    width: 66.666%;
     font-size: font-size(small);
   }
 
   dd {
-    width: unit(60);
+    width: 33.333%;
   }
 
   & + p {

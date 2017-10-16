@@ -20,7 +20,7 @@ var PagePreview = createClass({
       body: this.props.widgetFor('body'),
       infoImage: entry.getIn(['data', 'info-image']),
       info: this.props.widgetFor('info'),
-      prices: entry.getIn(['data', 'prices']),
+      datalist: entry.getIn(['data', 'datalist']),
     }
 
 
@@ -57,7 +57,7 @@ var PagePreview = createClass({
 
       var image = '';
       var info = '';
-      var prices = '';
+      var datalist = '';
 
       // info image
       if (data.infoImage != null) {
@@ -72,22 +72,29 @@ var PagePreview = createClass({
         info = h('section', {className: 'block description'}, h('h3', {className: 'hidden'}, 'Meer informatie'), data.info);
       }
 
-      // prices
-      if (data.prices != null) {
+      // datalist
+      if (data.datalist != null) {
 
-        datalist = this.props.widgetsFor('prices').map(function(price, index) {
+        var title = entry.getIn(['data', 'datalist', 'title']);
+
+        var list = entry.getIn(['data', 'datalist', 'list']).map(function(item, index) {
+
+          var title = item.get('title');
+          var info = item.get('info');
+          var data = item.get('data');
+
           return [
-            h('dt', {}, [h('span', {}, price.getIn(['data', 'name'])), h('span', {className: 'time'}, price.getIn(['data', 'time']))]),
-            h('dd', {}, price.getIn(['data', 'price']))
+            h('dt', {}, [h('span', {}, title), h('span', {className: 'info'}, info)]),
+            h('dd', {}, data)
           ];
         });
 
-        prices = h('section', {className: "block"}, h('h3', {}, 'Prijzen'), h('dl', {}, datalist));
+        datalist = h('section', {className: "block"}, h('h3', {}, title), h('dl', {}, list));
 
       }
 
       // sidebar
-      sidebar = h('aside', {}, image, info, prices)
+      sidebar = h('aside', {}, image, info, datalist)
 
     }
 
