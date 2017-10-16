@@ -77,7 +77,7 @@ collections:
       preview: false
     files:
       - name: "mainmenu"
-        label: "Mainmenu"
+        label: "Main menu"
         file: "_data/menu.yml"
         fields:
           - {label: "Title", name: "title", widget: "string" }
@@ -88,3 +88,21 @@ collections:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Link", name: "link", widget: "string"}
               - {label: "Description", name: "description", widget: "text"}
+
+  - name: "forms"
+    label: "Forms"
+    editor:
+      preview: false
+    folder: "_data/forms"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Success link", name: "success", widget: "string"}
+      - label: "Fields"
+        name: fields
+        widget: "list"
+        fields:
+          - {label: "Name", name: name, widget: string}
+          - {label: "Label", name: label, widget: string}
+          - {label: "type", name: type, widget: string}
+          - {label: "Required", name: "required", widget: "boolean", default: false}
+          - {label: "Options", name: options, widget: "list"}
