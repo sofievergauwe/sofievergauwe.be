@@ -4,17 +4,15 @@ permalink: /schilderen
 layout: page
 image: /media/schilderen.jpg
 caption:
-  quote: Als ik schilder, voel ik me tijdloos...
-  vertical-align: bottom
   horizontal-align: left
-prices:
+  quote: 'Als ik schilder, voel ik me tijdloos...'
+  vertical-align: bottom
 datalist:
-  title: Prijzen
   list:
-  - title: Portret (1 gezicht) op canvas 50x80cm, olieverf
-    info: 30'
-    data: € 200
-  footnote: De prijs van een portret is afhankelijk van de afmetingen van het doek en het aantal schilderuren (1 of meerdere gezichten).
+    - data: € 200
+      title: Portret (1 gezicht)
+      info: 'op canvas 50x80cm, olieverf'
+  title: Prijzen
 ---
 
 _Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten** die je in de galerij kan bekijken, zijn een goede weergave van mijn huidige schildervorm. Ik maak gebruik van **olieverf**._
