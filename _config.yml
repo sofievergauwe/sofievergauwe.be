@@ -33,6 +33,10 @@ keep_files:
   - media
   - admin
 
+collections:
+  forms:
+    output: false
+
 # jekyll-assets
 assets:
   compress:

@@ -16,7 +16,7 @@ collections:
       value: page
     create: true
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h2" }
+      - {label: "Title", name: "title", widget: "string" }
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "page" }
       - {label: "Banner", name: "image", widget: "image", required: false }
@@ -49,7 +49,7 @@ collections:
       value: frontpage
     create: false
     fields:
-      - {label: "Title", name: "title", widget: "string", tagname: "h2" }
+      - {label: "Title", name: "title", widget: "string" }
       - {label: "Permalink", name: "permalink", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "frontpage" }
       - {label: "Banner", name: "image", widget: "image", required: false }
@@ -91,10 +91,10 @@ collections:
 
   - name: "forms"
     label: "Forms"
-    editor:
-      preview: false
-    folder: "_data/forms"
+    folder: "_forms"
+    create: true
     fields:
+      - {label: "Name", name: "name", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Success link", name: "success", widget: "string"}
       - label: "Fields"

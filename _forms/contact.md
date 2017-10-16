@@ -1,3 +1,5 @@
+---
+name: contact
 title: Contactformulier
 success: /bericht-verzonden
 fields:
@@ -16,3 +18,4 @@ fields:
 - name: submit
   label: Verzenden
   type: submit
+---

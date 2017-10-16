@@ -1,4 +1,4 @@
-{% assign form = site.data.forms[include.form] %}
+{% assign form = site.forms | where:"name", include.form | first %}
 
 <form action="{{ form.success }}" name="contact" netlify netlify-honeypot="gotcha">
   <input type="text" name="gotcha" style="display:none" />
