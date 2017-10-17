@@ -13,7 +13,6 @@ datalist:
     - data: € 200
       title: Portret (1 gezicht)
       info: 'op canvas 50x80cm, olieverf'
-  title: Prijzen
 ---
 
 _Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten** die je in de galerij kan bekijken, zijn een goede weergave van mijn huidige schildervorm. Ik maak gebruik van **olieverf**._
