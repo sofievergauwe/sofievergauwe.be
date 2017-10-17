@@ -12,7 +12,7 @@ info:
     Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de
     huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen
     met behulp van massage losgemaakt en afgevoerd worden.
-  title: Informatie
+  title: ''
   image: /media/reiki.jpg
 datalist:
   description: _Alle massages zijn inclusief water/thee_
