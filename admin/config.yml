@@ -97,7 +97,13 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string" }
               - {label: "Url", name: "url", widget: "string" }
-              - {label: "Type", name: "type", widget: "select", required: true, options: ["button", "text"], default: "button" }
+      - label: "Buttons"
+        name: buttons
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string" }
+          - {label: "Url", name: "url", widget: "string" }
 
   - name: "forms"
     label: "Forms"

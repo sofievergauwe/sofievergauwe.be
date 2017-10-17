@@ -13,6 +13,16 @@
   height: 480px;
 }
 
-.block > div {
-  margin: 0 !important;
+section.block > div > :first-child {
+  margin-top: 0;
+}
+
+section.block > div > :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1080px) {
+  .image-sidebar {
+    height: 320px;
+  }
 }

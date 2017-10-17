@@ -46,10 +46,6 @@ select {
   position: relative;
 }
 
-.cms__EntryListing__card p + p {
-  display: none;
-}
-
 .cms__EntryListing__card:after {
   content: "";
   z-index: 3;
@@ -69,17 +65,27 @@ select {
   background-color: lightgrey;
 }
 
-.cms__ListControl__addButtonText {
-  display: none;
-}
-
 .cms__ListControl__item .material-icons {
   opacity: .5;
   padding: 0 2px;
 }
 
+.cms__EntryListing__card p + p,
+.cms__ListControl__addButtonText,
 .cms__AppHeader__homeLink,
 .cms__AppHeader__homeLink + div,
 [data-react-toolbox="avatar"] {
   display: none;
+}
+
+
+[data-slate-editor="true"] {
+  padding: 0 18px !important;
+}
+
+.cms__index__shortcode {
+  margin: 16px 0;
+  border-radius: 8px;
+  border-width: 1px;
+  font-size: 14px;
 }

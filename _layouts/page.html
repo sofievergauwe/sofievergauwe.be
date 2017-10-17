@@ -24,8 +24,11 @@ layout: default
   {% endif %}
 
   {% if page.links.items != nil %}
-  {% capture class %}{% if page.links.title == nil and page.links.description == nil %}transparent{% endif %}{% endcapture %}
-  {% include block.html item=page.links class=class type="links" default-title="Links" %}
+  {% include block.html item=page.links class="links" type="links" default-title="Links" %}
+  {% endif %}
+
+  {% if page.buttons != nil %}
+  {% include buttons.html items=page.buttons %}
   {% endif %}
 
 {% endcapture %}

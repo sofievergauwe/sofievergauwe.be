@@ -3,7 +3,7 @@
 
 <section {% if class %}class="{{ class }}"{% endif %}>
 
-  {% if include.item.title %}
+  {% if include.item.title != '' %}
     <h3>{{ include.item.title }}</h3>
   {% else %}
     <h3 class="hidden">{{ include.default-title }}</h3>

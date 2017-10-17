@@ -52,7 +52,7 @@ var PagePreview = createClass({
       var caption = '';
 
       // quote
-      if (data.caption.quote != null) {
+      if (data.caption.quote != '') {
         caption = h('figcaption', {className: data.caption.verticalAlign + " " + data.caption.horizontalAlign},
           h('blockquote', {}, h('p', {}, data.caption.quote )),
         );
@@ -76,7 +76,7 @@ var PagePreview = createClass({
       var description = '';
 
       // info title
-      if (data.info.title != null) {
+      if (data.info.title != '""') {
         title = h('h3', {}, data.info.title);
       } else {
         title = h('h3', {className: 'hidden'}, 'informatie');
@@ -109,7 +109,7 @@ var PagePreview = createClass({
       var items = '';
 
       // datalist title
-      if (data.datalist.title != null) {
+      if (data.datalist.title != '') {
         title = h('h3', {}, data.datalist.title);
       } else {
         title = h('h3', {className: 'hidden'}, 'Opsomming');
@@ -140,7 +140,7 @@ var PagePreview = createClass({
       var items = '';
 
       // datalist title
-      if (data.links.title != null) {
+      if (data.links.title != '') {
         title = h('h3', {}, data.links.title);
       } else {
         title = h('h3', {className: 'hidden'}, 'Opsomming');
