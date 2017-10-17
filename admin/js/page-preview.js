@@ -75,8 +75,6 @@ var PagePreview = createClass({
       var image = '';
       var description = '';
 
-      console.log(data.info.description);
-
       // info title
       if (data.info.title != null) {
         title = h('h3', {}, data.info.title);
