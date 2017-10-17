@@ -14,7 +14,7 @@ var PagePreview = createClass({
     var info = '';
     var datalist = '';
     var links = '';
-
+    var butons = '';
 
     // page data object
     var data = {
@@ -41,6 +41,7 @@ var PagePreview = createClass({
         description: this.props.widgetsFor('links').getIn(['widgets', 'description']),
         items: entry.getIn(['data', 'links', 'items']),
       },
+      buttons: entry.getIn(['data', 'buttons']),
     }
 
 
@@ -149,7 +150,7 @@ var PagePreview = createClass({
       // datalist items
       if (data.links.items != null) {
         var items = data.links.items.map(function(item, index) {
-          return h('a', {className: item.get('type'), href: item.get('url')}, item.get('title'));
+          return h('a', {href: item.get('url')}, item.get('title'));
         });
       }
 
@@ -159,9 +160,15 @@ var PagePreview = createClass({
     }
 
 
+    if (data.buttons != null) {
+      buttons = data.buttons.map(function(item, index) {
+        return h('a', {className: 'button', href: item.get('url')}, item.get('title'));
+      });
+    }
+
     // sidebar
     if (info || datalist || links) {
-      sidebar = h('aside', {}, [info, datalist, links]);
+      sidebar = h('aside', {}, [info, datalist, links, buttons]);
     }
 
 
