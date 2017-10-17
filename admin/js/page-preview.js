@@ -10,6 +10,7 @@ var PagePreview = createClass({
     // placeholder vars
     var banner = '';
     var article = '';
+    var sidebar = '';
     var info = '';
     var datalist = '';
     var links = '';
@@ -175,11 +176,11 @@ var PagePreview = createClass({
     );
 
 
-    // render
     return h('div', {className: 'body'}, banner, article);
 
   }
 });
+
 
 
 // register preview template
