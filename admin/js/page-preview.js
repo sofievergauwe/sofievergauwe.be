@@ -10,7 +10,9 @@ var PagePreview = createClass({
     // placeholder vars
     var banner = '';
     var article = '';
-    var sidebar = '';
+    var info = '';
+    var datalist = '';
+    var links = '';
 
 
     // page data object
@@ -18,29 +20,41 @@ var PagePreview = createClass({
       title: entry.getIn(['data', 'title']),
       image: entry.getIn(['data', 'image']),
       body: this.props.widgetFor('body'),
-      infoImage: entry.getIn(['data', 'info-image']),
-      info: this.props.widgetFor('info'),
-      datalist: entry.getIn(['data', 'datalist']),
+      caption: {
+        quote: entry.getIn(['data', 'caption', 'quote']),
+        verticalAlign: entry.getIn(['data', 'caption', 'vertical-align']),
+        horizontalAlign: entry.getIn(['data', 'caption', 'horizontal-align']),
+      },
+      info: {
+        title: entry.getIn(['data', 'info', 'title']),
+        image: entry.getIn(['data', 'info', 'image']),
+        description: this.props.widgetsFor('info').getIn(['widgets', 'description']),
+      },
+      datalist: {
+        title: entry.getIn(['data', 'datalist', 'title']),
+        description: this.props.widgetsFor('datalist').getIn(['widgets', 'description']),
+        items: entry.getIn(['data', 'datalist', 'items']),
+      },
+      links: {
+        title: entry.getIn(['data', 'links', 'title']),
+        description: this.props.widgetsFor('links').getIn(['widgets', 'description']),
+        items: entry.getIn(['data', 'links', 'items']),
+      },
     }
 
 
     // banner and caption
     if (data.image != null) {
 
+      // placeholder vars
       var url = this.props.getAsset(data.image);
-      var quote = entry.getIn(['data', 'caption', 'quote']);
       var caption = '';
 
       // quote
-      if (quote != null) {
-
-        var verticalAlign = entry.getIn(['data', 'caption', 'vertical-align']);
-        var horizontalAlign = entry.getIn(['data', 'caption', 'horizontal-align']);
-
-        caption = h('figcaption', {className: verticalAlign + " " + horizontalAlign},
-          h('blockquote', {}, h('p', {}, quote )),
+      if (data.caption.quote != null) {
+        caption = h('figcaption', {className: data.caption.verticalAlign + " " + data.caption.horizontalAlign},
+          h('blockquote', {}, h('p', {}, data.caption.quote )),
         );
-
       }
 
       // banner
@@ -52,50 +66,103 @@ var PagePreview = createClass({
     }
 
 
-    // sidebar
-    if (data.infoImage != null || data.info != null || data.prices != null) {
+    // info
+    if (data.info.image != null || data.info.description.props.value) {
 
+      // placeholder vars
+      var title = '';
       var image = '';
-      var info = '';
-      var datalist = '';
+      var description = '';
+
+      console.log(data.info.description);
+
+      // info title
+      if (data.info.title != null) {
+        title = h('h3', {}, data.info.title);
+      } else {
+        title = h('h3', {className: 'hidden'}, 'informatie');
+      }
 
       // info image
-      if (data.infoImage != null) {
-        var url = this.props.getAsset(data.infoImage);
+      if (data.info.image != null) {
+        var url = this.props.getAsset(data.info.image);
         image = h('figure', {},
           h('picture', {className: 'image image-sidebar', style: {'background-image': 'url(' + url.toString() + ')'}}),
         );
       }
 
-      // info
-      if (data.info != null) {
-        info = h('section', {className: 'block description'}, h('h3', {className: 'hidden'}, 'Meer informatie'), data.info);
+      // info description
+      if (data.info.description.props.value != null) {
+        description = h('section', {className: 'block'}, title, data.info.description);
       }
 
-      // datalist
-      if (data.datalist != null) {
+      // react component
+      info = [image, description];
 
-        var title = entry.getIn(['data', 'datalist', 'title']);
+    }
 
-        var list = entry.getIn(['data', 'datalist', 'list']).map(function(item, index) {
 
-          var title = item.get('title');
-          var info = item.get('info');
-          var data = item.get('data');
+    // datalist
+    if (data.datalist.items || data.datalist.description.props.value) {
 
+      // placeholder vars
+      var title = '';
+      var items = '';
+
+      // datalist title
+      if (data.datalist.title != null) {
+        title = h('h3', {}, data.datalist.title);
+      } else {
+        title = h('h3', {className: 'hidden'}, 'Opsomming');
+      }
+
+      // datalist items
+      if (data.datalist.items != null) {
+        var items = h('dl', {}, data.datalist.items.map(function(item, index) {
           return [
-            h('dt', {}, [h('span', {}, title), h('span', {className: 'info'}, info)]),
-            h('dd', {}, data)
+            h('dt', {}, [item.get('title'), h('span', {className: 'info'}, ' ' + item.get('info'))]),
+            h('dd', {}, item.get('data'))
           ];
-        });
-
-        datalist = h('section', {className: "block"}, h('h3', {}, title), h('dl', {}, list));
+        }));
 
       }
 
-      // sidebar
-      sidebar = h('aside', {}, image, info, datalist)
+      // react component
+      datalist = h('section', {className: 'block'}, title, data.datalist.description.props.value ? data.datalist.description : '', items);
 
+    }
+
+
+    // links
+    if (data.links.items != null || data.links.description.props.value) {
+
+      // placeholder vars
+      var title = '';
+      var items = '';
+
+      // datalist title
+      if (data.links.title != null) {
+        title = h('h3', {}, data.links.title);
+      } else {
+        title = h('h3', {className: 'hidden'}, 'Opsomming');
+      }
+
+      // datalist items
+      if (data.links.items != null) {
+        var items = data.links.items.map(function(item, index) {
+          return h('a', {className: item.get('type'), href: item.get('url')}, item.get('title'));
+        });
+      }
+
+      // react component
+      links = h('section', {className: 'block'}, title, data.links.description.props.value ? data.links.description : '', items);
+
+    }
+
+
+    // sidebar
+    if (info || datalist || links) {
+      sidebar = h('aside', {}, [info, datalist, links]);
     }
 
 
