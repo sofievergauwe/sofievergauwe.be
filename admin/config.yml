@@ -60,29 +60,45 @@ collections:
           - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
           - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
       - {label: "Body", name: "body", widget: "markdown" }
-      - {label: "Sidebar image", name: "info-image", widget: "image", required: false }
-      - {label: "Sidebar body", name: "info", widget: "markdown", required: false }
+      - label: "Info"
+        name: info
+        required: false
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Image", name: "image", widget: "image", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
       - label: "Datalist"
         name: datalist
         required: false
         widget: object
         fields:
-          - {label: "Title", name: "title", widget: "string" }
-          - label: "List"
-            name: list
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
+          - label: "Items"
+            name: items
+            required: false
             widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Info", name: "info", widget: "string"}
               - {label: "Data", name: "data", widget: "string"}
-          - label: "Link"
-            name: link
+      - label: "Links"
+        name: links
+        required: false
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
+          - label: "Items"
+            name: itmes
             required: false
-            widget: object
+            widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string" }
               - {label: "Url", name: "url", widget: "string" }
-              
+              - {label: "Type", name: "type", widget: "select", required: true, options: ["button", "text"], default: "button" }
+
   - name: "forms"
     label: "Forms"
     editor:

@@ -1,0 +1,6 @@
+$text-link: (
+  selector: 'article a, a.text',
+  border: 1px solid color(focus),
+  border-focus-color: color(text),
+  line-height: line-height(.8),
+);

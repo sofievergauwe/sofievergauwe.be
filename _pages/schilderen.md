@@ -8,7 +8,8 @@ caption:
   quote: 'Als ik schilder, voel ik me tijdloos...'
   vertical-align: bottom
 datalist:
-  list:
+  title: Prijzen
+  items:
     - data: € 200
       title: Portret (1 gezicht)
       info: 'op canvas 50x80cm, olieverf'

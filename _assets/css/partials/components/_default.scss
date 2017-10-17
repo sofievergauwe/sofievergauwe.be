@@ -56,3 +56,16 @@ blockquote em {
 em strong {
   font-weight: 700;
 }
+
+
+// text links
+a.text {
+  display: block;
+  margin: spacing(tiny) 0;
+  font-size: font-size(small);
+  line-height: line-height(small);
+
+  &:first-of-type {
+    margin-top: unit(24);
+  }
+}

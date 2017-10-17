@@ -2,51 +2,38 @@
 layout: default
 ---
 
-{% assign sidebar = null %}
-{% if page.info-image or page-info or page.datalist.title %}
-  {% assign sidebar = true %}
-{% endif %}
-
 <article {% if sidebar %}class="sidebar"{% endif %}>
   <h2><span>{{ page.title }}</span></h2>
   {{ content }}
 </article>
 
-{% if sidebar %}
-<aside>
+{% capture sidebar %}
 
-  {% if page.info-image %}
+  {% if page.info.image %}
   <figure>
-    {% include_cached image.html file=page.info-image style='sidebar' alt=page.title %}
+    {% include_cached image.html file=page.info.image style='sidebar' alt=page.title %}
   </figure>
   {% endif %}
 
-  {% if page.info %}
-  <section class="block description">
-    <h3 class="hidden">Meer informatie</h3>
-    {{ page.info | markdownify }}
-  </section>
+  {% if page.info.description %}
+  {% include block.html item=page.info default-title="Meer informatie" %}
   {% endif %}
 
-  {% if page.datalist %}
-  <section class="block">
-    <h3>{{ page.datalist.title }}</h3>
-
-    <dl>
-      {% for item in page.datalist.list %}
-      <dt>{{ item.title }} <span class="info">{{ item.info }}</span></dt>
-      <dd>{{ item.data }}</dd>
-      {% endfor %}
-    </dl>
-
-    {{ page.datalist.footnote | markdownify }}
-
-    {% if page.datalist.link.title %}
-    <a class="button" href="{{ page.datalist.link.url }}">{{ page.datalist.link.title }}</a>
-    {% endif %}
-  </section>
+  {% if page.datalist.items != nil %}
+  {% include block.html item=page.datalist type="datalist" default-title="Opsomming" %}
   {% endif %}
 
+  {% if page.links.items != nil %}
+  {% capture class %}{% if page.links.title == nil and page.links.description == nil %}transparent{% endif %}{% endcapture %}
+  {% include block.html item=page.links class=class type="links" default-title="Links" %}
+  {% endif %}
+
+{% endcapture %}
+
+{% assign sidebar = sidebar | strip %}
+
+{% if sidebar != "" %}
+<aside>
+  {{ sidebar }}
 </aside>
-
 {% endif %}

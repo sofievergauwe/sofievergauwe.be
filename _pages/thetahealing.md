@@ -9,7 +9,7 @@ caption:
   horizontal-align: center
 datalist:
   title: Prijzen
-  list:
+  items:
   - title: Thetasessie
     info: 60'
     data: € 50

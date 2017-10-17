@@ -97,11 +97,16 @@ main {
     figure,
     .block {
       margin-bottom: spacing(1, unit(14));
+    }
 
-      & + .description {
-        margin-top: spacing(-1, unit(14));
-      }
+    figure + .block {
+      margin-top: spacing(-1, unit(14));
+    }
 
+    h3 {
+      font-size: unit(20);
+      line-height: line-height(small);
+      color: color(text, 30);
     }
 
   }
