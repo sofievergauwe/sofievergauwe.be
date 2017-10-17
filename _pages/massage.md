@@ -4,37 +4,37 @@ permalink: /massage
 layout: page
 image: /media/massage.jpg
 caption:
+  horizontal-align: center
   quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
   vertical-align: middle
-  horizontal-align: center
 info:
-  title:
-  image: /media/reiki.jpg
   description: >-
-    Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen met behulp van massage losgemaakt en afgevoerd worden.
+    Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de
+    huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen
+    met behulp van massage losgemaakt en afgevoerd worden.
+  title: Informatie
+  image: /media/reiki.jpg
 datalist:
-  title: Prijzen
   description: _Alle massages zijn inclusief water/thee_
   items:
-  - title: Hoofdmassage
-    info: 30'
-    data: € 20
-  - title: Rugmassage
-    info: 30'
-    data: € 20
-  - title: Rugmassage
-    info: 60'
-    data: € 35
-  - title: Full body massage
-    info: 120'
-    data: € 60
+    - data: € 20
+      title: Hoofdmassage
+      info: 30'
+    - data: € 20
+      title: Rugmassage
+      info: 30'
+    - data: € 35
+      title: Rugmassage
+      info: 60'
+    - data: € 60
+      title: Full body massage
+      info: 120'
+  title: Prijzen
 links:
-  title:
-  description:
   items:
-  - title: Afspraak maken
-    type: button
-    url: '#'
+    - title: Afspraak maken
+      type: button
+      url: '#'
 ---
 
 _Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het **onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam**._
