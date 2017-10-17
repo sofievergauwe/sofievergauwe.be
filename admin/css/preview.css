@@ -12,3 +12,7 @@
 .image-banner {
   height: 480px;
 }
+
+.block > div {
+  margin: 0;
+}
