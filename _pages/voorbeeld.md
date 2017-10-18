@@ -12,8 +12,7 @@ info:
 datalist:
   description: ''
 ---
-_Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Fusce gravida mi ut consequat ultrices. **Vestibulum** vel tempor ex._\
-_Mauris maximus, sem sit amet vulputate tempor, dui nisi semper felis, sed pulvinar elit nibh sit amet libero._
+_Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Fusce gravida mi ut consequat ultrices. **Vestibulum** vel tempor ex.  Mauris maximus, sem sit amet vulputate tempor, dui nisi semper felis, sed pulvinar elit nibh sit amet libero._
 
 Maecenas rhoncus lectus ligula, id venenatis eros pretium ut. Aenean id nisl vitae mi maximus eleifend. Vivamus tristique ac neque non euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
