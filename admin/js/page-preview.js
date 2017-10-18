@@ -23,8 +23,7 @@ var PagePreview = createClass({
       body: this.props.widgetFor('body'),
       caption: {
         quote: entry.getIn(['data', 'caption', 'quote']),
-        verticalAlign: entry.getIn(['data', 'caption', 'vertical-align']),
-        horizontalAlign: entry.getIn(['data', 'caption', 'horizontal-align']),
+        align: entry.getIn(['data', 'caption', 'align']),
       },
       info: {
         title: entry.getIn(['data', 'info', 'title']),
@@ -54,7 +53,7 @@ var PagePreview = createClass({
 
       // quote
       if (data.caption.quote != '') {
-        caption = h('figcaption', {className: data.caption.verticalAlign + " " + data.caption.horizontalAlign},
+        caption = h('figcaption', {className: data.caption.align },
           h('blockquote', {}, h('p', {}, data.caption.quote )),
         );
       }
