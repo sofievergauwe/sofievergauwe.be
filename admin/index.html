@@ -20,17 +20,27 @@
 
     var CapationAlignControl = createClass({
       handleChange: function(e) {
-        this.props.onChange(e.target.value.split(' '));
+        this.props.onChange(e.target.value);
       },
 
       render: function() {
 
-        var value = this.props.value;
-        console.log(value);
+        var value = ['middle', 'center']
+        if (this.props.value) {
+          value = this.props.value.split(' ');
+        }
+
         return h('div', {className: 'group'},
-          h('input', { type: 'text', value: '', onChange: this.handleChange }),
-          h('input', { type: 'text', value: '', onChange: this.handleChange }),
-        );
+          h('select', { style: {'margin-right': '4px' }, name: 'valign', type: 'select', value: value[0], onChange: this.handleChange },
+            h('option', {}, 'top'),
+            h('option', {}, 'middle'),
+            h('option', {}, 'bottom'),
+          ),
+          h('select', { style: {'margin-left': '4px' }, name: 'halign', type: 'select', value: value[1], onChange: this.handleChange },
+            h('option', {}, 'left'),
+            h('option', {}, 'center'),
+            h('option', {}, 'right'),
+          ),        );
       }
     });
 
