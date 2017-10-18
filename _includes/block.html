@@ -9,7 +9,7 @@
     <h3 class="hidden">{{ include.default-title }}</h3>
   {% endif %}
 
-  {{ include.item.description | markdownify }}
+  {{ include.item.description | markdownify | replace: "\", "<br/>" }}
 
   {% if include.item.items and include.type %}
     {% assign file = include.type | append: ".html" %}

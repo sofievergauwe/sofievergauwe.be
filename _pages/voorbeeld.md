@@ -7,10 +7,10 @@ caption:
   align: middle center
   quote: Dit is een quote
 info:
-  description: Info omschrijving
+  description: Maecenas rhoncus lectus ligula.\Id venenatis eros pretium ut.
   title: Info titlel
 datalist:
-  description: ''
+  description: Extra info
 ---
 _Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Fusce gravida mi ut consequat ultrices. **Vestibulum** vel tempor ex._\
 _Mauris maximus, sem sit amet vulputate tempor, dui nisi semper felis, sed pulvinar elit nibh sit amet libero._
@@ -21,7 +21,7 @@ Maecenas rhoncus lectus ligula, id venenatis eros pretium ut. Aenean id nisl vit
 
 * Suspendisse eget nunc eros.
 * Nam sed eros efficitur ex pretium
-* ornare quis sit amet mauris. 
+* ornare quis sit amet mauris.
 * incidunt erat nec lorem finibus rhoncus
 
 Praesent in ex sed orci rutrum consectetur. Proin suscipit pharetra rhoncus. Nullam turpis justo, lobortis vel felis ut, congue vulputate magna.
