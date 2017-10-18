@@ -16,25 +16,24 @@ var FrontPagePreview = createClass({
     var data = {
       title: entry.getIn(['data', 'title']),
       image: entry.getIn(['data', 'image']),
+      caption: {
+        quote: entry.getIn(['data', 'caption', 'quote']),
+        align: entry.getIn(['data', 'caption', 'align']),
+      },
       teasers: entry.getIn(['data', 'teasers']),
     }
-
 
     // banner and caption
     if (data.image != null) {
 
       var url = this.props.getAsset(data.image);
-      var quote = entry.getIn(['data', 'caption', 'quote']);
       var caption = '';
 
       // quote
       if (quote != null) {
 
-        var verticalAlign = entry.getIn(['data', 'caption', 'vertical-align']);
-        var horizontalAlign = entry.getIn(['data', 'caption', 'horizontal-align']);
-
-        caption = h('figcaption', {className: verticalAlign + " " + horizontalAlign},
-          h('blockquote', {}, h('p', {}, quote )),
+        caption = h('figcaption', {className: data.caption.align },
+          h('blockquote', {}, h('p', {}, data.caption.quote )),
         );
 
       }
