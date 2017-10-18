@@ -91,14 +91,14 @@ select {
 }
 
 .group,
-.cms__ListControl__objectControl {
+#items .cms__ListControl__objectControl {
   display: flex;
   margin-left: -4px;
   margin-right: -4px;
 }
 
 .group > div,
-.cms__ListControl__objectControl > div {
+#items .cms__ListControl__objectControl > div {
   width: 100%;
   margin: 0 4px 8px;
 }
