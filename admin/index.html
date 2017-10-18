@@ -19,9 +19,19 @@
     CMS.registerPreviewStyle("css/preview.css");
 
     var CapationAlignControl = createClass({
-      handleChange: function(e) {
-        this.props.onChange(e.target.value);
+
+      handleChangeVer: function(e) {
+        var values = this.props.value.split(' ');
+        values[0] = e.target.value
+        this.props.onChange(values.join(' '));
       },
+
+      handleChangeHor: function(e) {
+        var values = this.props.value.split(' ');
+        values[1] = e.target.value
+        this.props.onChange(values.join(' '));
+      },
+
 
       render: function() {
 
@@ -31,16 +41,17 @@
         }
 
         return h('div', {className: 'group'},
-          h('select', { style: {'margin-right': '4px' }, name: 'valign', type: 'select', value: value[0], onChange: this.handleChange },
+          h('select', { style: {'margin-right': '4px' }, name: 'valign', type: 'select', value: value[0], onChange: this.handleChangeVer },
             h('option', {}, 'top'),
             h('option', {}, 'middle'),
             h('option', {}, 'bottom'),
           ),
-          h('select', { style: {'margin-left': '4px' }, name: 'halign', type: 'select', value: value[1], onChange: this.handleChange },
+          h('select', { style: {'margin-left': '4px' }, name: 'halign', type: 'select', value: value[1], onChange: this.handleChangeHor },
             h('option', {}, 'left'),
             h('option', {}, 'center'),
             h('option', {}, 'right'),
-          ),        );
+          ),
+        );
       }
     });
 
