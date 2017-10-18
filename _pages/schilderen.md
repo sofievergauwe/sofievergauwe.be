@@ -4,9 +4,8 @@ permalink: /schilderen
 layout: page
 image: /media/schilderen.jpg
 caption:
-  horizontal-align: left
   quote: 'Als ik schilder, voel ik me tijdloos...'
-  vertical-align: bottom
+  align: bottom left
 datalist:
   title: Prijzen
   items:

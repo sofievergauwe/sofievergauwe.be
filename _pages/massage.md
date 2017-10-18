@@ -4,9 +4,8 @@ permalink: /massage
 layout: page
 image: /media/massage.jpg
 caption:
-  horizontal-align: center
   quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
-  vertical-align: middle
+  align: middle center
 info:
   description: >-
     Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de

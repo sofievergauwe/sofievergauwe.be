@@ -4,9 +4,8 @@ permalink: /contact
 layout: page
 image: /media/paardje.jpg
 caption:
-  horizontal-align: right
   quote: Iedereen is welkom!
-  vertical-align: bottom
+  align: bottom right
 info:
   image: /media/stoepe.jpg
   description: >-

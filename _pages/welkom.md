@@ -5,8 +5,7 @@ permalink: /
 image: /media/sofie.jpg
 caption:
   quote: Welkom in de wereld van Sofie...
-  vertical-align: bottom
-  horizontal-align: left
+  align: bottom left
 teasers:
   - title: Massage
     image: /media/massage.jpg

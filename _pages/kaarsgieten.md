@@ -5,8 +5,7 @@ permalink: /kaarsgieten
 image: /media/kaarsgieten.jpg
 caption:
   quote: Come on baby, light my fire...
-  vertical-align: top
-  horizontal-align: right
+  align: top right
 ---
 
 In ons charmant kaarsengieterijtje krijg ik de kans me op een speelse, creatieve en

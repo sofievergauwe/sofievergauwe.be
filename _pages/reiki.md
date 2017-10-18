@@ -5,8 +5,7 @@ layout: page
 image: /media/reiki.jpg
 caption:
   quote: Where attention goes, energy flows…
-  vertical-align: bottom
-  horizontal-align: left
+  align: bottom left
 info:
   image: /media/reiki.jpg
   description:

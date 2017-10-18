@@ -5,8 +5,7 @@ layout: page
 image: /media/thetahealing.jpg
 caption:
   quote: Het evenwicht tussen lichaam en geest
-  vertical-align: middle
-  horizontal-align: center
+  align: middle center
 datalist:
   title: Prijzen
   items:
