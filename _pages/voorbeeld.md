@@ -4,7 +4,7 @@ permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
-  align: top left
+  align: center
   horizontal-align: center
   quote: Dit is een quote
   vertical-align: middle
