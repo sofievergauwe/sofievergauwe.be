@@ -4,7 +4,7 @@ layout: default
 
 <article {% if sidebar %}class="sidebar"{% endif %}>
   <h2><span>{{ page.title }}</span></h2>
-  {{ content }}
+  {{ content | replace: "\", "<br/>" }}
 </article>
 
 {% capture sidebar %}

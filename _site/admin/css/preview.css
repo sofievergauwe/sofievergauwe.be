@@ -1,0 +1,28 @@
+.body {
+  margin-top: -5em;
+  position: relative;
+}
+
+.image {
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.image-banner {
+  height: 480px;
+}
+
+section.block > div > :first-child {
+  margin-top: 0;
+}
+
+section.block > div > :last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 1080px) {
+  .image-sidebar {
+    height: 320px;
+  }
+}

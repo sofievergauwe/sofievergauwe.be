@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/404</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact</loc>
+</url>
+<url>
+<loc>http://localhost:4000/kaarsgieten</loc>
+</url>
+<url>
+<loc>http://localhost:4000/massage</loc>
+</url>
+<url>
+<loc>http://localhost:4000/reiki</loc>
+</url>
+<url>
+<loc>http://localhost:4000/schilderen</loc>
+</url>
+<url>
+<loc>http://localhost:4000/thetahealing</loc>
+</url>
+<url>
+<loc>http://localhost:4000/bericht-verzonden</loc>
+</url>
+<url>
+<loc>http://localhost:4000/voorbeeld</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/admin/index.html</loc>
+<lastmod>2017-10-18T11:08:07+02:00</lastmod>
+</url>
+</urlset>
