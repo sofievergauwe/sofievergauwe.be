@@ -56,7 +56,7 @@ collections:
         widget: "object"
         fields:
           - {label: "Quote", name: "quote", widget: "string", required: false }
-          - {label: "Cite", name: "cite", widget: "string", required: false }
+          - {label: "Align", name: "align", widget: "captionalign" }
           - {label: "Vertical align", name: "vertical-align", widget: "select", required: true, options: ["top", "middle", "bottom"], default: "middle" }
           - {label: "Horizontal align", name: "horizontal-align", widget: "select", required: true, options: ["left", "center", "right"], default: "center" }
       - {label: "Body", name: "body", widget: "markdown" }

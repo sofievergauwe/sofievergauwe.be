@@ -20,16 +20,16 @@
 
     var CapationAlignControl = createClass({
       handleChange: function(e) {
-        this.props.onChange(e.target.value.split(',').map((e) => e.trim()));
+        this.props.onChange(e.target.value.split(' '));
       },
 
       render: function() {
 
         var value = this.props.value;
-
+        console.log(value);
         return h('div', {className: 'group'},
-          h('input', { type: 'text', value: value[0] ? value[0] : '', onChange: this.handleChange }),
-          h('input', { type: 'text', value: value[1] ? value[1] : '', onChange: this.handleChange }),
+          h('input', { type: 'text', value: '', onChange: this.handleChange }),
+          h('input', { type: 'text', value: '', onChange: this.handleChange }),
         );
       }
     });
