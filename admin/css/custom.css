@@ -91,7 +91,7 @@ select {
 }
 
 .group,
-#buttons .cms__ListControl__objectControl
+#buttons .cms__ListControl__objectControl,
 #items .cms__ListControl__objectControl {
   display: flex;
   margin-left: -4px;
@@ -99,7 +99,7 @@ select {
 }
 
 .group > div,
-#buttons .cms__ListControl__objectControl > div
+#buttons .cms__ListControl__objectControl > div,
 #items .cms__ListControl__objectControl > div {
   width: 100%;
   margin: 0 4px 8px;

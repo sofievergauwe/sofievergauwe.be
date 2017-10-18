@@ -14,7 +14,7 @@ var PagePreview = createClass({
     var info = '';
     var datalist = '';
     var links = '';
-    var butons = '';
+    var buttons = '';
 
     // page data object
     var data = {
