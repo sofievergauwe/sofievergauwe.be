@@ -1,19 +1,28 @@
 ---
-title: Voorbeeld
+title: Title
 permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
   align: middle center
-  quote: Dit is een quote
+  quote: Banner caption quote
 info:
-  description: Info omschrijving
-  title: Info titlel
+  description: >-
+    Maecenas rhoncus lectus ligula, id venenatis eros pretium ut. Aenean id nisl
+    vitae mi maximus eleifend. Vivamus tristique ac neque non euismod.
+  title: Info title
 datalist:
-  description: ''
+  description: 'Maecenas rhoncus lectus ligula, id venenatis eros pretium ut.'
+  items:
+    - data: Data
+      title: 'Title '
+      info: Info
+    - data: Data 2
+      title: Title 2
+      info: Info 2
+  title: Datalist title
 ---
-_Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Fusce gravida mi ut consequat ultrices. **Vestibulum** vel tempor ex._\
-_Mauris maximus, sem sit amet vulputate tempor, dui nisi semper felis, sed pulvinar elit nibh sit amet libero._
+_Lorem ipsum dolor sit amet, consectetur **adipiscing** elit. Fusce gravida mi ut consequat ultrices. **Vestibulum** vel tempor ex. Mauris maximus, sem sit amet vulputate tempor, dui nisi semper felis, sed pulvinar elit nibh sit amet libero._
 
 Maecenas rhoncus lectus ligula, id venenatis eros pretium ut. Aenean id nisl vitae mi maximus eleifend. Vivamus tristique ac neque non euismod. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
