@@ -4,7 +4,7 @@ permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
-  align: bottom left
+  align: middle center
   quote: Dit is een quote
 info:
   description: ''
