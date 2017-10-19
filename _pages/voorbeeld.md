@@ -4,7 +4,9 @@ permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
+  horizontal-align: center
   quote: Banner caption quote
+  vertical-align: middle
 info:
   description: Maecenas rhoncus lectus ligula.\Id venenatis eros pretium ut.
   title: Info title
