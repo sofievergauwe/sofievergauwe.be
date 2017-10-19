@@ -4,11 +4,11 @@ permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
-  align: middle center
   quote: Banner caption quote
 info:
   description: Maecenas rhoncus lectus ligula.\Id venenatis eros pretium ut.
   title: Info title
+  image: /media/t6Z2wl2.jpg
 datalist:
   description: 'Maecenas rhoncus lectus ligula, id venenatis eros pretium ut.'
   items:
