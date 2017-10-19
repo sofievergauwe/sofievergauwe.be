@@ -7,7 +7,7 @@ caption:
   quote: Where attention goes, energy flows…
   align: bottom left
 info:
-  image: /media/reiki.jpg
+  image: /media/handen.jpg
   description:
 datalist:
   title: Prijzen

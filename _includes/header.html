@@ -7,7 +7,7 @@
 
 {% if page.image %}
 <figure class="banner">
-  {% include_cached image.html file=page.image style='banner' alt=page.title %}
+  {% include_cached components/image.html file=page.image style='banner' alt=page.title %}
   {% if page.caption.quote %}
   <figcaption class="{{ page.caption.align }}">
     <blockquote>{{ page.caption.quote | markdownify }}</blockquote>

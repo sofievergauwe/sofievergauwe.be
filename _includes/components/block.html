@@ -3,7 +3,7 @@
 
 <section {% if class %}class="{{ class }}"{% endif %}>
 
-  {% if include.item.title != '' %}
+  {% if include.item.title and include.item.title != '' %}
     <h3>{{ include.item.title }}</h3>
   {% else %}
     <h3 class="hidden">{{ include.default-title }}</h3>
@@ -12,7 +12,7 @@
   {{ include.item.description | markdownify | replace: "\", "<br/>" }}
 
   {% if include.item.items and include.type %}
-    {% assign file = include.type | append: ".html" %}
+    {% assign file = include.type | prepend: "components/" | append: ".html" %}
     {% include {{file}} items=include.item.items %}
   {% endif %}
 

@@ -11,24 +11,24 @@ layout: default
 
   {% if page.info.image %}
   <figure>
-    {% include_cached image.html file=page.info.image style='sidebar' alt=page.title %}
+    {% include_cached components/image.html file=page.info.image style='sidebar' alt=page.title %}
   </figure>
   {% endif %}
 
   {% if page.info.description %}
-  {% include block.html item=page.info default-title="Meer informatie" %}
+  {% include components/block.html item=page.info default-title="Meer informatie" %}
   {% endif %}
 
   {% if page.datalist.items != nil %}
-  {% include block.html item=page.datalist type="datalist" default-title="Opsomming" %}
+  {% include components/block.html item=page.datalist type="datalist" default-title="Opsomming" %}
   {% endif %}
 
   {% if page.links.items != nil %}
-  {% include block.html item=page.links class="links" type="links" default-title="Links" %}
+  {% include components/block.html item=page.links class="links" type="links" default-title="Links" %}
   {% endif %}
 
   {% if page.buttons != nil %}
-  {% include buttons.html items=page.buttons %}
+  {% include components/buttons.html items=page.buttons %}
   {% endif %}
 
 {% endcapture %}

@@ -4,4 +4,4 @@ layout: page
 permalink: /afspraak-maken
 ---
 
-{% include form.html form="afspraak-maken" %}
+{% include components/form.html form="afspraak-maken" %}

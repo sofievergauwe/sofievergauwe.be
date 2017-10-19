@@ -13,4 +13,4 @@ info:
     Stoepe’ te Ertvelde - omgeven door groen en bomen...
 ---
 
-{% include form.html form="contact" %}
+{% include components/form.html form="contact" %}
