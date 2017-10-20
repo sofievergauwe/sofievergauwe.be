@@ -4,9 +4,7 @@ permalink: /voorbeeld
 layout: page
 image: /media/jg4eCUo.jpg
 caption:
-  horizontal-align: center
   quote: Banner caption quote
-  vertical-align: middle
 info:
   description: Maecenas rhoncus lectus ligula.\Id venenatis eros pretium ut.
   title: Info title
@@ -30,6 +28,8 @@ Maecenas rhoncus lectus ligula, id venenatis eros pretium ut. Aenean id nisl vit
 
 * Suspendisse eget nunc eros.
 * Nam sed eros efficitur ex pretium
+  * ornare quis sit amet mauris.
+  * incidunt erat nec lorem finibus rhoncus
 * ornare quis sit amet mauris.
 * incidunt erat nec lorem finibus rhoncus
 
