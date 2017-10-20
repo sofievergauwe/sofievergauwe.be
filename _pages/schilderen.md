@@ -4,14 +4,16 @@ permalink: /schilderen
 layout: page
 image: /media/schilderen.jpg
 caption:
-  quote: 'Als ik schilder, voel ik me tijdloos...'
   align: bottom left
+  quote: 'Als ik schilder, voel ik me tijdloos...'
+info:
+  image: /media/DSC_0869.JPG
 datalist:
-  title: Prijzen
   items:
     - data: € 200
       title: Portret (1 gezicht)
       info: 'op canvas 50x80cm, olieverf'
+  title: Prijzen
 ---
 
 _Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten** die je in de galerij kan bekijken, zijn een goede weergave van mijn huidige schildervorm. Ik maak gebruik van **olieverf**._
