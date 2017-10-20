@@ -1,11 +1,13 @@
 ---
 title: Kaarsgieten
-layout: page
 permalink: /kaarsgieten
+layout: page
 image: /media/kaarsgieten.jpg
 caption:
-  quote: Come on baby, light my fire...
   align: top right
+  quote: 'Come on baby, light my fire...'
+info:
+  image: /media/DSC_0003.JPG
 ---
 
 In ons charmant kaarsengieterijtje krijg ik de kans me op een speelse, creatieve en
