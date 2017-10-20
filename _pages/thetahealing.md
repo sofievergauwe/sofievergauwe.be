@@ -7,7 +7,7 @@ caption:
   align: middle center
   quote: Het evenwicht tussen lichaam en geest
 info:
-  image: /media/Flower-of-Life-Logo.jpg
+  image: /media/DSC_0065.JPG
 datalist:
   items:
     - data: € 50
