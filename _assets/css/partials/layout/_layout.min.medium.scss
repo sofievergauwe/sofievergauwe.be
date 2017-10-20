@@ -47,3 +47,9 @@ main {
   }
 
 }
+
+form {
+  padding: spacing(large);
+  background: color(white) url(asset_path("img/paper-white.png")) repeat center center;
+  box-shadow: 0 0 unit(2) color(black, 0, 0.15);
+}
