@@ -7,7 +7,7 @@ caption:
   align: middle center
   quote: Het evenwicht tussen lichaam en geest
 info:
-  image: /media/DSC_0065.JPG
+  image: /media/DSC_0695.JPG
 datalist:
   items:
     - data: € 50
