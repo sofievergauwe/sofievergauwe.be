@@ -5,6 +5,7 @@ layout: page
 image: /media/jg4eCUo.jpg
 caption:
   quote: Banner caption quote
+  align: top left
 info:
   description: Maecenas rhoncus lectus ligula.\Id venenatis eros pretium ut.
   title: Info title
