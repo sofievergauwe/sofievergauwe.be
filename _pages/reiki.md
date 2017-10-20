@@ -4,24 +4,23 @@ permalink: /reiki
 layout: page
 image: /media/reiki.jpg
 caption:
-  quote: Where attention goes, energy flows…
   align: bottom left
+  quote: 'Where attention goes, energy flows…'
 info:
-  image: /media/handen.jpg
-  description:
+  image: /media/DSC_0019.JPG
 datalist:
+  items:
+    - data: € 20
+      title: Reiki
+      info: 30'
   title: Prijzen
-  items:
-  - title: Reiki
-    info: 30'
-    data: € 20
 links:
-  title: Handige links
   items:
-  - title: Meer informatie over Reiki
-    url: '#'
-  - title: Reiki Online
-    url: '#'
+    - title: Meer informatie over Reiki
+      url: '#'
+    - title: Reiki Online
+      url: '#'
+  title: Handige links
 ---
 
 _Reiki is een oude **Japanse helingswijze** waarbij universele levensenergie via de heler wordt overgedragen op de cliënt. De **energie** kan via handoplegging of van op afstand worden doorgegeven. De **energie** komt binnen in je syteem en stroomt dan via de je energiebanen (nadi) naar plekken in het lichaam waar een disbalans aanwezig is._
