@@ -7,7 +7,7 @@ caption:
   align: middle center
   quote: Het evenwicht tussen lichaam en geest
 info:
-  image: /media/earth.jpg
+  image: /media/thetahealing.jpg
 datalist:
   items:
     - data: € 50
