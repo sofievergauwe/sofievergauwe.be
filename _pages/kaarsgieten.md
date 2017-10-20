@@ -7,6 +7,7 @@ caption:
   align: top right
   quote: 'Come on baby, light my fire...'
 info:
+  description: ons charmant kaarsengieterijtje
   image: /media/DSC_0003.JPG
 ---
 
