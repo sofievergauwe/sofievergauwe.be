@@ -15,7 +15,6 @@ datalist:
       info: 60'
   title: Prijzen
 ---
-
 _De ThetaHealing® techniek is een **energetische geneeswijze** ontwikkeld door de Amerikaanse Vianna Stibal in 1995.
 Met behulp van deze techniek kunnen we ons bewust worden van overtuigingen, die ons beperken en tegenhouden in wat we willen bereiken in het leven en kunnen we deze vervangen door ondersteunende en stimulerende overtuigingen._
 
@@ -34,7 +33,7 @@ Deze uitstraling is het deel van jezelf dat je de wereld instuurt en dus wat and
 De wet van aantrekkingskracht speelt hierbij een essentiële rol. Want **wat we uitzenden, krijgen we terug**.  Wie van ons heeft nog nooit een pechdag ervaren?  Je staat op met het verkeerde been uit bed en alles, maar dan ook alles gaat tegen.
 
 > You don't attract what you want. You attract what you are.
-> *Dr. Wayne Dyer*
+> _Dr. Wayne Dyer_
 
 ### Geloofsovertuigingen
 
@@ -56,6 +55,6 @@ De meeste angsten, aanvallen en lichamelijke klachten zijn **signalen** die het 
 
 Met behulp van de ThetaHealing®techniek kunnen we deze trauma's op een zachte en comfortabele manier **bevrijden, verwerken en loslaten**, zodat lichaam en geest opnieuw een evenwicht kunnen vinden.
 
-Tijdens een sessie komt boven wat 'klaar zit'. Heling kan je bekijken als het afpellen van de schillen van een ajuin, waarbij de buitenste schil klaar zit om losgemaakt te worden. Hoe meer schillen wij kunnen loslaten, hoe dichter wij komen tot onze ware kern.
+Tijdens een sessie komt boven wat 'klaar zit'. **Heling** kan je bekijken als het afpellen van de schillen van een ajuin, waarbij de buitenste schil klaar zit om losgemaakt te worden. Hoe meer schillen wij kunnen loslaten, hoe dichter wij komen tot onze ware kern.
 
 Helen betekent eigenlijk opnieuw **'heel worden', het 'her-inneren' van ons eigen heelheid!** :)
