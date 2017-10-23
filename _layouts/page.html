@@ -19,11 +19,11 @@ layout: default
   {% include components/block.html item=page.info default-title="Meer informatie" %}
   {% endif %}
 
-  {% if page.datalist.items != nil %}
+  {% if page.datalist.description or page.datalist.items != nil %}
   {% include components/block.html item=page.datalist type="datalist" default-title="Opsomming" %}
   {% endif %}
 
-  {% if page.links.items != nil %}
+  {% if page.links.description or page.links.items != nil %}
   {% include components/block.html item=page.links class="links" type="links" default-title="Links" %}
   {% endif %}
 
