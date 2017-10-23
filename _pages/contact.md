@@ -10,13 +10,11 @@ info:
   description: >-
     De wereld van Sofie is gelegen bij de bedevaartkapel van ‘Onze-Lieve-Vrouw
     van Stoepe’ te Ertvelde - omgeven door groen en bomen...
-
-
-    _**De wereld van Sofie**_\
-
-    Kapelhof 3 (Stoepe)\
-
-    9940 Ertvelde
   image: /media/P1020090.JPG
+datalist:
+  description: |-
+    **_De wereld van Sofie_**\
+    Kapelhof 3 (Stoepe)\
+    9940 Ertvelde
 ---
 {% include components/form.html form="contact" %}
