@@ -116,7 +116,13 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Name", name: "name", widget: "string"}
-      - {label: "Success link", name: "success", widget: "string"}
+      - name: "success"
+        label: "Success link"
+        required: false
+        widget: relation
+        collection: pages
+        searchFields: [title, permalink]
+        valueField: permalink
       - label: "Fields"
         name: fields
         widget: "list"
