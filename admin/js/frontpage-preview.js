@@ -63,8 +63,7 @@ var FrontPagePreview = createClass({
 
         return h('article', {className: 'teaser'},
           h('figure', {}, h('picture', {className: 'image image-teaser', style: {'background-image': 'url(' + image + ')'}})),
-          h('div', {className: 'block'}, h('h3', {}, title), h('p', {}, description)),
-          footer,
+          h('div', {className: 'block'}, h('h3', {}, title), h('p', {}, description), footer),
         );
 
       });
