@@ -1,21 +1,22 @@
 ---
-name: contact
 title: Contactformulier
+name: contact
 success: /bericht-verzonden
 fields:
-- name: name
-  label: Volledige naam
-  type: text
-  required: true
-- name: E-mail
-  label: Email
-  type: email
-  required: true
-- name: message
-  label: Bericht
-  type: textarea
-  required: true
-- name: submit
-  label: Verzenden
-  type: submit
+  - label: Volledige naam
+    name: name
+    required: true
+    type: text
+  - label: Email
+    name: E-mail
+    required: true
+    type: email
+  - label: Bericht
+    name: message
+    required: true
+    type: textarea
+  - label: Verzenden
+    name: submit
+    type: submit
 ---
+
