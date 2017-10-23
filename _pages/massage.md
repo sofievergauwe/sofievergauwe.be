@@ -29,9 +29,7 @@ datalist:
       title: Full body massage
       info: 120'
   title: Prijzen
-buttons:
-  - title: Afspraak maken
-    url: /afspraak-maken
+buttons: []
 ---
 
 _Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het **onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam**._
