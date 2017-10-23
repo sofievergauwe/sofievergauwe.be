@@ -122,3 +122,7 @@ select {
 .react-autosuggest__input {
    height: 42px; 
 }
+
+.react-autosuggest__container--open .react-autosuggest__suggestions-container {
+  top: 42px;
+}
