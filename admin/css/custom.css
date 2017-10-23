@@ -118,3 +118,7 @@ select {
   font-weight: 400;
   margin-bottom: 6px;
 }
+
+.react-autosuggest__input {
+   height: 42px; 
+}
