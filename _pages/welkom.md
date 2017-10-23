@@ -13,7 +13,7 @@ teasers:
       behulp van massage losgemaakt en afgevoerd worden.
     title: Massage
     image: /media/massage.jpg
-    link: /massage
+    link: /massagee
   - description: >-
       ThetaHealing® is een energetische genezingswijze ontwikkeld door Vianna
       Stibal. Met behulp van deze techniek kunnen we ons bewust worden van
