@@ -134,7 +134,7 @@ collections:
           - {label: "Options", name: options, widget: "list", required: false}
 
   - name: "site"
-    label: "Site"
+    label: "Website"
     editor:
       preview: false
     files:
