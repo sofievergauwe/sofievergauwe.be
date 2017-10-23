@@ -33,7 +33,13 @@ collections:
         fields:
           - {label: "Title", name: "title", widget: "string" }
           - {label: "Image", name: "image", widget: "image" }
-          - {label: "Link", name: "link", widget: "string", required: false}
+          - name: "link"
+            label: "Link"
+            required: false
+            widget: relation
+            collection: pages
+            searchFields: [title, permalink]
+            valueField: permalink
           - {label: "Description", name: "description", widget: "markdown"}
 
   - name: "pages"
