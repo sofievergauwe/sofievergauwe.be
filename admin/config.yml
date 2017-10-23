@@ -148,7 +148,13 @@ collections:
             widget: list
             fields:
               - {label: "Title", name: "title", widget: "string"}
-              - {label: "Link", name: "link", widget: "string"}
+              - name: "link"
+                label: "Link"
+                required: false
+                widget: relation
+                collection: pages
+                searchFields: [title, permalink]
+                valueField: permalink
               - {label: "Description", name: "description", widget: "text"}
               - {label: "Icon", name: "icon", widget: "select", options: ["", "facebook", "instagram"], default: "" }
       - name: "info"
