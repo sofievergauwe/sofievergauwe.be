@@ -12,9 +12,11 @@ info:
     van Stoepe’ te Ertvelde - omgeven door groen en bomen...
 
 
-    **Kapelhof 3 (Stoepe)**\
+    _**De wereld van Sofie**_\
 
-    **9940 Ertvelde**
+    Kapelhof 3 (Stoepe)\
+
+    9940 Ertvelde
   image: /media/P1020090.JPG
 ---
 {% include components/form.html form="contact" %}
