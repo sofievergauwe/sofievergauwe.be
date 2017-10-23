@@ -58,7 +58,7 @@ var FrontPagePreview = createClass({
         var footer = '';
         
         if (link) {
-          footer = h('footer', {}, h('a', {src: link}, 'Lees meer'));
+          footer = h('footer', {}, h('a', {href: link}, 'Lees meer'));
         }
 
         return h('article', {className: 'teaser'},
