@@ -1,7 +1,8 @@
+// Layout map
+// Imported by layout module
 $layout: (
   unit: em,
   font-family: (Merriweather, serif),
-  background: #F4F2EF url(asset_path("img/paper-beige.png")) repeat center center,
 
   font-size: (
     tiny: 12,
@@ -9,12 +10,6 @@ $layout: (
     medium: 16,
     large: 18,
     huge: 36,
-  ),
-
-  font-weight: (
-    thin: 300,
-    medium: 300,
-    bold: 500,
   ),
 
   line-height: (
@@ -50,13 +45,16 @@ $layout: (
     secondary: color(silver)
   ),
 
-  headings: (
-    font-family: null,
-    font-size: 28,
-    font-weight: 400,
-    line-height: null,
-    letter-spacing: null,
-    color: color(black, 20),
+  header: (
+    height: 64,
+  ),
+
+  logo: (
+    width: 180,
+  ),
+
+  footer: (
+    height: 180,
   ),
 
 );

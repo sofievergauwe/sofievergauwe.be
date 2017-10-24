@@ -16,7 +16,7 @@ body > header > nav {
       background-color: color(focus);
     }
 
-    //@include hamburger-icon();
+    @include hamburger-icon();
 
   }
 
