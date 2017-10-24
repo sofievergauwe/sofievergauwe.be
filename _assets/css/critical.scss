@@ -45,8 +45,15 @@
 
 
 
-// import critical fonts
-@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
+// critical fonts
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'),
+       url('../fonts/merriweather-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/merriweather-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 // hide non-critical items
 body > figure,
