@@ -20,7 +20,7 @@ body > header > nav {
         background-position: center center;
         background-size: 0%;
         transition: background-size .2s ease-in-out;
-        @include background-circle(color(focus));
+        @include focus-effect-background(color(focus));
       }
 
       &:focus,

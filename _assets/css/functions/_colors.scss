@@ -1,0 +1,19 @@
+// import variables
+@import "../variables/colors";
+
+// Color helper function
+@function color($key, $tint: 0, $transparency: 1) {
+
+  $color: map-get($colors, $key);
+
+  @if $tint == 0 {
+    @return rgba($color, $transparency);
+  }
+  @elseif $tint > 0 {
+    @return rgba(mix(color(white), $color, $tint), $transparency);
+  }
+  @else {
+    @return rgba(mix(color(black), $color, ($tint * -1)), $transparency);
+  }
+
+}

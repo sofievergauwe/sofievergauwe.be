@@ -1,0 +1,49 @@
+// import variables
+@import "../variables/layout";
+
+// Merge layout colors with colors map
+$colors: map-extend($colors, map-get($layout, colors), true);
+
+// Get helper function
+@function get($key, $size: 'medium') {
+  $option: null;
+  @if map-has-key($layout, $key) {
+    $option: map-get($layout, $key);
+    @if is-map($option) {
+      @if map-has-key($option, $size) {
+        $option: map-get($option, $size);
+      }
+    }
+  }
+  @return $option;
+}
+
+// Formatted value helper function
+@function format($key, $size, $font-size) {
+  @if type-of($size) == string {
+    @return unit(get($key, $size), $font-size);
+  }
+  @else {
+    @return unit(get($key) * $size, $font-size);
+  }
+}
+
+// Font-size helper function
+@function font-size($size: 'medium', $font-size: get('font-size')) {
+  @return format('font-size', $size, $font-size);
+}
+
+// Line-height helper function
+@function line-height($size: 'medium') {
+  @return get('line-height', $size);
+}
+
+// Spacing helper function
+@function spacing($size: 'medium', $font-size: get('font-size')) {
+  @return format('spacing', $size, $font-size);
+}
+
+// Breakpoint helper function
+@function breakpoint($breakpoint, $font-size: get('font-size')) {
+  @return unit(get('breakpoints', $breakpoint), $font-size);
+}

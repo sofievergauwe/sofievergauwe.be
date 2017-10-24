@@ -1,0 +1,38 @@
+// import functions
+@import
+  "functions/map",
+  "functions/unit",
+  "functions/colors",
+  "functions/layout";
+
+  // import mixins
+@import
+  "mixins/inline-menu",
+  "mixins/dropdown-menu",
+  "mixins/hamburger-icon";
+
+  // import components
+@import
+  "components/base/input";
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+body > figure,
+article,
+aside {
+  animation: fadeIn 0.25s 0.5s forwards;
+}
+
+.banner {
+  padding-top: spacing() + unit(64);
+}

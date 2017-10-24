@@ -11,7 +11,7 @@ layout: compress
 
     {% include_cached svg/icons.svg %}
 
-    <h1>{{ site.title }}</h1>
+    <h1 class="hidden">{{ site.title }}</h1>
 
     {% include header.html %}
 
@@ -24,5 +24,5 @@ layout: compress
 
   </body>
 </html>
-{% css css/main %}
+{% css css/non-critical %}
 <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i" rel="stylesheet">

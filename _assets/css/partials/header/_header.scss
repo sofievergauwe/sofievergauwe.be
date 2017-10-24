@@ -1,0 +1,46 @@
+$header-height: unit(64);
+$logo-width: unit(190);
+
+// header
+body > header {
+  position: fixed;
+  line-height: $header-height;
+  top: -1px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #FCFCFC url(asset_path("img/paper-white.png")) repeat center center;
+  border-bottom: 1px solid color(border, 65);
+
+  & > a,
+  & > nav {
+    display: inline-block;
+    vertical-align: middle;
+    height: inherit;
+  }
+
+  // header logo
+  & > a {
+    width: $logo-width;
+    transition: opacity .2s ease-in-out;
+
+    & > img {
+      width: $logo-width;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+
+    &:focus,
+    &:active {
+      opacity: 0.5;
+    }
+  }
+
+  // header nav
+  & > nav {
+    width: calc(100% - #{$logo-width});
+  }
+
+}
