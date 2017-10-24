@@ -1,3 +1,13 @@
+// critical fonts
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'),
+       url('../fonts/merriweather-v18-latin-300.woff2') format('woff2'),
+       url('../fonts/merriweather-v18-latin-300.woff') format('woff');
+}
+
 // import functions
 @import
   "functions/map",
@@ -43,17 +53,6 @@
     "partials/menubar/menubar.min.medium";
 }
 
-
-
-// critical fonts
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Merriweather Light'), local('Merriweather-Light'),
-       url('../fonts/merriweather-v18-latin-300.woff2') format('woff2'),
-       url('../fonts/merriweather-v18-latin-300.woff') format('woff');
-}
 
 // hide non-critical items
 body > figure,
