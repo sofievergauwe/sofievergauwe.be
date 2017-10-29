@@ -1,3 +1,5 @@
+.nc-appHeader-homeLink,
+[data-react-toolbox="avatar"],
 .nc-entryListing-cardList {
   display: none;
 }
@@ -8,4 +10,8 @@
 
 .nc-listControl-toggleButton {
   background-color: transparent;
+}
+
+.group {
+  display: flex;
 }
