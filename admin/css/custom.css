@@ -5,3 +5,7 @@
 .nc-listControl-item {
  padding-left: 0; 
 }
+
+.nc-listControl-toggleButton {
+  background-color: transparent;
+}
