@@ -12,6 +12,7 @@
   background-color: transparent;
 }
 
+.nc-listControl-objectControl,
 .group {
   display: flex;
 }
