@@ -16,3 +16,8 @@
 .group {
   display: flex;
 }
+
+input,
+select {
+  font-family: inherit;
+}
