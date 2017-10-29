@@ -17,7 +17,6 @@
   display: flex;
 }
 
-input,
-select {
+.nc-controlPane-control input, .nc-controlPane-control select, .nc-controlPane-control textarea {
   font-family: inherit;
 }
