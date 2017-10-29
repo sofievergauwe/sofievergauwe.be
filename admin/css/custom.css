@@ -12,7 +12,7 @@
   background-color: transparent;
 }
 
-.nc-listControl-objectControl,
+.nc-listControl-item.nc-listControl-objectControl,
 .group {
   display: flex;
 }
