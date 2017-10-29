@@ -1,3 +1,7 @@
 .nc-entryListing-cardList {
   display: none;
 }
+
+.nc-listControl-item {
+ padding-left: 0; 
+}
