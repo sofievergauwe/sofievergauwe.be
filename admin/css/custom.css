@@ -12,8 +12,17 @@
   background-color: transparent;
 }
 
-#items .nc-listControl-item .nc-listControl-objectControl,
-#buttons .nc-listControl-item .nc-listControl-objectControl,
+.nc-listControl-item .nc-listControl-objectControl {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+#items .nc-controlPane-widget,
+#buttons .nc-controlPane-widget {
+  display: table-cell;
+}
+
 .group {
   display: flex;
 }
