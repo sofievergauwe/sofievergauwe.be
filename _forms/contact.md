@@ -10,11 +10,9 @@ fields:
   - label: Email
     name: E-mail
     options:
-      - optie 1
-      - optie 2
-      - optie 3
+      - ''
     required: true
-    type: select
+    type: email
   - label: Bericht
     name: message
     required: true
