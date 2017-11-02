@@ -12,7 +12,8 @@
   background-color: transparent;
 }
 
-.nc-listControl-item .nc-listControl-objectControl,
+#items .nc-listControl-item .nc-listControl-objectControl,
+#buttons .nc-listControl-item .nc-listControl-objectControl,
 .group {
   display: flex;
 }
