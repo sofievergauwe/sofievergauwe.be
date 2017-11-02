@@ -21,6 +21,7 @@
 #items .nc-controlPane-widget,
 #buttons .nc-controlPane-widget {
   display: table-cell;
+  padding: 0 2px;
 }
 
 .group {
