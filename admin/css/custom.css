@@ -18,6 +18,10 @@
   table-layout: fixed;
 }
 
+.nc-listControl-collapsed .nc-listControl-objectControl {
+    display: none;
+}
+
 #items .nc-controlPane-widget,
 #buttons .nc-controlPane-widget {
   display: table-cell;
