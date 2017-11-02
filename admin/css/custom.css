@@ -32,6 +32,6 @@
   font-family: inherit;
 }
 
-..nc-listControl-toggleButton {
+.nc-listControl-toggleButton {
   z-index: 2;
 }
