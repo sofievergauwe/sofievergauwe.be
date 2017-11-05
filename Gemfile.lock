@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (7.1.5)
+    autoprefixer-rails (7.1.6)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
@@ -13,7 +13,7 @@ GEM
     fastimage (2.1.0)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
-    jekyll (3.6.0)
+    jekyll (3.6.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -47,8 +47,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.0)
@@ -58,7 +56,7 @@ GEM
       ffi (>= 0.5.0, < 2)
     rouge (2.2.1)
     safe_yaml (1.0.4)
-    sass (3.5.2)
+    sass (3.5.3)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -79,7 +77,6 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-include-cache
   jekyll-sitemap
-  minima (~> 2.0)
   uglifier
 
 BUNDLED WITH
