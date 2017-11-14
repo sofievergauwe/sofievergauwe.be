@@ -7,7 +7,7 @@ caption:
   align: bottom left
   quote: 'Where attention goes, energy flows…'
 info:
-  image: /media/DSC_0019.JPG
+  image: /media/reiki-katten.jpg
 datalist:
   items:
     - data: € 20
