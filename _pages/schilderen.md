@@ -7,7 +7,7 @@ caption:
   align: bottom left
   quote: 'Als ik schilder, voel ik me tijdloos...'
 info:
-  image: /media/DSC_0667.JPG
+  image: /media/schilderen-portret.jpg
 datalist:
   items:
     - data: € 200
