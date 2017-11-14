@@ -12,7 +12,7 @@ info:
     huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen
     met behulp van massage losgemaakt en afgevoerd worden.
   title: ''
-  image: /media/DSC_0042.JPG
+  image: /media/rugmassage.jpg
 datalist:
   description: _Alle massages zijn inclusief water/thee_
   items:
