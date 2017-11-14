@@ -2,12 +2,12 @@
 title: ThetaHealing®
 permalink: /thetahealing
 layout: page
-image: /media/DSC_0695.JPG
+image: /media/spiritueel.jpg
 caption:
   align: middle center
   quote: Het evenwicht tussen lichaam en geest
 info:
-  image: /media/thetahealing.jpg
+  image: /media/wereldbol-energie.jpg
 datalist:
   items:
     - data: € 50
