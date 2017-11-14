@@ -3,33 +3,35 @@ title: Markdown voorbeeld
 permalink: /markdown
 layout: page
 ---
-_Dit is **een** zin_
+Dit is _cursief_ en dit is **vet**
 
-Dit is _een_ 2de zin
+_Dit is **vet** in een cursieve zin_
 
-**Dit is een 3de zin**
+Zet kernwoorden apart vet, bv: **massage** **olie**
 
-Ik verkoop goed **massage** **olies**
+# h1 (Hoofdtitel)
 
-# h1
+## h2 (1ste subtitel)
 
-## 2den titel
+### h3 (2de subtitel)
 
-### 3de
+#### h4 (3de subtitel)
 
-#### 4de
+##### h5 (4de subtitel)
 
-##### 5de
+###### h6 (5de subtitel)
 
-###### 6de
+deze zin bestaat uit 2 regels in markdown
+maar staan gelayout op 1 lijn
 
-uhgigdus dgihdisdn uihdiudfs
-gsfbsi ihsgdigd hisggnd - staat op 1 lijn
+deze zin bestaat uit 2 regels in markdown\
+deze staan gelayout op 2 lijnen.
 
-dqi fsiidngd idngdisu jdidnq [dit is een link naar google](www.google.be)  jindgigdnsigdngd\w
-vhjvsufsbujs - staat op 2 lijnen
+[dit is een link naar google](www.google.be)
 
 > Dit is een quote
+
+> Dit is een quote met **vette tekst** en een [link naar google](www.google.be)
 
 * eigenschap 1
 * eigenschap 2
@@ -38,5 +40,7 @@ vhjvsufsbujs - staat op 2 lijnen
 1. eigenschap 1
 2. eigenschap 2
 3. eigenschap 3
+
+Onder deze zin staat een lijn
 
 - - -
