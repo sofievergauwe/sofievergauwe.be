@@ -8,7 +8,7 @@ caption:
   quote: 'Come on baby, light my fire...'
 info:
   description: Ons charmant kaarsengieterijtje
-  image: /media/DSC_0003.JPG
+  image: /media/kaarsen-huisje-stoepe.jpg
 ---
 In ons charmant kaarsengieterijtje krijg ik de kans me op een speelse, creatieve en
 spontane manier te uiten in het kaarsvervaardigingsproces.
