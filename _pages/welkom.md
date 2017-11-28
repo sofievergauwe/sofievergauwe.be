@@ -23,12 +23,10 @@ teasers:
     image: /media/thetahealing.jpg
     link: /thetahealing
   - description: >-
-      In ons charmant kaarsengieterijtje krijg ik de kans me op een speelse,
-      creatieve en spontane manier te uiten in het kaarsvervaardigingsproces.
-      Niks moet, alles kan en mag! Ben je op zoek naar een origineel geschenkje?
-      Neem een kijkje in het kaarsenaanbod... !
-    title: Kaarsgieten
-    image: /media/kaarsgieten.jpg
+      Yoga brengt geest en lichaam opnieuw in verbinding. Dit geeft ons een
+      gevoel van vrede, rust, evenwicht en harmonie. Mindful Yoga brengt ons 
+    title: Mindful Yoga
+    image: /media/yoga.png
     link: /kaarsgieten
   - description: >-
       Reiki is een oude Japanse helingswijze waarbij universele levensenergie
