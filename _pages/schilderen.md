@@ -7,11 +7,11 @@ caption:
   align: bottom left
   quote: 'Als ik schilder, voel ik me tijdloos...'
 info:
-  image: /media/schilderen-portret.jpg
+  image: /media/portret-schilderen.png
 datalist:
   items:
     - data: € 200
-      title: Portret (1 gezicht)
+      title: 'Schilderij / portret '
       info: 'op canvas 50x80cm, olieverf'
   title: Prijzen
 ---
@@ -20,7 +20,7 @@ _Door de jaren heen heb ik een eigen schilderstijl ontwikkeld. De **portretten**
 
 ### Meditatief proces
 
-Doordat je je tijdens het maken van een schilderij een hele tijd moet focussen op de afbeelding, ervaar ik het schilderen als een meditatief proces. Het is steeds een heel nauwkeurig voelend onderzoek van het desbetreffende beeld. Schilderen brengt me in het hier & nu en maakt mijn geest vrij van alledaagse gedachten.
+Doordat je je tijdens het maken van een schilderij een hele tijd moet focussen op de afbeelding, ervaar ik het schilderen als een **meditatief proces**. Het is steeds een heel nauwkeurig voelend **onderzoek** van het desbetreffende beeld. Schilderen brengt me in het **hier & nu** en maakt mijn geest vrij van alledaagse gedachten.
 
 ### Portret
 
