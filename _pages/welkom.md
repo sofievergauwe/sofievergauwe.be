@@ -8,17 +8,16 @@ caption:
   quote: Welkom in de wereld van Sofie...
 teasers:
   - description: >-
-      Via massage kunnen trauma en shock, die vaak opgeslagen liggen in de huid,
-      losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen met
-      behulp van massage losgemaakt en afgevoerd worden.
+      Pijn in je rug, nek, of schouders? Stijve, stramme spieren of gewrichten?
+      Hoofdpijn? Spanningen in je gehele lichaam? Verwen jezelf of een ander met
+      een stevig losmakende en toch heerlijk ontspannende massage.
     title: Massage
     image: /media/massage.jpg
     link: /massage
   - description: >-
-      ThetaHealing® is een energetische genezingswijze ontwikkeld door Vianna
-      Stibal. Met behulp van deze techniek kunnen we ons bewust worden van
-      overtuigingen, die ons beperken en tegenhouden in wat we willen bereiken
-      in het leven.
+      Gaat het leven niet zoals je wil? Last van angsten? Chronische klacht? Zit
+      je vast? Depri? Relatieproblemen? Vergeten wie je bent en wat je wilt?
+      Probeer een Thetasessie en laat je verrassen door het diepgaande effect.
     title: ThetaHealing®
     image: /media/spiritueel.jpg
     link: /thetahealing
@@ -32,11 +31,9 @@ teasers:
     image: /media/mindful-yoga.png
     link: /kaarsgieten
   - description: >-
-      Reiki is een oude Japanse helingswijze waarbij **universele
-      levensenergie** via de heler wordt overgedragen op de cliënt. Voel je je
-      vermoeid? Gehaast? Uitgeblust? Heb je nood aan een diepe ontspanning? Boek
-      een Reikisessie en geef je over aan pure levensenergie voor het ervaren
-      van een **zalige rust en krachtige oplading**.
+      Voel je je vermoeid? Gehaast? Uitgeblust? Heb je nood aan een diepe
+      ontspanning? Boek een Reikisessie en geef je over aan pure levensenergie
+      voor het ervaren van een zalige rust en krachtige oplading.
     title: Reiki
     image: /media/reiki.jpg
     link: /reiki
