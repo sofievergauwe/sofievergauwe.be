@@ -13,6 +13,12 @@ datalist:
     - data: € 20
       title: Reiki
       info: 30'
+    - data: € 35
+      title: 'Reiki '
+      info: 60'
+    - data: € 60
+      title: Reiki
+      info: 120'
   title: Prijzen
 links:
   items:
