@@ -7,11 +7,11 @@ caption:
   align: bottom center
   quote: Reconnect to your inner source
 info:
-  image: /media/certified-theta-healer.jpg
+  image: /media/spirituality-theta-healing.jpg
 datalist:
   items:
     - data: € 50
-      title: 'Thetasessie (+versnapering, water/thee)'
+      title: 'Thetasessie (+koekje, water/thee)  '
       info: 60'
   title: Prijzen
 ---
