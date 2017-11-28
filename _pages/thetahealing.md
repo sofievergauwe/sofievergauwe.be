@@ -7,11 +7,11 @@ caption:
   align: bottom center
   quote: Reconnect to your inner source
 info:
-  image: /media/wereldbol-energie.jpg
+  image: /media/certified-theta-healer.jpg
 datalist:
   items:
     - data: € 50
-      title: Thetasessie
+      title: 'Thetasessie (+versnapering, water/thee)'
       info: 60'
   title: Prijzen
 ---
