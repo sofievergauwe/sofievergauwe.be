@@ -30,7 +30,7 @@ Deze uitstraling is het deel van jezelf dat je de wereld instuurt en dus wat and
 
 ### Wet van aantrekkingskracht
 
-De wet van aantrekkingskracht speelt hierbij een essentiële rol. Want **wat we uitzenden, krijgen we terug**.  Wie van ons heeft nog nooit een pechdag ervaren?  Je staat op met het verkeerde been uit bed en alles, maar dan ook alles gaat tegen.
+De wet van aantrekkingskracht speelt hierbij een essentiële rol. Want **wat we uitzenden, krijgen we terug**.  Wie van ons heeft nog nooit een pechdag ervaren?  Je stapt met het verkeerde been uit bed en alles, maar dan ook alles gaat tegen.
 
 > You don't attract what you want. You attract what you are.
 > _Dr. Wayne Dyer_
@@ -57,4 +57,4 @@ Met behulp van de ThetaHealing®techniek kunnen we deze trauma's op een zachte e
 
 Tijdens een sessie komt boven wat 'klaar zit'. **Heling** kan je bekijken als het afpellen van de schillen van een ajuin, waarbij de buitenste schil klaar zit om losgemaakt te worden. Hoe meer schillen wij kunnen loslaten, hoe dichter wij komen tot onze ware kern.
 
-Helen betekent eigenlijk opnieuw **'heel worden', het 'her-inneren' van ons eigen heelheid!** :)
+Helen betekent eigenlijk opnieuw **'heel worden', het 'her-inneren' van ons eigen heelheid!** 
