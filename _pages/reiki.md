@@ -2,12 +2,12 @@
 title: Reiki
 permalink: /reiki
 layout: page
-image: /media/reiki.jpg
+image: /media/reiki-energie.jpg
 caption:
-  align: bottom left
-  quote: 'Where attention goes, energy flows…'
+  align: bottom right
+  quote: 'Where attention goes, energy flows...'
 info:
-  image: /media/reiki-katten.jpg
+  image: /media/handen-reiki-energie.jpg
 datalist:
   items:
     - data: € 20
@@ -30,7 +30,7 @@ Het is een **zachte, liefdevolle en tegelijk krachtige techniek** die je een eno
 
 ### Intentie & aandacht
 
-De **intentie** van de Reikigever is naar mijn mening zijn/haar meest waardevolle werkinstrument. **Aandacht** is nodig om de intentie te kunnen richten, in het systeem van de cliënt. Als Reiki op een liefdevolle en onvoorwaardelijke wijze wordt gegeven, zal de kans op genezende effecten enorm toenemen.
+De **intentie** van de Reikigever is naar mijn mening zijn/haar meest waardevolle werkinstrument. **Aandacht** is nodig om de energie te kunnen richten, in het systeem van de cliënt. Als Reiki op een liefdevolle en onvoorwaardelijke wijze wordt gegeven, zal de kans op genezende effecten enorm toenemen.
 
 ### Usui system
 
