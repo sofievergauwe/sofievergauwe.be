@@ -4,8 +4,8 @@ permalink: /thetahealing
 layout: page
 image: /media/spiritueel.jpg
 caption:
-  align: middle center
-  quote: Het evenwicht tussen lichaam en geest
+  align: bottom center
+  quote: Reconnect to your inner source
 info:
   image: /media/wereldbol-energie.jpg
 datalist:
@@ -57,4 +57,4 @@ Met behulp van de ThetaHealing®techniek kunnen we deze trauma's op een zachte e
 
 Tijdens een sessie komt boven wat 'klaar zit'. **Heling** kan je bekijken als het afpellen van de schillen van een ajuin, waarbij de buitenste schil klaar zit om losgemaakt te worden. Hoe meer schillen wij kunnen loslaten, hoe dichter wij komen tot onze ware kern.
 
-Helen betekent eigenlijk opnieuw **'heel worden', het 'her-inneren' van ons eigen heelheid!** 
+Helen betekent eigenlijk opnieuw **heel worden, het her-inneren van ons eigen heelheid!** 
