@@ -1,11 +1,11 @@
 ---
-title: Kaarsgieten
-permalink: /kaarsgieten
+title: 'Mindful Yoga '
+permalink: /mindful yoga
 layout: page
-image: /media/kaarsgieten.jpg
+image: /media/yoga.png
 caption:
   align: top right
-  quote: 'Come on baby, light my fire...'
+  quote: ''
 info:
   description: Ons charmant kaarsengieterijtje
   image: /media/kaarsen-huisje-stoepe.jpg
