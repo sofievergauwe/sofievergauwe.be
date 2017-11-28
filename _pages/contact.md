@@ -5,11 +5,14 @@ layout: page
 image: /media/paardje.jpg
 caption:
   align: bottom right
-  quote: Iedereen is welkom!
+  quote: Iedereen is welkom in mijn wereld!
 info:
-  description: >-
-    _De wereld van Sofie is gelegen bij de bedevaartkapel van ‘Onze-Lieve-Vrouw
-    van Stoepe’ te Ertvelde - omgeven door groen en bomen..._
+  description: >+
+    _**De wereld van Sofie** heeft het geluk zich te mogen ontplooien in een
+    prachtige omgeving met de aanwezigheid van **Stoepe Kapel**, die zorgt voor
+    een rustgevende en helende sfeer..._
+
+
   image: /media/stoepe.jpg
 datalist:
   description: |-
