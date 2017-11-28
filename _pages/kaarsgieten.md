@@ -4,16 +4,17 @@ permalink: /mindful yoga
 layout: page
 image: /media/yoga.png
 caption:
-  align: top right
-  quote: ''
+  align: top center
+  quote: 'YOGA takes you into the present moment, the only place where life exists.'
 info:
-  description: Ons charmant kaarsengieterijtje
-  image: /media/kaarsen-huisje-stoepe.jpg
+  description: ''
+  title: nders
+  image: /media/yoga-mat-fizkes-istock-940x540.jpg
 ---
-In ons charmant kaarsengieterijtje krijg ik de kans me op een speelse, creatieve en
-spontane manier te uiten in het kaarsvervaardigingsproces.
-**Niks moet, alles kan en mag!**
+# **Yoga** # 
+*Yoga* vindt zijn oorsprong in... en betekent...
+Zelf ben ik op 17-jarige leeftijd *Hatha Yoga* beginnen volgen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was, een voor mij een ongekende, vredige *verbinding* met mijn *lichaam*. En dat is wat Yoga doet, de *verbinding* tussen *lichaam en geest* herstellen. Een belangrijke sleutel die ons helpt deze verbinding te maken, is de *ademhaling*. 
 
-Hier worden **oude resten kaarsvet** van het kaarsenkapelletje te Stoepe nieuw leven ingeblazen en omgetoverd tot **unieke sfeerbrengers**.
+# **Mindfulness** #
 
-> Thousands of candles can be lit from a single candle _Buddha_
+# **Mindful Yoga** #
