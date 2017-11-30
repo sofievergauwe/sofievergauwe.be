@@ -9,9 +9,10 @@ caption:
 info:
   image: /media/spirituality-theta-healing.jpg
 datalist:
+  description: '_Incluief versnapering, water en thee._'
   items:
     - data: € 50
-      title: 'Thetasessie (+koekje, water/thee)  '
+      title: 'Thetasessie '
       info: 60'
   title: Prijzen
 ---
