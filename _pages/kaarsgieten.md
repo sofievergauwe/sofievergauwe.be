@@ -1,6 +1,6 @@
 ---
 title: 'Mindful Yoga '
-permalink: /mindful yoga
+permalink: /mindful-yoga
 layout: page
 image: /media/mindful-yoga.png
 caption:
@@ -15,10 +15,12 @@ info:
   image: /media/mindful-yoga-mat.jpg
 ---
 
-_**Yoga**_ vindt zijn oorsprong in India, het woord **Yoga** komt uit het Sankskriet en betekent **vereniging/ unie/ eenheid/ verbinding** tussen **geest** en **lichaam**, tussen het **vormloze** en de **vorm**. Een unie van beide polen brengt **vrede, evenwicht en harmonie** met zich mee. Op 17-jarige leeftijd startte ik met het volgen van **Hatha Yoga** lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was, een voor mij ongekende **rust in lichaam en geest**. Dit was de eerste keer dat ik me **veilig** voelde in mijn lichaam en werkelijk kon **rusten in mezelf**.  Een belangrijke sleutel die ons helpt de **verbinding tussen geest en lichaam** te maken, is de **ademhaling**. 
+_**Yoga** vindt zijn oorsprong in India, het woord **Yoga** komt uit het Sankskriet en betekent **vereniging/ unie/ eenheid/ verbinding** tussen **geest** en **lichaam**, tussen het **vormloze** en de **vorm**. Een unie van beide polen brengt **vrede, evenwicht en harmonie** met zich mee._
 
->**When you own your breath, nobody can steal your peace.**
+Op 17-jarige leeftijd startte ik met het volgen van **Hatha Yoga** lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was, een voor mij ongekende **rust in lichaam en geest**. Dit was de eerste keer dat ik me **veilig** voelde in mijn lichaam en werkelijk kon **rusten in mezelf**.  Een belangrijke sleutel die ons helpt de **verbinding tussen geest en lichaam** te maken, is de **ademhaling**. 
 
-_**Mindfulness**_
+> When you own your breath, nobody can steal your peace.
 
-_**Mindful Yoga**_
+## Mindfulness
+
+## Mindful Yoga
