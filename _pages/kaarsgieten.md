@@ -7,11 +7,8 @@ caption:
   align: bottom center
   quote: 'YOGA takes you into the present moment, the only place where life exists.'
 info:
-  description: |-
-    **Mindful Yoga** 
-    ___
-    Binnenkort in nieuwe zaal *Oemtata*!
-  title: ''
+  description: Binnenkort in nieuwe zaal *Oemtata*!
+  title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
 ---
 
