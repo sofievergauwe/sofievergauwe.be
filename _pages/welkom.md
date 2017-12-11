@@ -30,7 +30,7 @@ teasers:
       Binnenkort Mindful Yoga lessen in de Oemtata!
     title: Mindful Yoga
     image: /media/mindful-yoga.png
-    link: /kaarsgieten
+    link: /mindful-yoga
   - description: >-
       Voel je je vermoeid, gehaast of uitgeblust? Heb je nood aan een krachtige
       ontspanning? Boek een Reikisessie en geef je over aan pure levensenergie
