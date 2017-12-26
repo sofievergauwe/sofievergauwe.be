@@ -11,7 +11,7 @@ info:
 datalist:
   items:
     - data: € 200
-      title: 'Schilderij / portret '
+      title: 'Schilderij '
       info: 'op canvas 50x80cm, olieverf'
   title: Prijzen
 buttons: []
@@ -32,5 +32,5 @@ Als ik de persoon voel doorheen het doek, dan weet ik dat het klaar is.
 
 ### In opdracht
 
-Ik maak schilderijen in opdracht. Dit kan een portret zijn, maar ook een bepaalde plek, landschap, gebouw... wat je ook maar in gedachten hebt! Vraag me gerust om meer informatie.  
+Ik maak schilderijen in opdracht. Dit kan een portret zijn, maar ook een bepaalde plek, landschap, gebouw... wat je maar wil! Vraag me gerust om meer informatie.  
 
