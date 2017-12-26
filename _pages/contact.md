@@ -9,7 +9,7 @@ caption:
 info:
   description: >+
     _De wereld van Sofie is gelegen aan een betoverend 15e eeuws bedevaartsoord
-    met prachtige Kapel van Ons Lief Vrouwke te Stoepe._
+    met prachtige Kapel ter ere van Ons Lief Vrouwke van Stoepe._
 
 
   image: /media/stoepe.jpg
