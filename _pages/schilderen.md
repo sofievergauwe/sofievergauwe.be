@@ -22,7 +22,7 @@ Ik gebruik olieverf.  _
 
 ### Mindful
 
-Een **schilderij** maken is voor mij het nauwkeurig onderzoeken en vertalen van een bepaald beeld. In die zin is het een uitstekende oefening in mindfulness. Als ik schilder, voel ik me tijdloos, in het moment, en stroom ik vanzelf over in een expressieve golf. Zalig!
+Een schilderij maken is voor mij het nauwkeurig onderzoeken en vertalen van een bepaald beeld. In die zin is het een uitstekende oefening in mindfulness. Als ik schilder, voel ik me tijdloos, in het moment, en stroom ik vanzelf over in een expressieve golf. Zalig!
 
 ### Portret
 
