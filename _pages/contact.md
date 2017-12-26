@@ -8,8 +8,8 @@ caption:
   quote: Iedereen is welkom in mijn wereld!
 info:
   description: >+
-    _De wereld van Sofie is gelegen aan een prachtig 15e eeuws bedevaartsoord
-    met Stoepe Kapel._
+    _De wereld van Sofie is gelegen aan een betoverend 15e eeuws bedevaartsoord
+    met prachtige Kapel van Ons Lief Vrouwke te Stoepe._
 
 
   image: /media/stoepe.jpg
