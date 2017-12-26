@@ -4,8 +4,8 @@ permalink: /massage
 layout: page
 image: /media/massage.jpg
 caption:
-  align: middle center
-  quote: Stijfheid en pijn kunnen werkelijk wegvloeien!
+  align: bottom center
+  quote: Stijfheid en pijn kunnen werkelijk wegvloeien
 info:
   description: >-
     Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de
@@ -32,7 +32,7 @@ datalist:
 buttons: []
 ---
 
-_Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het **onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam**._
+_Door mijn achtergrond in kinesitherapeutische technieken, bijscholing in massagetherapie, yoga en het volgen van andere holistische cursussen, heb ik een eigen visie rondom het begrip massage ontwikkeld. Massage houdt voor mij meer in dan losmaken en bekomen van ontspanning. Je laten masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen. Jezelf een massage gunnen staat gelijk aan het onderhouden en koesteren van je eigen fysieke huis, van jouw lichaam._
 
 ### Loslaten
 
