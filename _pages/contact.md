@@ -8,9 +8,8 @@ caption:
   quote: Iedereen is welkom in mijn wereld!
 info:
   description: >+
-    _**De wereld van Sofie** heeft het geluk zich te mogen ontplooien in een
-    prachtige omgeving met de aanwezigheid van **Stoepe Kapel**, die zorgt voor
-    een rustgevende en helende sfeer..._
+    _De wereld van Sofie is gelegen aan een prachtig 15e eeuws bedevaartsoord
+    met Stoepe Kapel._
 
 
   image: /media/stoepe.jpg
