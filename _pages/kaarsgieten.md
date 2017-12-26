@@ -16,10 +16,10 @@ _Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en b
 
 ### Mijn kennismaking
 
-Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was een voor mij ongekende rust in lichaam en geest. Ik kreeg een gevoel van voldoening, over mezelf en alles om me heen. 
+Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was een voor mij ongekende rust in lichaam en geest. Ik kreeg een gevoel van voldoening, over mezelf en alles om me heen. Dat was nieuw voor mij!
 
-Een belangrijke sleutel die ons helpt de **verbinding tussen geest en lichaam** te maken, is de **ademhaling**
 
-### Mindfulness
 
-### Mindful Yoga
+### Ademhaling
+
+Een belangrijke sleutel die ons helpt de verbinding tussen geest en lichaam te maken is de ademhaling. 
