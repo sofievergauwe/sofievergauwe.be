@@ -5,7 +5,7 @@ layout: page
 image: /media/massage.jpg
 caption:
   align: bottom center
-  quote: Stijfheid en pijn kunnen werkelijk wegvloeien
+  quote: 'Koester je eigen huis, jouw lichaam'
 info:
   description: >-
     Verwen jezelf of een ander met een stevig losmakende en toch heerlijk
