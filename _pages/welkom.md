@@ -36,8 +36,8 @@ teasers:
     image: /media/reiki.jpg
     link: /reiki
   - description: >-
-      Wil je een schilderij laten maken? Of iemand een origineel cadeau geven?
-      Wil je graag een verloren dierbare vereeuwigen? Een foto, en ik ben
+      Wil je een schilderij laten maken? Op zoek naar een origineel cadeau? Wil
+      je graag een verloren dierbare vereeuwigen? Een foto, en ik ben
       vertrokken!
     title: Schilderen
     image: /media/schilderen.jpg
