@@ -5,19 +5,21 @@ layout: page
 image: /media/mindful-yoga.png
 caption:
   align: bottom center
-  quote: 'YOGA takes you into the present moment, the only place where life exists.'
+  quote: 'YOGA brengt je in het nu, in je lichaam en bij  je ware zelf'
 info:
-  description: Binnenkort in nieuwe zaal *Oemtata*!
+  description: Binnenkort in nieuwe zaal Oemtata!
   title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
 ---
 
-_**Yoga** vindt zijn oorsprong in India, het woord **Yoga** komt uit het Sankskriet en betekent **vereniging/ unie/ eenheid/ verbinding** tussen **geest** en **lichaam**, tussen het **vormloze** en de **vorm**. Een unie van beide polen brengt **vrede, evenwicht en harmonie** met zich mee._
+_Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en betekent vereniging of verbinding,  tussen geest en lichaam, tussen het vormloze en de vorm._
 
-Op 17-jarige leeftijd startte ik met het volgen van **Hatha Yoga** lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was, een voor mij ongekende **rust in lichaam en geest**. Dit was de eerste keer dat ik me **veilig** voelde in mijn lichaam en werkelijk kon **rusten in mezelf**.  Een belangrijke sleutel die ons helpt de **verbinding tussen geest en lichaam** te maken, is de **ademhaling**. 
+### Mijn kennismaking
 
-> When you own your breath, nobody can steal your peace.
+Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was een, voor mij ongekende, rust in lichaam en geest. Ik kreeg een gevoel van voldoening, over mezelf en alles om me heen. 
 
-## Mindfulness
+Een belangrijke sleutel die ons helpt de **verbinding tussen geest en lichaam** te maken, is de **ademhaling**
 
-## Mindful Yoga
+### Mindfulness
+
+### Mindful Yoga
