@@ -14,6 +14,7 @@ datalist:
     - data: € 50
       title: 'Thetasessie '
       info: 60'
+    - title: Waardebon mogelijk!
   title: Prijzen
 ---
 _De ThetaHealing® techniek is een energetische geneeswijze ontwikkeld door de Amerikaanse Vianna Stibal in 1995.
