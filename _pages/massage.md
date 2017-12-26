@@ -7,7 +7,9 @@ caption:
   align: bottom center
   quote: Stijfheid en pijn kunnen werkelijk wegvloeien
 info:
-  description: Geniet van een losmakende en tegelijk heerlijk ontspannende massage
+  description: >-
+    Verwen jezelf of een ander met een stevig losmakende en toch heerlijk
+    ontspannende massage!
   title: ''
   image: /media/rugmassage.jpg
 datalist:
