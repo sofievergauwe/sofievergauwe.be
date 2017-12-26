@@ -7,10 +7,7 @@ caption:
   align: bottom center
   quote: Stijfheid en pijn kunnen werkelijk wegvloeien
 info:
-  description: >-
-    Via massage kunnen **trauma** en **shock**, die vaak opgeslagen liggen in de
-    huid, losgelaten worden. Spanningen die zich vastzetten in de spieren kunnen
-    met behulp van massage losgemaakt en afgevoerd worden.
+  description: Geniet van een losmakende en tegelijk heerlijk ontspannende massage
   title: ''
   image: /media/rugmassage.jpg
 datalist:
