@@ -23,18 +23,16 @@ teasers:
     image: /media/spiritueel.jpg
     link: /thetahealing
   - description: >-
-      Zit je vaak in je hoofd? Heb je het gevoel dat je niet tot rust kan komen?
-      Voel je je niet goed in je vel/lichaam? Mindful Yoga brengt ons in het
-      hier&nu en biedt ons de mogelijkheid om opieuw in contact te komen met ons
-      lichaam. Dit geeft een gevoel van vrede, rust, evenwicht en harmonie. 
+      Zit je vaak in je hoofd? Kan je niet tot rust komen? Mindful Yoga brengt
+      ons in het hier&nu en herstelt de verbinding tussen lichaam en geest.
       Binnenkort Mindful Yoga lessen in de Oemtata!
     title: Mindful Yoga
     image: /media/mindful-yoga.png
     link: /mindful-yoga
   - description: >-
-      Voel je je vermoeid, gehaast of uitgeblust? Heb je nood aan een krachtige
-      ontspanning? Boek een Reikisessie en geef je over aan pure levensenergie
-      voor het ervaren van een zalige rust en krachtige oplading.
+      Voel je je vermoeid, gehaast of uitgeblust? Boek een Reikisessie, geef je
+      over aan pure levensenergie en ervaar een zalige rust en krachtige
+      oplading.
     title: Reiki
     image: /media/reiki.jpg
     link: /reiki
