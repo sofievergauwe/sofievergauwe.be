@@ -17,8 +17,7 @@ datalist:
 buttons: []
 ---
 
-_Tekenen en schilderen zijn altijd een rode draad en houvast geweest in mijn leven. Doorheen de jaren heb ik mijn eigen stijl ontwikkeld, maar net zoals een mens steeds verandert en evolueert, is ook mijn manier van schilderen altijd in beweging. 
-Ik gebruik olieverf.  _
+_Tekenen en schilderen zijn altijd een rode draad en houvast geweest in mijn leven. Doorheen de jaren heb ik mijn eigen stijl ontwikkeld, maar net zoals een mens steeds verandert en evolueert, is ook mijn manier van schilderen altijd in beweging. _
 
 ### Mindful
 
