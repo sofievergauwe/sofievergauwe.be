@@ -22,7 +22,7 @@ Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf d
 
 ### Mindfulness
 
-Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn, in het moment en in ons lichaam. We benaderen onszelf zonder oordeel, op een zachte manier. We worden ons bewust van onze fysieke ervaringen, gevoelens en gedachten, zonder hier een eigen verhaal aan te koppelen. Mindfulness leert ons met een milde open aandacht waarnemen wat zich in het nu aanbiedt. 
+Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn, in het moment en in ons lichaam. We benaderen onszelf zonder oordeel, op een zachte manier. We worden ons bewust van onze fysieke ervaringen, gevoelens en gedachten, zonder hier een verhaal aan te koppelen. Mindfulness leert ons met een milde open aandacht waarnemen wat zich in het nu aanbiedt. 
 
 
 ### Yoga 
