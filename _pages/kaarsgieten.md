@@ -16,15 +16,31 @@ _Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en b
 
 ### Mijn kennismaking
 
-Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Het geschenk dat ik daar mocht ontvangen was een voor mij ongekende rust in lichaam en geest. Ik kreeg een gevoel van voldoening, tevredenheid over mezelf en alles om me heen. 
+Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Wat tot me doordong was een ongekende rust in lichaam en geest. Ik ervaarde gevoelens van voldoening en tevredenheid over mezelf en alles om me heen. Sindsdien is yoga deel geworden van mijn leven en wil ik deze therapeutische bewegingsvorm graag met jullie delen. 
+
+### Mindful Yoga 
+
+Deze Yogavorm is gebaseerd op de traditionele Hatha Yoga en Mindfulness. Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn, in het moment en in ons lichaam. We benaderen onszelf zonder oordeel, op een zachte manier. We worden ons bewust van onze fysieke ervaringen, gevoelens en gedachten, zonder hier een verhaal aan te koppelen. Mindfulness leert ons met een milde open aandacht waarnemen wat zich in het nu aanbiedt. Het is een weg, een reis, niet om ergens te geraken, maar om te zijn waar je bent. Het nu, dit moment, is onze bestemming.
 
 
 
-### Mindfulness
+### 8 pijlers
 
-Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn, in het moment en in ons lichaam. We benaderen onszelf zonder oordeel, op een zachte manier. We worden ons bewust van onze fysieke ervaringen, gevoelens en gedachten, zonder hier een verhaal aan te koppelen. Mindfulness leert ons met een milde open aandacht waarnemen wat zich in het nu aanbiedt. 
+Tijdens de lessen maken we gebruik van onderstaande Mindful pijlers als hulpmiddel om de verbinding tussen geest en lichaam te herstellen. Het toepassen van deze pijlers leert ons veel over onszelf en de relatie met ons lichaam, maar ook over hoe we anderen bekijken en ervaren. 
+
+- Niet oordelen
+- Geduld hebben 
+- Beginner's mind 
+- Vertrouwen
+- Niet streven 
+- Acceptatie
+- Loslaten
+- Compassie
 
 
-### Yoga 
 
-Een belangrijke sleutel om de verbinding tussen geest en lichaam te herstellen is onze ademhaling. 
+### De ademhaling 
+
+Een andere heel belangrijke sleutel om de verbinding tussen geest en lichaam te herstellen is onze ademhaling. 
+
+
