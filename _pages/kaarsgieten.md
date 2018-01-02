@@ -5,7 +5,7 @@ layout: page
 image: /media/mindful-yoga.png
 caption:
   align: bottom center
-  quote: 'YOGA brengt je in het nu, in je lichaam en bij ons ware zelf'
+  quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
 info:
   description: Binnenkort in nieuwe zaal Oemtata!
   title: Mindful Yoga
