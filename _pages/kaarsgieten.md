@@ -10,6 +10,15 @@ info:
   description: Binnenkort in nieuwe zaal Oemtata!
   title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
+datalist:
+  items:
+    - data: 10 €
+      title: ' 1 les '
+      info: (75')
+    - data: 80 €
+      title: '10 lessen '
+      info: ''
+  title: Prijzen
 ---
 
 _Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en betekent vereniging of verbinding,  tussen geest en lichaam, tussen het vormloze en de vorm._
