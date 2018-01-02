@@ -29,11 +29,11 @@ teasers:
     image: /media/mindful-yoga.png
     link: /mindful-yoga
   - description: >-
-      Voel je je vermoeid, gehaast of uitgeblust? Boek een Reikisessie, geef je
-      over aan pure levensenergie en ervaar een zalige rust en krachtige
-      oplading.
-    title: Reiki
-    image: /media/reiki.jpg
+      Wil je weten wat je energie over jezelf te vertellen heeft? Weten of je in
+      balans bent? Wat je eventuele werkpunten en levenslessen zijn op dit
+      moment? Of ben je gewoon nieuwsgierig? 
+    title: Chakra reading
+    image: /media/final-strom-chakras-1.jpg
     link: /reiki
   - description: >-
       Wil je een schilderij laten maken? Op zoek naar een origineel cadeau? Wil
