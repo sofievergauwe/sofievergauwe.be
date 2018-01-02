@@ -2,7 +2,7 @@
 title: Chakra Reading
 permalink: /chakra reading
 layout: page
-image: /media/chakra-1024x683.png
+image: /media/chakra-reading-ertvelde-healing.jpg
 caption:
   align: bottom right
   quote: ''
