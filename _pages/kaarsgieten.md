@@ -16,7 +16,7 @@ _Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en b
 
 ### Mijn kennismaking
 
-Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Wat tot me doordong was een ongekende rust in lichaam en geest. Ik ervaarde gevoelens van voldoening en tevredenheid over mezelf en alles om me heen. Sindsdien is yoga deel geworden van mijn leven en wil ik deze therapeutische bewegingsvorm graag met jullie delen. 
+Op 17-jarige leeftijd startte ik met het volgen van Hatha Yoga lessen en vanaf de eerste les voelde ik me merkwaardig anders. Wat tot me doordong was een ongekende rust in lichaam en geest. Ik ervaarde gevoelens van voldoening en tevredenheid over mezelf en alles om me heen. Sindsdien is yoga deel geworden van mijn leven en nu voel ik dat de tijd rijp is om deze therapeutische bewegingsvorm met anderen te delen. 
 
 ### Mindful Yoga 
 
