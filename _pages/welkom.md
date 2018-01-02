@@ -33,7 +33,7 @@ teasers:
       balans bent? Wat je eventuele werkpunten en levenslessen zijn op dit
       moment? Of ben je gewoon nieuwsgierig? 
     title: Chakra Reading
-    image: /media/chakra-reading-healing-ertvelde.jpg
+    image: /media/chakra-reading-ertvelde-healing.jpg
     link: /reiki
   - description: >-
       Wil je een schilderij laten maken? Op zoek naar een origineel cadeau? Wil
