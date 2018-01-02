@@ -32,8 +32,8 @@ teasers:
       Wil je weten wat je energie over jezelf te vertellen heeft? Weten of je in
       balans bent? Wat je eventuele werkpunten en levenslessen zijn op dit
       moment? Of ben je gewoon nieuwsgierig? 
-    title: Chakra reading
-    image: /media/final-strom-chakras-1.jpg
+    title: Chakra Reading
+    image: /media/chakra-reading-healing-ertvelde.jpg
     link: /reiki
   - description: >-
       Wil je een schilderij laten maken? Op zoek naar een origineel cadeau? Wil
