@@ -29,13 +29,6 @@ teasers:
     image: /media/mindful-yoga.png
     link: /mindful-yoga
   - description: >-
-      Wil je weten wat je energie over jezelf te vertellen heeft? Weten of je in
-      balans bent? Wat je eventuele werkpunten en levenslessen zijn op dit
-      moment? Of ben je gewoon nieuwsgierig? 
-    title: Chakra Reading
-    image: /media/chakra-reading-ertvelde-healing.jpg
-    link: /reiki
-  - description: >-
       Wil je een schilderij laten maken? Op zoek naar een origineel cadeau? Wil
       je graag een verloren dierbare vereeuwigen? Een foto, en ik ben
       vertrokken!
