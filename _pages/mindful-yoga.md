@@ -7,7 +7,7 @@ caption:
   align: bottom center
   quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
 info:
-  description: Binnenkort in nieuwe zaal Oemtata!
+  description: Binnenkort in nieuwe zaal **Oemtata**! Te **Evergem-Ertvelde**.
   title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
 datalist:
