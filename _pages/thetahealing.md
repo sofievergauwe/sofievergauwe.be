@@ -7,7 +7,7 @@ caption:
   align: bottom center
   quote: Reconnect to your inner source
 info:
-  image: /media/thetahealing-ertvelde (2).jpg
+  image: /media/thetahealing-ertvelde.jpg
 datalist:
   description: '_Inclusief versnapering, water & thee._'
   items:
