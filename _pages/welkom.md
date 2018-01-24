@@ -35,5 +35,7 @@ teasers:
     title: Schilderen
     image: /media/schilderen.jpg
     link: /schilderen
+  - title: de wereld van Sofie
+    image: /media/wereld-van-sofie-stoepe.jpg
 ---
 
