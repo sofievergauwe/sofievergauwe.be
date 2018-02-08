@@ -79,7 +79,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string" }
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown" }
