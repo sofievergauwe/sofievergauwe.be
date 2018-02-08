@@ -80,14 +80,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string" }
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
-      - {label: "Banner", name: "image", widget: "image", required: false }
-      - label: "Banner caption"
-        name: caption
-        required: false
-        widget: "object"
-        fields:
-          - {label: "Quote", name: "quote", widget: "string", required: false }
-          - {label: "Align", name: "align", widget: "captionalign" }
+      - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown" }
       - label: "Info"
         name: info
@@ -97,21 +90,6 @@ collections:
           - {label: "Title", name: "title", widget: "string", required: false }
           - {label: "Image", name: "image", widget: "image", required: false }
           - {label: "Description", name: "description", widget: "markdown", required: false }
-      - label: "Datalist"
-        name: datalist
-        required: false
-        widget: object
-        fields:
-          - {label: "Title", name: "title", widget: "string", required: false }
-          - {label: "Description", name: "description", widget: "markdown", required: false }
-          - label: "Items"
-            name: items
-            required: false
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string"}
-              - {label: "Info", name: "info", widget: "string"}
-              - {label: "Data", name: "data", widget: "string"}
       - label: "Links"
         name: links
         required: false
