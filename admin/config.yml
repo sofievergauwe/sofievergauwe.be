@@ -73,6 +73,68 @@ collections:
           - {label: "Title", name: "title", widget: "string" }
           - {label: "Url", name: "url", widget: "string" }
 
+  - name: "posts"
+    label: "Posts"
+    folder: "_posts"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Link", name: "permalink", widget: "string" }
+      - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
+      - {label: "Banner", name: "image", widget: "image", required: false }
+      - label: "Banner caption"
+        name: caption
+        required: false
+        widget: "object"
+        fields:
+          - {label: "Quote", name: "quote", widget: "string", required: false }
+          - {label: "Align", name: "align", widget: "captionalign" }
+      - {label: "Body", name: "body", widget: "markdown" }
+      - label: "Info"
+        name: info
+        required: false
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Image", name: "image", widget: "image", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
+      - label: "Datalist"
+        name: datalist
+        required: false
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
+          - label: "Items"
+            name: items
+            required: false
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Info", name: "info", widget: "string"}
+              - {label: "Data", name: "data", widget: "string"}
+      - label: "Links"
+        name: links
+        required: false
+        widget: object
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: false }
+          - {label: "Description", name: "description", widget: "markdown", required: false }
+          - label: "Items"
+            name: items
+            required: false
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string" }
+              - {label: "Url", name: "url", widget: "string" }
+      - label: "Buttons"
+        name: buttons
+        required: false
+        widget: "list"
+        fields:
+          - {label: "Title", name: "title", widget: "string" }
+          - {label: "Url", name: "url", widget: "string" }
+
   - name: "forms"
     label: "Forms"
     editor:
