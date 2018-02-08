@@ -82,14 +82,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown" }
-      - label: "Info"
-        name: info
-        required: false
-        widget: object
-        fields:
-          - {label: "Title", name: "title", widget: "string", required: false }
-          - {label: "Image", name: "image", widget: "image", required: false }
-          - {label: "Description", name: "description", widget: "markdown", required: false }
       - label: "Links"
         name: links
         required: false
