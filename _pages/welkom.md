@@ -9,8 +9,8 @@ caption:
 teasers:
   - description: >-
       Bij de wereld van Sofie kan u terecht voor massages, healingsessies,
-      yogalessen en het laten maken van een schilderij! Klik verder voor meer
-      info over Sofie.
+      yogalessen en het laten maken van een schilderij! Klik verder en lees mijn
+      verhaal.
     title: De wereld van Sofie
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
