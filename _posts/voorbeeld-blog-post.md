@@ -2,7 +2,7 @@
 title: Leef!
 date: '2018-02-09 06:03'
 layout: post
-image: /media/leefnietomtewerken.jpg
+image: /media/werkomteleven.jpg
 ---
 _Dit is een voorbeeld blog post_
 
