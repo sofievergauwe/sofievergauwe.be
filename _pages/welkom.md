@@ -8,6 +8,13 @@ caption:
   quote: Welkom in de wereld van Sofie...
 teasers:
   - description: >-
+      Bij de wereld van Sofie kan u terecht voor massages, healingsessies,
+      yogalessen en het laten maken van een schilderij! Klik verder voor meer
+      info over Sofie.
+    title: de wereld van Sofie
+    image: /media/de-wereld-van-sofie-stoepe.jpg
+    link: /wereldvansofie
+  - description: >-
       Gaat het leven niet zoals je wil? Last van angsten? Relatieproblemen? De
       weg kwijt? Probeer een Thetasessie en laat je verrassen door het
       diepgaande effect.
@@ -35,11 +42,5 @@ teasers:
     title: Schilderen
     image: /media/schilderen.jpg
     link: /schilderen
-  - description: >-
-      Bij de wereld van Sofie kan u terecht voor massages, healingsessies,
-      yogalessen en het laten maken van een schilderij! Klik verder voor meer
-      info over Sofie.
-    title: de wereld van Sofie
-    image: /media/de-wereld-van-sofie-stoepe.jpg
 ---
 
