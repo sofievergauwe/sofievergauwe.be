@@ -84,27 +84,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", required: true, default: "post" }
       - {label: "Image", name: "image", widget: "image", required: false }
       - {label: "Body", name: "body", widget: "markdown" }
-      - label: "Links"
-        name: links
-        required: false
-        widget: object
-        fields:
-          - {label: "Title", name: "title", widget: "string", required: false }
-          - {label: "Description", name: "description", widget: "markdown", required: false }
-          - label: "Items"
-            name: items
-            required: false
-            widget: "list"
-            fields:
-              - {label: "Title", name: "title", widget: "string" }
-              - {label: "Url", name: "url", widget: "string" }
-      - label: "Buttons"
-        name: buttons
-        required: false
-        widget: "list"
-        fields:
-          - {label: "Title", name: "title", widget: "string" }
-          - {label: "Url", name: "url", widget: "string" }
+      - {label: "Published", name: "published", widget: "boolean", default: true}
+
 
   - name: "forms"
     label: "Forms"
