@@ -9,9 +9,11 @@ layout: default
 
   <article class="post">
 
-    <figure>
-      {% include_cached components/image.html file=post.image style='teaser' alt=post.title %}
-    </figure>
+  {% if post.image %}
+  <figure class="banner">
+    {% include_cached components/image.html file=post.image style='banner' alt=post.title %}
+  </figure>
+  {% endif %}
 
     <div class="content">
 
