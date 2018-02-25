@@ -19,10 +19,7 @@ layout: default
 
       <h3>{{ post.title }}</h3>
       {{ post.content | markdownify | replace: "\", "<br/>" }}
-      <footer>
-        <a href="{{ post.link }}">Lees meer</a>
-      </footer>
-
+      
     </div>
 
   </article>
