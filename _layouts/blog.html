@@ -2,6 +2,29 @@
 layout: default
 ---
 
-<section>
+<section class="blog">
   <h2><span>{{ page.title }}</span></h2>
+
+  {% for news in site.news %}
+
+  <article class="news">
+
+    <figure>
+      {% include_cached components/image.html file=news.image style='teaser' alt=news.title %}
+    </figure>
+
+    <div class="content">
+
+      <h3>{{ news.title }}</h3>
+      {{ news.content | markdownify | replace: "\", "<br/>" }}
+      <footer>
+        <a href="{{ news.link }}">Lees meer</a>
+      </footer>
+
+    </div>
+
+  </article>
+
+  {% endfor %}
+
 </section>
