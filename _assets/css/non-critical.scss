@@ -72,3 +72,8 @@
   @import
     "partials/layout/layout.min.huge";
 }
+
+
+.post + .post {
+  margin-top: 3em;
+}
