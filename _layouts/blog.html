@@ -5,20 +5,20 @@ layout: default
 <section class="blog">
   <h2><span>{{ page.title }}</span></h2>
 
-  {% for news in site.news %}
+  {% for post in site.posts %}
 
-  <article class="news">
+  <article class="post">
 
     <figure>
-      {% include_cached components/image.html file=news.image style='teaser' alt=news.title %}
+      {% include_cached components/image.html file=post.image style='teaser' alt=post.title %}
     </figure>
 
     <div class="content">
 
-      <h3>{{ news.title }}</h3>
-      {{ news.content | markdownify | replace: "\", "<br/>" }}
+      <h3>{{ post.title }}</h3>
+      {{ post.content | markdownify | replace: "\", "<br/>" }}
       <footer>
-        <a href="{{ news.link }}">Lees meer</a>
+        <a href="{{ post.link }}">Lees meer</a>
       </footer>
 
     </div>
