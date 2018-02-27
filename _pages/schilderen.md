@@ -6,6 +6,7 @@ image: /media/schilderen.jpg
 caption:
   align: bottom center
   quote: 'Als ik schilder, voel ik me tijdloos...'
+instagram: painting
 info:
   image: /media/portret-schilderen-stoepe.jpg
 datalist:
