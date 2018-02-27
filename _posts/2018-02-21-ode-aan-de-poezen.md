@@ -1,7 +1,7 @@
 ---
 title: Ode aan de poezen!
 date: '2018-02-21 02:11'
-layout: post
+layout: default
 image: /media/sabby-portret-tekening.jpg
 published: true
 ---
