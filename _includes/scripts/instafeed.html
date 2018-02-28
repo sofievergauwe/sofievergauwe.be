@@ -3,7 +3,7 @@
 var galleries = document.querySelectorAll('[data-instagram-tag]'), i;
   
 for (i = 0; i < galleries.length; ++i) {
-  var tag = galleries[i].getAttribute('data-value');
+  var tag = galleries[i].getAttribute('data-instagram-tag');
   console.log(tag);
 }
 
