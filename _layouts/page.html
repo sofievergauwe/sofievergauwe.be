@@ -5,13 +5,15 @@ layout: default
 <article {% if sidebar %}class="sidebar"{% endif %}>
   <h2><span>{{ page.title }}</span></h2>
   {{ content | replace: "\", "<br />" }}
-</article>
-
-{% if page.instagram %}
+  
+  {% if page.instagram %}
   <section class="gallery" data-instagram-feed="{{ page.instagram }}">
     <h2 class="hidden">Galerij</h2>
   </section>
+  
 {% endif %}
+  
+</article>
 
 {% capture sidebar %}
 
