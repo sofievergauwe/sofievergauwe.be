@@ -1,4 +1,13 @@
 <script>
+  
+var galleries = document.querySelectorAll('[data-instagram-tag]'), i;
+  
+for (i = 0; i < galleries.length; ++i) {
+  var tag = galleries[i].getAttribute('data-value')
+  console.log(tag);
+}
+
+/*
 var feed = new Instafeed({
   get: 'tagged',
   tagName: '{{ page.instagram }}',
@@ -12,4 +21,5 @@ var feed = new Instafeed({
 });
 
 feed.run();
+*/
 </script>
