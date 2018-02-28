@@ -6,6 +6,7 @@ for (i = 0; i < galleries.length; ++i) {
   
   var tag = galleries[i].getAttribute('data-instagram-tag');
   var id = galleries[i].id;
+  var selector = '#' + id;
 
   galleries[i].gallery = new Instafeed({
     get: 'tagged',
@@ -16,7 +17,7 @@ for (i = 0; i < galleries.length; ++i) {
     accessToken: '{{ site.instagram.accessToken }}',
     template: {% raw %}'<figure><a href="{{model.images.standard_resolution.url}}" data-caption="{{caption}} &hearts; {{likes}}"><img class="lazyload" src="{% endraw %}{{ placeholder }}{% raw %}" data-src="{{model.images.low_resolution.url}}" alt="Picture" width="280" height="280"/></a></figure>', {% endraw %}
     after: function() {
-      baguetteBox.run("'#" + id + "'");
+      baguetteBox.run(selector);
     }
   });
 
