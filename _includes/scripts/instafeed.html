@@ -6,7 +6,7 @@ for (i = 0; i < galleries.length; ++i) {
   
   var tag = galleries[i].getAttribute('data-instagram-tag');
   var id = galleries[i].id;
-  
+  console.log(id);
   galleries[i].gallery = new Instafeed({
     get: 'tagged',
     target: id,
