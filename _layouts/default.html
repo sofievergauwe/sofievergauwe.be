@@ -24,6 +24,7 @@ layout: compress
     {% js js/default async:true %}
 
     {% if page.instagram and page.instagram != '' %}
+      {% css css/plugins/baguetteBox.min.css %}
       {% js js/gallery %}
       {% include scripts/instafeed.html %}
     {% endif %}
