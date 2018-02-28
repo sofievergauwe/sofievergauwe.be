@@ -7,8 +7,9 @@ layout: default
   {{ content | replace: "\", "<br />" }}
   
   {% if page.instagram %}
-  <section class="gallery" id="instafeed-{{ page.instagram }}" data-instagram-tag="{{ page.instagram }}">
+  <section class="gallery" data-instagram-tag="{{ page.instagram }}">
     <h2 class="hidden">Galerij</h2>
+    <div id="instafeed-{{ page.instagram }}"></div>
   </section>
   
 {% endif %}
