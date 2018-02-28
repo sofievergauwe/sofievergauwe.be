@@ -7,6 +7,12 @@ layout: default
   {{ content | replace: "\", "<br />" }}
 </article>
 
+{% if page.instagram %}
+  <section class="gallery" data-instagram-feed="{{ page.instagram }}">
+    <h2 class="hidden">Galerij</h2>
+  </section>
+{% endif %}
+
 {% capture sidebar %}
 
   {% if page.info.image %}
