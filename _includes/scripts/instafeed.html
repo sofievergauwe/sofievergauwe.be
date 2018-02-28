@@ -5,7 +5,7 @@ var galleries = document.querySelectorAll('[data-instagram-tag]'), i;
 for (i = 0; i < galleries.length; ++i) {
   
   var tag = galleries[i].getAttribute('data-instagram-tag');
-  var id = galleries[i].id;
+  var id = 'instafeed-' + tag;
   var selector = '#' + id;
 
   galleries[i].gallery = new Instafeed({
