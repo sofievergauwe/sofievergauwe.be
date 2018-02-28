@@ -42,6 +42,14 @@ layout: default
       
       {{ post.content | markdownify | replace: "\", "<br/>" }}
       
+      {% if post.instagram %}
+      {% assign page.instagram = true %}
+      <section class="gallery" data-instagram-tag="{{ post.instagram }}">
+        <h2 class="hidden">Galerij</h2>
+        <div id="instafeed-{{ post.instagram }}"></div>
+      </section>
+      {% endif %}
+      
     </div>
 
   </article>
