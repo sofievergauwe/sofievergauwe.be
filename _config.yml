@@ -7,6 +7,12 @@ url: "https://sofievergauwe.be/"
 github_username: sofievergauwe
 repository: "sofievergauwe/sofievergauwe.be"
 
+
+# Instagram
+instagram:
+  userId: 6823425994
+  clientId: 376a165887a34656a8cc9ee1b693a99c
+
 # Build settings
 markdown: kramdown
 plugins:
