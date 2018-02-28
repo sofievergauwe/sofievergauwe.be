@@ -87,6 +87,11 @@
   color: grey;
 }
 
-.gallery > div {
-  display: flex;
+
+.gallery {
+  margin: 3em 0 1em;
+  
+  & > div {
+    display: flex;
+  }
 }
