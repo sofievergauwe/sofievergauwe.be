@@ -12,7 +12,7 @@ repository: "sofievergauwe/sofievergauwe.be"
 instagram:
   userId: 6823425994
   clientId: 376a165887a34656a8cc9ee1b693a99c
-  accessToken: 6823425994.1677ed0.7a20692a629845178a2a17dc38d14593
+  accessToken: 6823425994.376a165.34f678cd2c404044aa62f926a99a649f
 
 # Build settings
 markdown: kramdown
