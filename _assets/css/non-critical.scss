@@ -97,10 +97,10 @@
   
   figure {
     @include grid((
-      ($breakpoint-tiny, 3, 16),
-      ($breakpoint-small, 4, 20),
-      ($breakpoint-medium, 6, 24),
-      ($breakpoint-large, 8, 24),
+      (breakpoint(tiny), 3, 16),
+      (breakpoint(small), 4, 20),
+      (breakpoint(medium), 6, 24),
+      (breakpoint(large), 8, 24),
     ));
   }
 
