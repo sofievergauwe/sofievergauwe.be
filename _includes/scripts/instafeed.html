@@ -11,7 +11,7 @@ for (i = 0; i < galleries.length; ++i) {
   galleries[i].gallery = new Instafeed({
     get: 'tagged',
     target: id,
-    tagName: '{{ page.instagram }}',
+    tagName: tag,
     sortBy: 'most-recent',
     clientId: '{{ site.instagram.clientId }}',
     accessToken: '{{ site.instagram.accessToken }}',
