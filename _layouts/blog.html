@@ -43,10 +43,7 @@ layout: default
       {{ post.content | markdownify | replace: "\", "<br/>" }}
       
       {% if post.instagram %}
-      <section class="gallery" data-instagram-tag="{{ post.instagram }}">
-        <h2 class="hidden">Galerij</h2>
-        <div id="instafeed-{{ post.instagram }}"></div>
-      </section>
+        {% include components/gallery.html instagram=post.instagram %}
       {% endif %}
       
     </div>
