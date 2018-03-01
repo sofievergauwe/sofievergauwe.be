@@ -26,6 +26,7 @@ picture {
 }
 
 // lazyload
+.gallery img,
 noscript + picture > img,
 noscript + img {
   opacity: 0;
