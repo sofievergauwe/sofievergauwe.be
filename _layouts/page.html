@@ -7,12 +7,8 @@ layout: default
   {{ content | replace: "\", "<br />" }}
   
   {% if page.instagram %}
-  <section class="gallery" data-instagram-tag="{{ page.instagram }}">
-    <h2 class="hidden">Galerij</h2>
-    <div id="instafeed-{{ page.instagram }}"></div>
-  </section>
-  
-{% endif %}
+    {% include components/gallery.html instagram=page.instagram %}
+  {% endif %}
   
 </article>
 
