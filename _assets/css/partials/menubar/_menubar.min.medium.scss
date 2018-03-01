@@ -7,6 +7,10 @@ body > header > nav {
     & > li:first-child {
       display: none;
     }
+    
+    & > li:last-child {
+      margin-left: -1em;
+    }
 
     & > li > a {
 
