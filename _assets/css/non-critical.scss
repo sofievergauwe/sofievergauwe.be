@@ -93,6 +93,12 @@
   
   a {
     text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.85;
+      transform: scale(1.025);
+    }
   }
   
   figure {
