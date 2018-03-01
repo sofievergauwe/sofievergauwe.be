@@ -92,19 +92,16 @@
   margin: 3em 0 1em;
   
   & > div {
-    display: flex;
-    flex-wrap: wrap;
+
   }
   
   figure {
-    height: 80px;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 33.3333%;
-    flex-basis: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include grid((
+      ($breakpoint-tiny, 3, 16),
+      ($breakpoint-small, 4, 20),
+      ($breakpoint-medium, 6, 24),
+      ($breakpoint-large, 8, 24),
+    ));
   }
 
 }
