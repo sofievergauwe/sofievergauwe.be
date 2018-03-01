@@ -89,15 +89,13 @@
 
 
 .gallery {
-  margin: 4em 0 1em;
-  
-  & > div {
-
-  }
+  margin: 5em 0;
   
   figure {
+    margin-bottom: em(16);
+    
     @include grid((
-      (breakpoint(tiny), 3, 12),
+      (breakpoint(tiny), 3, 16),
       (breakpoint(small), 4, 16),
       (breakpoint(medium), 5, 16),
       (breakpoint(large), 5, 16),
