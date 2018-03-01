@@ -89,7 +89,7 @@
 
 
 .gallery {
-  margin: 3em 0 1em;
+  margin: 4em 0 1em;
   
   & > div {
 
@@ -97,10 +97,10 @@
   
   figure {
     @include grid((
-      (breakpoint(tiny), 3, 16),
-      (breakpoint(small), 4, 20),
-      (breakpoint(medium), 6, 24),
-      (breakpoint(large), 8, 24),
+      (breakpoint(tiny), 3, 12),
+      (breakpoint(small), 4, 16),
+      (breakpoint(medium), 5, 16),
+      (breakpoint(large), 5, 16),
     ));
   }
 
