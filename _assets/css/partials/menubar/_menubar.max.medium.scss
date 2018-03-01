@@ -5,9 +5,16 @@ body > header > nav {
     line-height: line-height();
     right: spacing(-1);
     text-align: left;
+    
+    & > li:nth-last-child(-n+2) {
+      display: inline-block;
+      margin-right: em(4);
+    }
+    
   }
 
   svg {
     fill: white;
   }
+  
 }
