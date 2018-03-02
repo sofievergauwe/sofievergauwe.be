@@ -2,7 +2,7 @@
 title: Ode aan de poezen!
 date: '2018-02-21 02:11'
 layout: default
-image: /media/odeaandepoezen.jpg
+image: /media/odeaandepoezen3.jpg
 instagram: odeaandepoezen
 published: true
 ---
