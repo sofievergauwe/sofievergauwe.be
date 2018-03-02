@@ -13,3 +13,5 @@ Jullie toonden me dat elke poes zijn eigen ruimte nodig heeft, maar ook anderkat
 Mijn ode aan jullie, een portrettekening (houtskool & vetkrijt) van elk van mijn leermeesters :) 
 
 1: Sabby poes der verandering
+
+2: Pitnis poes der communicatie
