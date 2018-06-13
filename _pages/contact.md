@@ -18,5 +18,7 @@ datalist:
     **_De wereld van Sofie_**\
     Kapelhof 3 (Stoepe)\
     9940 Ertvelde
+
+    0472/44.12.27
 ---
 {% include components/form.html form="contact" %}
