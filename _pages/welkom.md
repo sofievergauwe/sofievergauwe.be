@@ -28,6 +28,10 @@ teasers:
     title: Massage
     image: /media/massage.jpg
     link: /massage
+  - description: ''
+    title: Visualisatie-meditatie
+    image: /media/girl-superpower.jpg
+    link: ':visualisatie'
   - description: >-
       Zit je vaak in je hoofd? Kan je niet tot rust komen? Mindful Yoga brengt
       ons in het hier&nu en herstelt de verbinding tussen lichaam en geest.
@@ -42,9 +46,5 @@ teasers:
     title: Schilderen
     image: /media/schilderen.jpg
     link: /schilderen
-  - description: ''
-    title: Visualisatie
-    image: /media/girl-superpower.jpg
-    link: ':visualisatie'
 ---
 
