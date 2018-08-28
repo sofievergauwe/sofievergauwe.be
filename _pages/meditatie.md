@@ -1,5 +1,5 @@
 ---
-title: Visualisatie-meditatie
+title: Visualisatie-Meditatie
 permalink: /visualisatie- meditaie
 layout: page
 image: /media/girl-superpower.jpg
