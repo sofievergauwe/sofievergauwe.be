@@ -29,7 +29,7 @@ teasers:
     image: /media/massage.jpg
     link: /massage
   - description: ''
-    title: Visualisatie-meditatie
+    title: Visualisatie-Meditatie
     image: /media/girl-superpower.jpg
     link: ':visualisatie'
   - description: >-
