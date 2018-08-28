@@ -11,7 +11,7 @@ info:
   image: /media/portret-schilderen-stoepe.jpg
 datalist:
   items:
-    - data: € 200
+    - data: € 400
       title: 'Schilderij '
       info: 'op canvas 50x80cm, olieverf'
   title: Prijzen
