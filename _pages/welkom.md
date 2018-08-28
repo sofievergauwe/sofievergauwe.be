@@ -8,9 +8,9 @@ caption:
   quote: Welkom in de wereld van Sofie...
 teasers:
   - description: >-
-      Bij de wereld van Sofie kan u terecht voor massages, healingsessies,
-      yogalessen en het laten maken van een schilderij! Klik verder en lees mijn
-      verhaal.
+      Bij de wereld van Sofie kan u terecht voor massages, healingsessies en
+      visualisaties, yogalessen en het laten maken van een schilderij! Klik
+      verder en lees mijn verhaal.
     title: De wereld van Sofie
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
@@ -42,5 +42,9 @@ teasers:
     title: Schilderen
     image: /media/schilderen.jpg
     link: /schilderen
+  - description: ''
+    title: Visualisatie
+    image: /media/girl-superpower.jpg
+    link: ':visualisatie'
 ---
 
