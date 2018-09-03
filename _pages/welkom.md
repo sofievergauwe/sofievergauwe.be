@@ -28,7 +28,7 @@ teasers:
     title: Massage
     image: /media/massage.jpg
     link: /massage
-  - description: ''
+  - description: 'Pagina in de maak... :)'
     title: Visualisatie-Meditatie
     image: /media/girl-superpower.jpg
     link: ':visualisatie'
