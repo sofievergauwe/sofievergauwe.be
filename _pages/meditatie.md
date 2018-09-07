@@ -5,6 +5,22 @@ layout: page
 image: /media/girl-superpower.jpg
 caption:
   quote: 'If you can dream it, you can do it -Walt Disney'
+info:
+  description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan! "
+  title: ''
+datalist:
+  description: |-
+    19u Welkom
+
+    19u30-20u Visualisatie
+
+    20u Uitwisselen ervaringen
+
+    Bijdrage 5€
+  items: []
+  title: Praktisch
+buttons:
+  - title: contacteer me gerust bij vragen of interesse!
 ---
 Het oproepen van beelden, gevoelens en de beleving van een bepaalde situatie of van (een krachtigere versie van) jezelf laat je brein geloven dat het werkelijk zo is. 
 'Eerst zien, dan geloven' is een bekend gezegde en terecht want dit is de grootste kracht van onze hersenen. Eens je gelooft in jezelf en wat je kan bereiken, eens je gelooft in de mogelijkheden, dan pas kan het echt vorm krijgen in je leven. 
@@ -21,6 +37,10 @@ In het begin van zo'n meditatie breng ik je bij jezelf naar binnen, dit onder an
 De meditaties zijn een half uurtje lang. 
 
 Geen ervaring nodig!
+
+Thee à volonté :) 
+
+
 
 
 
