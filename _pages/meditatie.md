@@ -4,6 +4,7 @@ permalink: /visualisatie-meditatie
 layout: page
 image: /media/girl-superpower.jpg
 caption:
+  align: bottom center
   quote: 'If you can dream it, you can do it -Walt Disney'
 info:
   description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan! "
