@@ -1,23 +1,15 @@
 ---
 title: Visualisatie-Meditatie
-permalink: /visualisatie-meditatie
+permalink: /visualisatie- meditaie
 layout: page
 image: /media/girl-superpower.jpg
 caption:
-  align: bottom center
   quote: 'If you can dream it, you can do it -Walt Disney'
 info:
-  description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan! "
+  description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan!\n"
   title: ''
 datalist:
-  description: |-
-    19u Welkom
-
-    19u30-20u Visualisatie
-
-    20u Uitwisselen ervaringen
-
-    Bijdrage 5€
+  description: "Data:\r\n17/09, 1/10, 15/10, 29/10, 12/11, 26/11 en 10/12\n\n\n\n19u Welkom\n\n19u30-20u Visualisatie\n\n20u Uitwisselen ervaringen\n\nBijdrage 5€"
   items: []
   title: Praktisch
 buttons:
