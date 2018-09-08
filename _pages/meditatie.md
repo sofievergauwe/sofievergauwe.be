@@ -23,7 +23,7 @@ Verbeelding, fantasie en (dag)dromen zijn talenten waarmee ieder van ons geboren
 
 Via visualisatie beseffen we dat groei en verandering altijd mogelijk zijn, dat dromen toegestaan is (ongeacht de leeftijd) en dat deze nog steeds verwezenlijkt kunnen worden. Soms geraken we gevangen in de ernst en realiteit van het leven en vergeten we te dromen!
 
-Om de twee weken op maandagavond begeleid ik een groepsmeditatie, maar eigenlijk benoem ik het liever als een visualisatie-meditatie. Ik schrijf de visualisaties zelf uit en deze handelen steeds over een ander thema. Het hoofddoel van deze meditaties is jou in je kracht te zetten en je te laten proeven van hoe dit voelt. 
+Om de twee weken op maandagavond begeleid ik een groepsmeditatie, maar eigenlijk benoem ik het liever als een visualisatie-meditatie. Ik schrijf de visualisaties zelf uit en deze handelen steeds over een ander thema. Het hoofddoel van deze meditaties is jou in je kracht te zetten en je te laten proeven van hoe dat voelt. 
 
 In het begin van zo'n meditatie breng ik je bij jezelf naar binnen, dit onder andere door het met aandacht volgen van de ademhaling.  Hierna kunnen we met een lege maar geconcentreerde geest starten met de visualisatie. 
 
