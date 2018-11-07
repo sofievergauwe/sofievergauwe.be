@@ -1,6 +1,6 @@
 ---
 title: Visualisatie-Meditatie
-permalink: /visualisatie-meditaie
+permalink: /visualisatie-meditatie
 layout: page
 image: /media/girl-superpower.jpg
 caption:
