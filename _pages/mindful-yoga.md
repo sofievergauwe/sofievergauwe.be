@@ -7,17 +7,22 @@ caption:
   align: bottom center
   quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
 info:
-  description: Binnenkort in nieuwe zaal **Oemtata**! Te **Evergem-Ertvelde**.
+  description: >-
+    Vanaf 10 januari elke donderdagavond om 20u in het nieuwe zaaltje van de
+    **Oemtata**! 
+
+
+    Pastorijstraat 40, Ertvelde.
   title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
 datalist:
   items:
     - data: 8 €
       title: ' 1 les '
-      info: (75')
-    - data: ''
-      title: ''
-      info: ''
+      info: 1u15'
+    - data: 5 €
+      title: proefles
+      info: 1u15'
   title: Prijzen
 ---
 
