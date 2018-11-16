@@ -13,6 +13,9 @@ info:
 
 
     Pastorijstraat 40, Ertvelde.
+
+
+    Beginners welkom!
   title: Mindful Yoga
   image: /media/mindful-yoga-mat.jpg
 datalist:
@@ -24,6 +27,7 @@ datalist:
       title: proefles
       info: 1u15'
   title: Prijzen
+buttons: []
 ---
 
 _Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en betekent vereniging of verbinding,  tussen geest en lichaam, tussen het vormloze en de vorm._
