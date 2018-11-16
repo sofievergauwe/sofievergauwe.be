@@ -12,11 +12,11 @@ info:
   image: /media/mindful-yoga-mat.jpg
 datalist:
   items:
-    - data: 10 €
+    - data: 8 €
       title: ' 1 les '
       info: (75')
-    - data: 80 €
-      title: '10 lessen '
+    - data: ''
+      title: ''
       info: ''
   title: Prijzen
 ---
