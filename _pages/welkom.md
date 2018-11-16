@@ -23,9 +23,6 @@ teasers:
     image: /media/massage.jpg
     link: /massage
   - description: >-
-      Pagina in de maak... :)
-
-
       Om de twee weken op maandagavond begeleid ik een groepsmeditatie,
       eigenlijk benoem ik het liever als een visualisatie-meditatie. Het doel is
       jou in je kracht te zetten en je te laten proeven van hoe dat voelt. 
