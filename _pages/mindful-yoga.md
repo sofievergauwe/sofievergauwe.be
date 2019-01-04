@@ -6,9 +6,10 @@ image: /media/mindful-yoga.png
 caption:
   align: bottom center
   quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
+instagram: ''
 info:
   description: >-
-    Vanaf 10 januari elke donderdagavond om 20u in het nieuwe zaaltje van de
+    Vanaf 10 januari elke donderdagavond in het nieuwe zaaltje van de
     **Oemtata**! 
 
 
@@ -62,5 +63,18 @@ Tijdens de lessen maken we gebruik van onderstaande Mindful pijlers als hulpmidd
 Een andere belangrijke sleutel om de verbinding tussen geest en lichaam te herstellen is onze ademhaling. In de Yogalessen leren we onze ademhaling beïnvloeden, beheersen en synchroniseren met houdingen en bewegingen. Dit doen we bewust vanuit onze geest en het veranderen van de ademhaling heeft onmiddellijk effect op ons lichaam. Wij kunnen met intentie dieper en langzamer ademen, wat de bloedcirculatie en zuurstoftransport naar alle cellen verbetert. 
 
 De ademhaling is een soort van anker waar we steeds opnieuw onze aandacht op richten. In de Yoga leren we als het ware her-ademen en ons her-verbinden met dit natuurlijke principe. Want de adem is een cyclus net als eb en vloed. Onze manier van ademhalen heeft een enorme invloed op ons fysieke, mentale en energetische welzijn.
+
+
+### Praktisch
+
+Elke donderdagavond gaan er twee lessen door: 
+- een rustige les van 19u-20u15
+- een actievere les van 20u45-22u
+
+Sluit gerust aan bij de les die je graag zou verkennen. 
+Gelieve losse kledij  te dragen en een dekentje mee te brengen. 
+Verder is alles voorzien :) 
+
+De lessen gaan door in het nieuwe zaaltje van de Oemtata. Pastorijstraat 40, 9940 Ertvelde. Parkeren met de auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de Oemtata staan. 
 
 
