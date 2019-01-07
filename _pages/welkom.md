@@ -28,7 +28,7 @@ teasers:
       jou in je kracht te zetten en je te laten proeven van hoe dat voelt. 
     title: Visualisatie-Meditatie
     image: /media/girl-superpower.jpg
-    link: '/visualisatie'
+    link: /visualisatie-meditatie
   - description: >-
       Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn,
       in het moment en in ons lichaam. Het doel is de verbinding tussen geest en
