@@ -18,7 +18,7 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/yogalessen.jpg
+  image: /media/yogalessen-kaart.jpg
 datalist:
   items:
     - data: 5 €
