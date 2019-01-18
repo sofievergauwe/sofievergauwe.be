@@ -18,7 +18,7 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/mindful-yoga-mat.jpg
+  image: /media/mindful-yoga.png
 datalist:
   items:
     - data: 5 €
