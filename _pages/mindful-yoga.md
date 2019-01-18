@@ -8,13 +8,10 @@ caption:
   quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
 instagram: ''
 info:
-  description: >-
-    Vanaf 10 januari elke donderdagavond in het nieuwe zaaltje van de
-    **Oemtata**! 
-
+  description: |-
+    Elke donderdagavond in het nieuwe zaaltje van de **Oemtata**! 
 
     Pastorijstraat 40, Ertvelde.
-
 
     Beginners welkom!
   title: Mindful Yoga
