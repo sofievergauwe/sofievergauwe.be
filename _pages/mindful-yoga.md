@@ -18,7 +18,7 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/yoga- wereldvansofie.jpg
+  image: /media/mindful yoga.jpg
 datalist:
   items:
     - data: 5 €
