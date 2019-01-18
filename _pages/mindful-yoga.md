@@ -18,15 +18,18 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/mindful-yoga-mat.jpg
+  image: /media/yoga- wereldvansofie.jpg
 datalist:
   items:
-    - data: 8 €
-      title: ' 1 les '
-      info: 1u15'
     - data: 5 €
       title: proefles
       info: 1u15'
+    - data: 8 €
+      title: ' 1 les '
+      info: 1u15'
+    - data: 70 €
+      title: beurtenkaart
+      info: 10 lessen
   title: Prijzen
 buttons: []
 ---
