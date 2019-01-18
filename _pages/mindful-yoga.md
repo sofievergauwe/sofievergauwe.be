@@ -2,9 +2,9 @@
 title: 'Mindful Yoga '
 permalink: /mindful-yoga
 layout: page
-image: /media/yoga-ertvelde.jpg
+image: /media/oemtata-mindful yoga.jpg
 caption:
-  align: bottom center
+  align: top right
   quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
 instagram: ''
 info:
