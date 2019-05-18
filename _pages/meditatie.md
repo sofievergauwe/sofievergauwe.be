@@ -9,7 +9,7 @@ info:
   description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan!\n"
   title: ''
 datalist:
-  description: "Komende data:\r\n\n7/1-21/1-4/2-18/2-4/3-18/3-1/4-29/4-13/5-27/5-10/6-24/6\n\n\n19u Welkom\n\n19u30-20u Visualisatie\n\n20u Uitwisselen ervaringen\n\nBijdrage 5€"
+  description: "Komende data:\r\n27/5-10/6-24/6\n\n\n19u Welkom\n\n19u30-20u Visualisatie\n\n20u Uitwisselen ervaringen\n\nBijdrage 5€"
   items: []
   title: Praktisch
 buttons:
