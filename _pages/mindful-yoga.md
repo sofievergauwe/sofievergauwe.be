@@ -67,9 +67,13 @@ De ademhaling is een soort van anker waar we steeds opnieuw onze aandacht op ric
 
 ### Praktisch
 
-Elke donderdagavond gaan er twee lessen door: 
+Op donderdagavond gaan er twee lessen door: 
 - een rustige les van 19u-20u15
 - een actievere les van 20u45-22u
+
+Er is geen les op 23/05 en 30/05!
+Wel les op 6/06, 13/06, 20/06, 27/06. 
+In de zomervakantie zijn er geen yogalessen.
 
 Sluit gerust aan bij de les die je graag zou verkennen. 
 Gelieve losse kledij  te dragen en een dekentje mee te brengen. 
