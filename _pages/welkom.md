@@ -32,8 +32,8 @@ teasers:
   - description: >-
       Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn,
       in het moment en in ons lichaam. Het doel is de verbinding tussen geest en
-      lichaam te herstellen. De lessen gaan binnenkort door in het nieuwe
-      zaaltje van de Oemtata, vanaf januari 2019.
+      lichaam te herstellen. De lessen gaan door op donderdagavond in het nieuwe
+      zaaltje van de Oemtata.
     title: Mindful Yoga
     image: /media/mindful-yoga.png
     link: /mindful-yoga
