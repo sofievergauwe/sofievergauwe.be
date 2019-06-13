@@ -14,6 +14,8 @@ info:
     Pastorijstraat 40, Ertvelde.
 
     Beginners welkom!
+
+    Geen les tijdens de zomervakantie.
   title: Mindful Yoga
   image: /media/mindful-yoga.png
 datalist:
@@ -71,8 +73,6 @@ Op donderdagavond gaan er twee lessen door:
 - een rustige les van 19u-20u15
 - een actievere les van 20u45-22u
 
-Er is geen les op 23/05 en 30/05!
-Wel les op 6/06, 13/06, 20/06, 27/06. 
 In de zomervakantie zijn er geen yogalessen.
 
 Sluit gerust aan bij de les die je graag zou verkennen. 
