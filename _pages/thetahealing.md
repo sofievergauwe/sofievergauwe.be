@@ -9,7 +9,7 @@ caption:
 info:
   image: /media/thetahealing-ertvelde (2).jpg
 datalist:
-  description: '_Inclusief versnapering, water & thee._'
+  description: _Inclusief water & thee._
   items:
     - data: € 75
       title: 'Thetasessie '
