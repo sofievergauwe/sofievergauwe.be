@@ -6,10 +6,27 @@ image: /media/girl-superpower.jpg
 caption:
   quote: 'If you can dream it, you can do it -Walt Disney'
 info:
-  description: "Gelieve zelf een matje en kussentje mee te brengen. \r\n\nDe meditaties gaan bij mij thuis door. \nAls het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in Den Anker met het houtstoofke aan!\n"
+  description: >
+    De meditaties gaan bij mij thuis door. 
+
+    Als het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in
+    Den Anker of hetatelier met het houtstoofke aan!
   title: ''
 datalist:
-  description: "Komende data:\r\n27/5-10/6-24/6\n\n\n19u Welkom\n\n19u30-20u Visualisatie\n\n20u Uitwisselen ervaringen\n\nBijdrage 5€"
+  description: |-
+    Laatste keer op
+    24/6!
+
+    Geen meditatie tijdens de zomermaanden.
+
+
+    19u Welkom
+
+    19u30-20u Visualisatie
+
+    20u Uitwisselen ervaringen
+
+    Bijdrage 5€
   items: []
   title: Praktisch
 buttons:
