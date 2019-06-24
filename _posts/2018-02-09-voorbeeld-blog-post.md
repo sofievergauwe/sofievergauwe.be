@@ -2,7 +2,7 @@
 title: 'LET IT GO, LET IT GO'
 date: '2019-06-24 06:03'
 image: /media/leefnietomtewerken.jpg
-published: false
+published: true
 ---
 OORSPRONG
 
