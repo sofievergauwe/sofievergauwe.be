@@ -6,7 +6,7 @@ published: true
 ---
 OORSPRONG
 
-Het doorbreken en loslaten van bepaalde patronen is geen gemakkelijke opdracht. Vaak weten we niet hoe dit aan te pakken en vooral waar bepaalde gewoonten werkelijk vandaan komen. Een vraag die je jezelf kan stellen is 'Doet mijn gedrag me denken aan iemand vanuit mijn kindertijd? Mijn moeder? Vader? het kan ook gaan om iemand die voor jou als een voorbeeld aanvoelde in die tijd. Daarna kan je even bewust reflecteren of dit gedrag jou iets bijbrengt? Hangt hier een voordeel aan vast? En op welke momenten komt het patroon naar het oppervlak? Wat voel en ervaar ik hierbij? Wanneer heb ik dit de eerste keer in mijn leven gevoeld? 
+Het doorbreken en loslaten van bepaalde patronen is geen gemakkelijke opdracht. Vaak weten we niet hoe dit aan te pakken en vooral waar bepaalde gewoonten werkelijk vandaan komen. Een vraag die je jezelf kan stellen is 'Doet mijn gedrag me denken aan iemand vanuit mijn kindertijd? Mijn moeder? Vader? Het kan ook gaan om iemand die voor jou als een voorbeeld aanvoelde in die tijd. Daarna kan je even bewust reflecteren of dit gedrag jou iets bijbrengt? Hangt hier een voordeel aan vast? En op welke momenten komt het patroon naar het oppervlak? Wat voel en ervaar ik hierbij? Wanneer heb ik dit de eerste keer in mijn leven gevoeld? 
 
 IN-ZICHT
 
