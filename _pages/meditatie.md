@@ -14,9 +14,6 @@ info:
   title: ''
 datalist:
   description: |-
-    Laatste keer op
-    24/6!
-
     Geen meditatie tijdens de zomermaanden.
 
 
