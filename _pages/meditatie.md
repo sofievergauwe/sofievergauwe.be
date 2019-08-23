@@ -30,7 +30,7 @@ Max 10 deelnemers, gelieve op tijd in te schrijven via mail of persoonlijk beric
 
 **Praktisch**
 
-De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde.
+De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde, al liggend op een yogamatje.
 
 Gelieve zelf dekentje en drinkbus/flesje water mee te brengen.
 
