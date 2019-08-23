@@ -9,7 +9,7 @@ caption:
 instagram: ''
 info:
   description: |-
-    Op donderdagavond in het nieuwe zaaltje van de **Oemtata**! 
+    Op donderdagavond in het nieuwe zaaltje van de **Oemtata.**
 
     Pastorijstraat 40, Ertvelde.
 
