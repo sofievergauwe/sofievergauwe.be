@@ -23,11 +23,13 @@ teasers:
     image: /media/massage.jpg
     link: /massage
   - description: >-
-      Om de twee weken op maandagavond begeleid ik een groepsmeditatie,
-      eigenlijk benoem ik het liever als een visualisatie-meditatie. Het doel is
-      jou in je kracht te zetten en je te laten proeven van hoe dat voelt. 
+      Eenmaal per maand begeleid ik een groepsmeditatie, maar eigenlijk benoem
+      ik het liever als een visualisatie-meditatie. Ik schrijf deze zelf uit en
+      ze gaan steeds over een ander thema. Het doel is om via de geleide
+      visualisatie kennis te maken met een dieper deel van jezelf en te voelen
+      wat bovenkomt bij het aangebrachte thema.
     title: Visualisatie-Meditatie
-    image: /media/girl-superpower.jpg
+    image: /media/meditation.jpg
     link: /visualisatie-meditatie
   - description: >-
       Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn,
