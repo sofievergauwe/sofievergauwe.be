@@ -2,53 +2,45 @@
 title: Visualisatie-Meditatie
 permalink: /visualisatie-meditatie
 layout: page
-image: /media/girl-superpower.jpg
+image: /media/meditation.jpg
 caption:
-  quote: 'If you can dream it, you can do it -Walt Disney'
+  quote: Sta jezelf toe te voelen wat is
 info:
-  description: >
-    De meditaties gaan bij mij thuis door. 
-
-    Als het mooi weer is in de tuin, vanaf het kouder wordt, is het binnen in
-    Den Anker of hetatelier met het houtstoofke aan!
+  description: >-
+    In zaaltje van de Oemtata. Pastorijstraat 40, 9940 Ertvelde. Parkeren met de
+    auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de
+    Oemtata staan.
   title: ''
 datalist:
-  description: |-
-    Geen meditatie tijdens de zomermaanden.
-
-
-    19u Welkom
-
-    19u30-20u Visualisatie
-
-    20u Uitwisselen ervaringen
-
-    Bijdrage 5€
+  description: >-
+    Op 23 sept, 21 okt, 18 nov, 16 dec, 13 jan, 10 feb, 9 mrt, 20 apr, 18 mei,
+    15 jun.
   items: []
-  title: Praktisch
+  title: Data
 buttons:
   - title: contacteer me gerust bij vragen of interesse!
 ---
 Het oproepen van beelden, gevoelens en de beleving van een bepaalde situatie of van (een krachtigere versie van) jezelf laat je brein geloven dat het werkelijk zo is. 
 'Eerst zien, dan geloven' is een bekend gezegde en terecht want dit is de grootste kracht van onze hersenen. Eens je gelooft in jezelf en wat je kan bereiken, eens je gelooft in de mogelijkheden, dan pas kan het echt vorm krijgen in je leven. 
 
-De verbeeldingskracht is dé bron van creativiteit en intuïtie. Het visueel voorstellen van iets is de basis van creatie. Het is wonderbaarlijk wat de verbeeldingskracht met ons kan doen en hoe het werkelijk verandering kan teweegbrengen binnen en buiten onszelf. 
-Verbeelding, fantasie en (dag)dromen zijn talenten waarmee ieder van ons geboren wordt, maar naarmate we ouder worden, verliezen we vaak deze kwaliteiten of maken we er alleszins minder gebruik van. Vaak vergeten we de onbeperkte mogelijkheden en vrijheid die de geest en het voorstellingsvermogen ons schenken. 
+Eenmaal per maand op een maandagavond begeleid ik een groepsmeditatie, maar eigenlijk benoem ik het liever als een visualisatie-meditatie. Ik schrijf deze zelf uit en ze gaan steeds over een ander thema.
 
-Via visualisatie beseffen we dat groei en verandering altijd mogelijk zijn, dat dromen toegestaan is (ongeacht de leeftijd) en dat deze nog steeds verwezenlijkt kunnen worden. Soms geraken we gevangen in de ernst en realiteit van het leven en vergeten we te dromen!
+Het doel is om via de geleide visualisatie kennis te maken met een dieper deel van jezelf en te voelen wat bovenkomt bij het aangebrachte thema. Soms kan dit aangenaam zijn, soms confronterend. Wat van belang is is dat hetgene wat naar de oppervlakte komt, ruimte krijgt en gevoeld mag worden.
 
-Om de twee weken op maandagavond begeleid ik een groepsmeditatie, maar eigenlijk benoem ik het liever als een visualisatie-meditatie. Ik schrijf de visualisaties zelf uit en deze handelen steeds over een ander thema. Het hoofddoel van deze meditaties is jou in je kracht te zetten en je te laten proeven van hoe dat voelt. 
+In het begin van zo'n meditatie begeleid ik je rustig bij jezelf naar binnen. Via de ademhaling maken we contact met het hart, om van daaruit de visualisatiereis te starten. De meditatie duurt 45 minuten.
 
-In het begin van zo'n meditatie breng ik je bij jezelf naar binnen, dit onder andere door het met aandacht volgen van de ademhaling.  Hierna kunnen we met een lege maar geconcentreerde geest starten met de visualisatie. 
+Max 10 deelnemers, gelieve op tijd in te schrijven via mail of persoonlijk berichtje op mijn facebookpagina.
 
-De meditaties zijn een half uurtje lang. 
+Praktisch
 
-Geen ervaring nodig!
+De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde.
 
-Thee à volonté :) 
+Gelieve zelf dekentje en drinkbus/flesje water mee te brengen.
 
+Welkom vanaf 20u
 
+Meditatie van 20u15-21u00
 
+Delen ervaringen + thee 21u00-21u30
 
-
-
+Bijdrage 10 euro
