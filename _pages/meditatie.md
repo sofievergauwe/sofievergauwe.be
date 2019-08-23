@@ -31,7 +31,7 @@ In het begin van zo'n meditatie begeleid ik je rustig bij jezelf naar binnen. Vi
 
 Max 10 deelnemers, gelieve op tijd in te schrijven via mail of persoonlijk berichtje op mijn facebookpagina.
 
-Praktisch
+**Praktisch**
 
 De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde.
 
