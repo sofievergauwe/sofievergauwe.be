@@ -20,9 +20,6 @@ datalist:
 buttons:
   - title: contacteer me gerust bij vragen of interesse!
 ---
-Het oproepen van beelden, gevoelens en de beleving van een bepaalde situatie of van (een krachtigere versie van) jezelf laat je brein geloven dat het werkelijk zo is. 
-'Eerst zien, dan geloven' is een bekend gezegde en terecht want dit is de grootste kracht van onze hersenen. Eens je gelooft in jezelf en wat je kan bereiken, eens je gelooft in de mogelijkheden, dan pas kan het echt vorm krijgen in je leven. 
-
 Eenmaal per maand op een maandagavond begeleid ik een groepsmeditatie, maar eigenlijk benoem ik het liever als een visualisatie-meditatie. Ik schrijf deze zelf uit en ze gaan steeds over een ander thema.
 
 Het doel is om via de geleide visualisatie kennis te maken met een dieper deel van jezelf en te voelen wat bovenkomt bij het aangebrachte thema. Soms kan dit aangenaam zijn, soms confronterend. Wat van belang is is dat hetgene wat naar de oppervlakte komt, ruimte krijgt en gevoeld mag worden.
