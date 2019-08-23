@@ -66,14 +66,13 @@ Op donderdagavond gaan er twee lessen door:
 * een rustige les van 19u-20u15
 * een actievere les van 20u45-22u
 
-_**Schooljaar 2019-2020:**_
+**_Schooljaar 2019-2020:_**
 
 Les op 5-12-19-26 sep, 3-10-17-24 okt, 7-14-21-28 nov, 5-12-19 dec, 9-16-23-30 jan, 6-13-20 feb, 5-12-19-26 mrt, 2-23-30 apr, 7-14-28 mei, 4-11-18-25 jun.
 
 Geen yoga tijdens vakanties en op feestdagen.  Dit betekent geen les op 31 okt, 26 dec, 2 jan, 27 feb, 23-30 apr, 21 mei, maanden juli en augustus.
 
-Graag je aanwezigheid bevestigen via mail of persoonlijk berichtje op mijn facebookpagina.
-
+Graag je aanwezigheid bevestigen via mail of persoonlijk berichtje op mijn facebookpagina. De les gaat door vanaf drie mensen hun deelname hebben bevestigd (ten laatste woensdagavond).
 
 Gelieve losse kledij  te dragen en een dekentje mee te brengen en eventueel een drinkbus/flesje water. Verder is alles voorzien.
 
