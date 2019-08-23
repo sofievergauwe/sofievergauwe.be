@@ -24,10 +24,10 @@ teasers:
     link: /massage
   - description: >-
       Eenmaal per maand begeleid ik een groepsmeditatie, maar eigenlijk benoem
-      ik het liever als een visualisatie-meditatie. Ik schrijf deze zelf uit en
-      ze gaan steeds over een ander thema. Het doel is om via de geleide
-      visualisatie kennis te maken met een dieper deel van jezelf en te voelen
-      wat bovenkomt bij het aangebrachte thema.
+      ik het liever als een visualisatie-meditatie. Ze gaan steeds over een
+      ander thema. Het doel is om via de geleide visualisatie kennis te maken
+      met een dieper deel van jezelf en te voelen wat bovenkomt bij het
+      aangebrachte thema.
     title: Visualisatie-Meditatie
     image: /media/meditation.jpg
     link: /visualisatie-meditatie
