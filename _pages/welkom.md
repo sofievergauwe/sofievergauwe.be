@@ -15,7 +15,7 @@ teasers:
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
   - description: "Met behulp van de ThetaHealing®techniek kunnen we trauma's op een zachte en comfortabele manier bevrijden, verwerken en loslaten, zodat lichaam en geest opnieuw een evenwicht kunnen vinden.\r\n"
-    title: ThetaHealing®
+    title: Healing
     image: /media/spiritueel.jpg
     link: /thetahealing
   - description: "Massage van rug, nek, hals- en borstregio.\r\nDoor het losmaken van gevoelige punten, kunnen stijfheid en pijn wegvloeien. Massage helpt ook om onze mentale activiteit even los te laten. HIerdoor wordt het echt genieten!"
@@ -34,7 +34,7 @@ teasers:
   - description: >-
       Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn,
       in het moment en in ons lichaam. Het doel is de verbinding tussen geest en
-      lichaam te herstellen. De lessen gaan door op donderdagavond in het nieuwe
+      lichaam te herstellen. De lessen gaan door op donderdagavond in het
       zaaltje van de Oemtata.
     title: Mindful Yoga
     image: /media/mindful-yoga.png
