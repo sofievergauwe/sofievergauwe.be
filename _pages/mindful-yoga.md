@@ -9,7 +9,7 @@ caption:
 instagram: ''
 info:
   description: |-
-    Op donderdagavond in het nieuwe zaaltje van de **Oemtata.**
+    Op donderdagavond in het zaaltje van de **Oemtata.**
 
     Pastorijstraat 40, Ertvelde.
 
@@ -64,8 +64,8 @@ De ademhaling is een soort van anker waar we steeds opnieuw onze aandacht op ric
 
 Op donderdagavond gaan er twee lessen door: 
 
-* een rustige les van 19u-20u15
-* een actievere les van 20u45-22u
+* 19u-20u15
+* 20u45-22u
 
 **_Schooljaar 2019-2020:_**
 
