@@ -21,7 +21,7 @@ teasers:
       Massage houdt meer in dan losmaken en bekomen van ontspanning. Je laten
       masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen.
       Massage kan helpen om je bewust te worden van bepaalde blokkades in je
-      lichaam. Ik geef Rug- en Healing Massages. 
+      lichaam. Ik geef Rugmassage en Healing Massage. 
     title: Massage
     image: /media/massage.jpg
     link: /massage
