@@ -5,7 +5,7 @@ layout: page
 image: /media/paardje.jpg
 caption:
   align: bottom right
-  quote: Iedereen is welkom in mijn wereld!
+  quote: Iedereen is welkom in mijn wereld
 info:
   description: >+
     _De wereld van Sofie is gelegen aan een betoverend 15e eeuws bedevaartsoord
