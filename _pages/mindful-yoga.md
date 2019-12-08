@@ -5,7 +5,7 @@ layout: page
 image: /media/oemtata-mindful yoga.jpg
 caption:
   align: top right
-  quote: 'YOGA brengt je in het nu, in je lichaam en bij je ware zelf'
+  quote: 'Yoga brengt je in het nu, in je lichaam, bij jezelf.'
 instagram: ''
 info:
   description: |-
