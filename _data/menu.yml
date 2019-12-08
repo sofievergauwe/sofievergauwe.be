@@ -1,8 +1,8 @@
 title: Menu
 links:
   - description: >-
-      Welkom in de wereld van Sofie, bij Sofie Vergauwe te Stoepe Ertvelde kan
-      je terecht voor massages, thetahealing, mindful yoga en schilderen. 
+      Welkom in de wereld van Sofie, bij Sofie Vergauwe kan je terecht voor
+      massage, healing en mindful yoga.
     link: /
     title: Home
   - description: Volg mee met de wereld van Sofie.
@@ -18,17 +18,15 @@ links:
       de Amerikaanse Vianna Stibal
     link: /thetahealing
     title: Healing
-  - description: >-
-      Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet
-      en betekent vereniging of verbinding tussen geest en lichaam.
+  - description: 'Yoga brengt je in het nu, in je lichaam, bij jezelf.'
     link: /mindful-yoga
     title: Yoga
-  - description: Activeer je verbeeldingskracht en zoveel meer!
+  - description: Sta jezelf toe te voelen wat is.
     link: /visualisatie-meditatie
     title: Visualisatie
-  - description: 'Als ik schilder, voel ik me tijdloos...'
-    link: /schilderen
-    title: Schilderen
+  - description: ''
+    link: ''
+    title: ''
   - description: Aarzel niet om mij te contacteren.
     link: /contact
     title: Contact
