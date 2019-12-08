@@ -8,9 +8,8 @@ caption:
   quote: Welkom in de wereld van Sofie...
 teasers:
   - description: >-
-      Bij de wereld van Sofie kan u terecht voor massages, healingsessies en
-      visualisaties, yogalessen en het laten maken van een schilderij! Klik
-      verder en lees mijn verhaal.
+      Bij de wereld van Sofie kan u terecht voor massages, healingsessies,
+      meditaties en yogalessen.
     title: De wereld van Sofie
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
@@ -18,24 +17,26 @@ teasers:
     title: Healing
     image: /media/spiritueel.jpg
     link: /thetahealing
-  - description: "Massage van rug, nek, hals- en borstregio.\r\nDoor het losmaken van gevoelige punten, kunnen stijfheid en pijn wegvloeien. Massage helpt ook om onze mentale activiteit even los te laten. HIerdoor wordt het echt genieten!"
+  - description: >
+      Massage houdt meer in dan losmaken en bekomen van ontspanning. Je laten
+      masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen.
+      Massage kan helpen om je bewust te worden van bepaalde blokkades in je
+      lichaam. Ik geef Rug- en Healing Massages. 
     title: Massage
     image: /media/massage.jpg
     link: /massage
   - description: >-
-      Eenmaal per maand begeleid ik een groepsmeditatie, maar eigenlijk benoem
-      ik het liever als een visualisatie-meditatie. Ze gaan steeds over een
-      ander thema. Het doel is om via de geleide visualisatie kennis te maken
-      met een dieper deel van jezelf en te voelen wat bovenkomt bij het
-      aangebrachte thema.
+      Eenmaal per maand begeleid ik een groepsmeditatie, maar ik benoem het
+      liever als een visualisatie-meditatie. Het doel is om via de geleide
+      visualisatie kennis te maken met een dieper deel van jezelf en te voelen
+      wat bovenkomt bij het aangebrachte thema.
     title: Visualisatie-Meditatie
     image: /media/meditation.jpg
     link: /visualisatie-meditatie
   - description: >-
       Tijdens het beoefenen van Mindful Yoga leren we bewust aanwezig te zijn,
-      in het moment en in ons lichaam. Het doel is de verbinding tussen geest en
-      lichaam te herstellen. De lessen gaan door op donderdagavond in het
-      zaaltje van de Oemtata.
+      in het moment en in ons lichaam. De lessen gaan door op donderdagavond in
+      het zaaltje van de Oemtata.
     title: Mindful Yoga
     image: /media/mindful-yoga.png
     link: /mindful-yoga
