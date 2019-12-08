@@ -39,9 +39,5 @@ teasers:
     title: Mindful Yoga
     image: /media/mindful-yoga.png
     link: /mindful-yoga
-  - description: "Ik maak schilderijen in opdracht. Dit kan een portret zijn, maar ook een bepaalde plek, landschap, gebouw... wat je maar wil! \r\n"
-    title: Schilderen
-    image: /media/schilderen.jpg
-    link: /schilderen
 ---
 
