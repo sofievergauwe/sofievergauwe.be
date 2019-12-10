@@ -11,7 +11,7 @@ info:
 datalist:
   description: '_Inclusief versnapering, water & thee._'
   items:
-    - data: € 75
+    - data: € 80
       title: 'Thetasessie '
       info: 90'
     - title: Waardebon mogelijk!
