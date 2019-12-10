@@ -7,17 +7,20 @@ caption:
   align: bottom right
   quote: Iedereen is welkom in mijn wereld
 info:
-  description: >+
-    _De wereld van Sofie is gelegen aan een betoverend 15e eeuws bedevaartsoord
-    met prachtige Kapel ter ere van Ons Lief Vrouwke van Stoepe._
+  description: >-
+    Ik werk op twee verschillende plaatsen:
 
 
-  image: /media/stoepe.jpg
+    ***Individuele sessies*** gaan door in Bassevelde, in de oude pastorij,
+    Landsdijk 74.
+
+
+    ***Yoga en meditaties*** gaan door in de zaal van de Oemtata, Pastorijstraat
+    40 te Ertvelde. 
+  image: /media/oude pastorie bassevelde.jpg
 datalist:
   description: |-
-    **_De wereld van Sofie_**\
-    Kapelhof 3 (Stoepe)\
-    9940 Ertvelde
+    **_De wereld van Sofie_**
 
     0472/44.12.27
 ---
