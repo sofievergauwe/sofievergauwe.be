@@ -2,7 +2,7 @@
 title: 'LET IT GO, LET IT GO '
 date: '2019-06-24 06:03'
 image: /media/handen-reiki-energie.jpg
-published: true
+published: false
 ---
 OORSPRONG
 
