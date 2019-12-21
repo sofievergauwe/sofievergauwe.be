@@ -79,4 +79,4 @@ Gelieve losse kledij  te dragen en een dekentje mee te brengen en eventueel een 
 
 De lessen gaan door in het nieuwe zaaltje van de Oemtata. Pastorijstraat 40, 9940 Ertvelde. Parkeren met de auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de Oemtata staan. 
 
-proefles 5€, losse les 8€, beurtenkaart 10 lessen 70€
+proefles 7€, losse les 9€, beurtenkaart 10 lessen 80€
