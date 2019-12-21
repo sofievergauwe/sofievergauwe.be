@@ -12,9 +12,7 @@ info:
     Oemtata staan.
   title: ''
 datalist:
-  description: >-
-    Op 23 sept, 21 okt, 18 nov, 16 dec, 13 jan, 10 feb, 9 mrt, 20 apr, 18 mei,
-    15 jun.
+  description: 'Op 20 januari, 10 februari, 9 maart, 20 april, 18 mei en 15 juni!'
   items: []
   title: Data
 buttons:
