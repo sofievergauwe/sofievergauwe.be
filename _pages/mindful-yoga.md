@@ -18,13 +18,13 @@ info:
   image: /media/mindful-yoga.png
 datalist:
   items:
-    - data: 5 €
+    - data: 7 €
       title: proefles
       info: 1u15'
-    - data: 8 €
+    - data: 9 €
       title: ' 1 les '
       info: 1u15'
-    - data: 70 €
+    - data: 80 €
       title: beurtenkaart
       info: 10 lessen
   title: Prijzen
