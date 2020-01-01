@@ -4,7 +4,7 @@ permalink: /
 layout: frontpage
 image: /media/gouden kamer bassevelde.jpg
 caption:
-  align: bottom left
+  align: bottom right
   quote: Welkom in de wereld van Sofie...
 teasers:
   - description: >-
