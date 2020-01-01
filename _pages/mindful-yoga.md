@@ -21,10 +21,10 @@ datalist:
     - data: 7 €
       title: proefles
       info: 1u15'
-    - data: 9 €
+    - data: 10 €
       title: ' 1 les '
       info: 1u15'
-    - data: 80 €
+    - data: 90 €
       title: beurtenkaart
       info: 10 lessen
   title: Prijzen
@@ -79,4 +79,4 @@ Gelieve losse kledij  te dragen en een dekentje mee te brengen en eventueel een 
 
 De lessen gaan door in het nieuwe zaaltje van de Oemtata. Pastorijstraat 40, 9940 Ertvelde. Parkeren met de auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de Oemtata staan. 
 
-proefles 7€, losse les 9€, beurtenkaart 10 lessen 80€
+proefles 7€, losse les 10€, beurtenkaart 10 lessen 90€
