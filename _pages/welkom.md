@@ -2,7 +2,7 @@
 title: Welkom in de wereld van Sofie
 permalink: /
 layout: frontpage
-image: /media/sofie.jpg
+image: /media/gouden kamer bassevelde.jpg
 caption:
   align: bottom left
   quote: Welkom in de wereld van Sofie...
