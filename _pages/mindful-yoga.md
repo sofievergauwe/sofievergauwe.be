@@ -15,7 +15,7 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/mindful-yoga.png
+  image: /media/sofie-mindful-yoga-ertvelde.jpg
 datalist:
   items:
     - data: 7 €
