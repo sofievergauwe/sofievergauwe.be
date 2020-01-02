@@ -13,7 +13,7 @@ info:
   title: ''
   image: /media/visualisatie-ertvelde-meditatie.jpg
 datalist:
-  description: 'Op 20 januari, 10 februari, 9 maart, 20 april, 18 mei en 15 juni!'
+  description: 'Op 20 januari, 10 februari, 9 maart, 20 april, 18 mei en 15 juni'
   items: []
   title: Data
 buttons:
