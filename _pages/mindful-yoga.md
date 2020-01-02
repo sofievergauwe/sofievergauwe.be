@@ -2,7 +2,7 @@
 title: 'Mindful Yoga '
 permalink: /mindful-yoga
 layout: page
-image: /media/mindful-yoga.png
+image: /media/meditation.jpg
 caption:
   align: top right
   quote: 'Yoga brengt je in het nu, in je lichaam, bij jezelf.'
@@ -15,7 +15,7 @@ info:
 
     Beginners welkom!
   title: Mindful Yoga
-  image: /media/sofie-mindful-yoga-ertvelde.jpg
+  image: /media/mindful-yoga.png
 datalist:
   items:
     - data: 7 €
