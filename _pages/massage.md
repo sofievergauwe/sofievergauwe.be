@@ -40,7 +40,7 @@ Het gaat niet enkel om het fysieke loslaten. Massage kan je echt in je lichaam b
 
  Afhankelijk van onze houding en levenstijl slaan we meer of minder spanning op in bepaalde gebieden van het lichaam. Vaak sluipt deze spanning in de rug, nek en hals. Tijdens een massage zal ik altijd deze drie regio's behandelen, omdat deze onlosmakelijk met elkaar verbonden zijn. Ik ga op zoek naar de meer gespannen plekken en triggerpunten en ga daar dan dieper op in. Aangezien dit vrij gevoelig kan zijn, maak ik hierna gebruik van ontspannende en afvoerende technieken.
 
-Ik tracht een evenwicht te vinden tussen het losmaken en het bekomen van ontspanning. Zodat je voelt dat er iets veranderd is, maar je tegelijk het effect van diepe relaxatie kan ervaren!
+Ik tracht een evenwicht te vinden tussen het losmaken en het bekomen van ontspanning. Zodat je voelt dat er iets veranderd is, maar je tegelijkertijd het effect van diepe relaxatie kan ervaren!
 
 
 ### Healing Massage
