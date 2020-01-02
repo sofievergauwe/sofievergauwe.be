@@ -45,7 +45,7 @@ Ik tracht een evenwicht te vinden tussen het losmaken en het bekomen van ontspan
 
 ### Healing Massage
 
-Deze behandeling is zoals de naam zegt, een combinatie van massage en healing. Indien je graag fysiek wil ontspannen maar ook verlangt naar helderheid en ondersteuning over waar je staat in je leven, dan is deze behandeling een aanrader. Tijdens de massage ga ik bewust je energie aanvoelen en ik stel je bepaalde (soms vele!) vragen. Samen onderzoeken we wat nodig is voor jou op dat moment. Elke sessie is anders. Vaak werk ik mbv visualisaties of beeldtaal om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Deze behandeling bevat gesprekstherapie, energetisch werk en lichamelijke relaxatie. 
+Deze behandeling is zoals de naam zegt, een combinatie van massage en healing. Indien je graag fysiek wil ontspannen maar ook verlangt naar helderheid en ondersteuning over waar je staat in je leven, dan is deze behandeling een aanrader. Tijdens de massage ga ik bewust je energie aanvoelen en ik stel je bepaalde (soms vele!) vragen. Samen onderzoeken we wat nodig is voor jou op dat moment. Elke sessie is anders. Vaak werk ik met behulp van visualisaties of beeldtaal om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Deze behandeling bevat gesprekstherapie, energetisch werk en lichamelijke relaxatie. 
  
 
 ### Olie 
