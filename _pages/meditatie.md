@@ -9,7 +9,7 @@ info:
   description: >-
     In zaaltje van de Oemtata. Pastorijstraat 40, 9940 Ertvelde. Parkeren met de
     auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de
-    Oemtata staan.
+    Oemtata staan. 
   title: ''
   image: /media/visualisatie meditatie ertvelde .jpg
 datalist:
