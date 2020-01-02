@@ -11,7 +11,7 @@ info:
     auto doe je best in de Kroonstraat. Fietsen mogen gerust op de oprit van de
     Oemtata staan. 
   title: ''
-  image: /media/visualisatie-ertvelde-meditatie.jpg
+  image: /media/ertvelde-meditatie-visualisatie.jpg
 datalist:
   description: 'Op 20 januari, 10 februari, 9 maart, 20 april, 18 mei en 15 juni'
   items: []
