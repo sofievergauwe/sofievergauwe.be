@@ -1,11 +1,11 @@
 ---
-title: ThetaHealing®
-permalink: /thetahealing
+title: Healing
+permalink: /healing
 layout: page
 image: /media/spiritueel.jpg
 caption:
   align: bottom center
-  quote: Reconnect to your inner source
+  quote: ''
 info:
   image: /media/thetahealing-ertvelde (2).jpg
 datalist:
