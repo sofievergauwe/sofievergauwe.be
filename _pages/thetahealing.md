@@ -27,7 +27,7 @@ Er bestaan vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwik
 
 ### Visualisatie Healing
 
-Ben je op zoek naar verduidelijking of helderheid omtrent een bepaald thema in je leven, dan is deze behandeling een aanrader. We starten met het drinken van een theetje, bespreken waarom je er bent en daarna mag rustig gaan liggen op tafel. Ik start met het bewust aanvoelen van je energie en stel je dan verschillende vragen. Samen onderzoeken we wat nodig is voor jou op dat moment.
+Ben je op zoek naar verduidelijking of helderheid omtrent een bepaald thema in je leven, dan is deze behandeling een aanrader. We starten met het drinken van een theetje, bespreken waarom je er bent en daarna mag je rustig gaan liggen op tafel. Ik start met het bewust aanvoelen van je energie en stel je dan verschillende vragen. Samen onderzoeken we wat nodig is voor jou op dat moment.
 
 Ik werk vaak met behulp van visualisaties of beeldtaal om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Soms werk ik op bepaalde plekken in het lichaam. 
 
