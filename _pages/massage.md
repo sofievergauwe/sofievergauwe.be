@@ -13,7 +13,7 @@ info:
 datalist:
   description: _Alle massages zijn inclusief water/thee_
   items:
-    - data: € 50
+    - data: € 60
       title: Rugmassage
       info: 60'
     - data: € 80
