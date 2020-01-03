@@ -7,7 +7,7 @@ caption:
   align: bottom center
   quote: ''
 info:
-  image: /media/thetahealing-ertvelde (2).jpg
+  image: /media/reiki.jpg
 datalist:
   description: ''
   items:
