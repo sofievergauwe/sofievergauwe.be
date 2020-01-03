@@ -20,12 +20,13 @@ datalist:
     - title: Waardebon mogelijk!
   title: Prijzen
 ---
-_Healing_
+_Healing is een omstreden begrip, mensen weten niet goed wat zich erbij voor te stellen. Healing betekent voor mij energetisch werk en zelfontplooiing, het transformeren van trauma's en blokkades zodat alles opnieuw spontaan en natuurlijk mag stromen. Het uiteindelijke doel is om onvoorwaardelijk van jezelf te houden, en anderen niet langer nodig te hebben om bepaalde (innerlijke) leegtes te vullen. Het bereiken van werkelijke vrede en voldoening binnenin._
 
 
 
 
 ### Visualisatie Healing
+
 
 
 
