@@ -5,7 +5,7 @@ layout: page
 image: /media/spiritueel.jpg
 caption:
   align: bottom center
-  quote: ''
+  quote: 'Je bent volmaakt, toen, nu en altijd'
 info:
   image: /media/reiki.jpg
 datalist:
