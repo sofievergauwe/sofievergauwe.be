@@ -20,7 +20,7 @@ datalist:
     - title: Waardebon mogelijk!
   title: Prijzen
 ---
-_Healing is een begrip dat bij veel mensen een nogal_
+_Healing_
 
 
 
