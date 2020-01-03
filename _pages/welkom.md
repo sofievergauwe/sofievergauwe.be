@@ -13,7 +13,11 @@ teasers:
     title: De wereld van Sofie
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
-  - description: "Met behulp van de ThetaHealing®techniek kunnen we trauma's op een zachte en comfortabele manier bevrijden, verwerken en loslaten, zodat lichaam en geest opnieuw een evenwicht kunnen vinden.\r\n"
+  - description: >-
+      Healing betekent voor mij energetisch werk en zelfontplooiing. Er bestaan
+      vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwikkeld
+      op basis van mijn ervaring en bied twee soorten healing aan: Visualisatie
+      Healing en Rebalancing Healing.
     title: Healing
     image: /media/spiritueel.jpg
     link: /healing
