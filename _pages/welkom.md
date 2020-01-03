@@ -16,7 +16,7 @@ teasers:
   - description: "Met behulp van de ThetaHealing®techniek kunnen we trauma's op een zachte en comfortabele manier bevrijden, verwerken en loslaten, zodat lichaam en geest opnieuw een evenwicht kunnen vinden.\r\n"
     title: Healing
     image: /media/spiritueel.jpg
-    link: /thetahealing
+    link: /healing
   - description: >
       Massage houdt meer in dan losmaken en bekomen van ontspanning. Je laten
       masseren is je lichaam toestaan aandacht, zorg en warmte te ontvangen.
