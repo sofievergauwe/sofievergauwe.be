@@ -38,7 +38,7 @@ Elke sessie is anders. Deze behandeling duurt 1u30' en bevat zowel gespreksthera
 
 Dit is een volledig energetische behandeling. Je ligt op de tafel en ik werk een klein uur op je lichaam. Tijdens een rebalancing sessie heeft het verhaal geen enkel belang, er hoeft niet gepraat of gedeeld te worden. 
 
-Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch opheffen van blokkades en door het herstellen van de stroming. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren.
+Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch opheffen van blokkades en door het herstellen van de stroming. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is kort maar krachtig.
 
 Erna drinken we een theetje en is er nog even de ruimte om bepaalde zaken uit te spreken en te delen.  
   
