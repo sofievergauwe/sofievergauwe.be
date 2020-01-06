@@ -22,23 +22,23 @@ datalist:
 ---
 **_Healing is een omstreden begrip, mensen weten niet goed wat zich erbij voor te stellen. Healing betekent voor mij energetisch werk en zelfontplooiing, het transformeren van trauma's en blokkades zodat alles opnieuw spontaan en natuurlijk mag stromen. Het uiteindelijke doel is om onvoorwaardelijk van jezelf te houden, en anderen niet langer nodig te hebben om bepaalde (innerlijke) leegtes te vullen. Het bereiken van werkelijke vrede en voldoening binnenin._**
 
-Er bestaan vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwikkeld op basis van mijn ervaring en bied twee soorten healing aan:  _**Visualisatie Healing**_, die naar mijn gevoel goed is om inzichten te verkrijgen.  _**Rebalancing Healing**_, waarbij de geest niet hoeft deel te nemen, puur energetisch lichaamswerk.
+Er bestaan vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwikkeld op basis van mijn ervaring en bied twee soorten healing aan:  **_Visualisatie Healing_**, die naar mijn gevoel goed is om inzichten te verkrijgen.  **_Rebalancing Healing_**, waarbij de geest niet hoeft deel te nemen, puur energetisch lichaamswerk.
 
 
 ### Visualisatie Healing
 
-Ben je op zoek naar _**verduidelijking**_ of _**helderheid**_ omtrent een bepaald thema in je leven, dan is deze behandeling een aanrader. We starten met het drinken van een theetje, bespreken waarom je er bent en daarna mag je rustig gaan liggen op tafel. Ik start met het bewust aanvoelen van je energie en stel je dan verschillende vragen. Samen onderzoeken we wat nodig is voor jou op dat moment.
+Ben je op zoek naar **_verduidelijking_** of **_helderheid_** omtrent een bepaald thema in je leven, dan is deze behandeling een aanrader. We starten met het drinken van een theetje, bespreken waarom je er bent en daarna mag je rustig gaan liggen op tafel. Ik start met het bewust aanvoelen van je energie en stel je dan verschillende vragen. Samen onderzoeken we wat nodig is voor jou op dat moment.
 
-Ik werk vaak met behulp van _**visualisaties**_ of _**beeldtaal**_ om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Soms werk ik op bepaalde plekken in het lichaam. 
+Ik werk vaak met behulp van **_visualisaties_** of **_beeldtaal_** om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Soms werk ik op bepaalde plekken in het lichaam. 
 
-Elke sessie is anders. Deze behandeling duurt 1u30' en bevat zowel _**gesprekstherapie**_ als _**energetisch werk**_. 
+Elke sessie is anders. Deze behandeling duurt 1u30' en bevat zowel **_gesprekstherapie_** als **_energetisch werk_**. 
 
 
 ### Rebalancing Healing
 
-Dit is een _**volledig energetische behandeling**_. Je ligt op de tafel en ik werk een klein uur op je lichaam. Tijdens een rebalancing sessie heeft het verhaal geen enkel belang, er hoeft niet gepraat of gedeeld te worden. 
+Dit is een **_volledig energetische behandeling_**. Je ligt op de tafel en ik werk een klein uur op je lichaam. Tijdens een rebalancing sessie heeft het verhaal geen enkel belang, er hoeft niet gepraat of gedeeld te worden. 
 
-Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch _**opheffen van blokkades**_ en door het _**herstellen van de stroming**_. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is _**kort maar krachtig**_.
+Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch **_opheffen van blokkades_** en door het **_herstellen van de stroming_**. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is **_kort maar krachtig_**.
 
 Erna drinken we een theetje en is er nog even de ruimte om bepaalde zaken uit te spreken en te delen.  
   
