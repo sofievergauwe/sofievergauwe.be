@@ -7,11 +7,11 @@ caption:
   align: bottom center
   quote: 'Koester je eigen huis, jouw lichaam'
 info:
-  description: Verwen jezelf of een ander met een (healing) massage!
+  description: '**Verwen jezelf of een ander met een (healing) massage!**'
   title: ''
   image: /media/rugmassage.jpg
 datalist:
-  description: _Alle massages zijn inclusief water/thee_
+  description: ''
   items:
     - data: € 60
       title: Rugmassage
