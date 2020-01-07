@@ -21,7 +21,7 @@ datalist:
   title: Prijzen
 ---
 **_Healing is een omstreden begrip, mensen weten niet goed wat zich erbij voor te stellen. Healing betekent voor mij energetisch werk en zelfontplooiing, het transformeren van trauma's en blokkades zodat alles opnieuw spontaan en natuurlijk mag stromen. Het uiteindelijke doel is om onvoorwaardelijk van jezelf te houden, en anderen niet langer nodig te hebben om bepaalde (innerlijke) leegtes te vullen. Het bereiken van werkelijke vrede en voldoening binnenin._**
-
+___
 Er bestaan vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwikkeld op basis van mijn ervaring en bied twee soorten healing aan:  **_Visualisatie Healing_**, die naar mijn gevoel goed is om inzichten te verkrijgen.  **_Rebalancing Healing_**, waarbij de geest niet hoeft deel te nemen, puur energetisch lichaamswerk.
 
 
