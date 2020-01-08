@@ -14,9 +14,9 @@ datalist:
     - data: € 80
       title: Visualisatie healing
       info: 90'
-    - data: € 70
+    - data: € 80
       title: Rebalancing healing
-      info: 60'
+      info: 90'
     - title: Waardebon mogelijk!
   title: Prijzen
 ---
@@ -29,18 +29,18 @@ Er bestaan vele technieken om healing te bekomen. Ik heb mijn eigen stijl ontwik
 
 Ben je op zoek naar **_verduidelijking_** of **_helderheid_** omtrent een bepaald thema in je leven, dan is deze behandeling een aanrader. We starten met het drinken van een theetje, bespreken waarom je er bent en daarna mag je rustig gaan liggen op tafel. Ik start met het bewust aanvoelen van je energie en stel je dan verschillende vragen. Samen onderzoeken we wat nodig is voor jou op dat moment.
 
-Ik werk vaak met behulp van **_visualisaties_** of **_beeldtaal_** om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Soms werk ik op bepaalde plekken in het lichaam. 
+Ik werk vaak met behulp van **_visualisaties_** of **_beeldtaal_** om communicatie met het lichaam en emotionele blokkades te vergemakkelijken. Ook werk ik op bepaalde plekken in het lichaam. 
 
 Elke sessie is anders. Deze behandeling duurt 1u30' en bevat zowel **_gesprekstherapie_** als **_energetisch werk_**. 
 
 
 ### Rebalancing Healing
 
-Dit is een **_volledig energetische behandeling_**. Je ligt op de tafel en ik werk een klein uur op je lichaam. Tijdens een rebalancing sessie heeft het verhaal geen enkel belang, er hoeft niet gepraat of gedeeld te worden. 
+Dit is een **_volledig energetische behandeling_**. Ook hier starten we met een theetje en bespreken waarom je er bent. Daarna mag je op tafel gaan liggen en werk ik een uur lang op je lichaam. Tijdens een rebalancing sessie heeft het verhaal geen belang, er hoeft niet gepraat of gedeeld te worden.
 
-Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch **_opheffen van blokkades_** en door het **_herstellen van de stroming_**. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is **_kort maar krachtig_**.
+Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch **_opheffen van blokkades_** en door het **_herstellen van de stroming_**. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is **_zacht maar heel krachtig_**.
 
-Erna drinken we een theetje en is er nog even de ruimte om bepaalde zaken uit te spreken en te delen.  
+Erna krijg je de tijd om even te bekomen en na te voelen. Ook krijg je de ruimte om bepaalde zaken uit te spreken en te delen.  
   
  . 
 
