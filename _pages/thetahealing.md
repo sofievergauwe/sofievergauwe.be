@@ -40,7 +40,7 @@ Dit is een **_volledig energetische behandeling_**. Ook hier starten we met een 
 
 Zoals de naam zegt is het de bedoeling je systeem opnieuw in evenwicht te brengen, dit gebeurt door het energetisch **_opheffen van blokkades_** en door het **_herstellen van de stroming_**. Ik laat me leiden en behandel dan verschillende plekken van je lichaam. Soms zal ik tikken, wrijven, bewegingen maken en een klank uiten, of zelfs zingen. Alles is mogelijk! Jij hoeft niks te doen, en mag alles gewoon laten gebeuren. Deze behandeling is **_zacht maar heel krachtig_**.
 
-Erna krijg je de tijd om even te bekomen en na te voelen. Ook krijg je de ruimte om bepaalde zaken uit te spreken en te delen.  
+Erna krijg je de tijd om even te bekomen en na te voelen. Ook is er de ruimte om bepaalde zaken uit te spreken en te delen.  
   
  . 
 
