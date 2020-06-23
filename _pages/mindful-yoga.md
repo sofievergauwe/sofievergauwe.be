@@ -67,11 +67,9 @@ Op donderdagavond gaan er twee lessen door:
 * 19u-20u15
 * 20u45-22u
 
-**_Schooljaar 2019-2020:_**
+**Agv corona: toch les tijdens de zomer!**
 
-Les op 9-16-23-30 jan, 6-13-20 feb, 5-12-19-26 mrt, 2-23-30 apr, 7-14-28 mei, 4-11-18-25 jun.
-
-Geen yoga tijdens vakanties en op feestdagen.  Dit betekent geen les op 2 jan, 27 feb, 23-30 apr, 21 mei, maanden juli en augustus.
+Er is les op 2, 9, 16, 23, 30 juli en 6, 12, 20, 27 augustus.
 
 Graag je **_aanwezigheid bevestigen_** via mail of persoonlijk berichtje op mijn facebookpagina. De les gaat door vanaf drie mensen hun deelname hebben bevestigd (ten laatste woensdagavond).
 
