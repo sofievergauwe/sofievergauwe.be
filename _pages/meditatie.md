@@ -13,7 +13,7 @@ info:
   title: ''
   image: /media/ertvelde-meditatie-visualisatie.jpg
 datalist:
-  description: '20 juli, 24 augustus '
+  description: '27 juli, 24 augustus '
   items: []
   title: Data
 buttons:
