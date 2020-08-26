@@ -67,9 +67,6 @@ Op donderdagavond gaan er twee lessen door:
 * 19u-20u15
 * 20u45-22u
 
-**Agv corona: toch les tijdens de zomer!**
-
-Er is les op 2, 9, 16, 23, 30 juli en 6, 12, 20, 27 augustus.
 
 Graag je **_aanwezigheid bevestigen_** via mail of persoonlijk berichtje op mijn facebookpagina. De les gaat door vanaf drie mensen hun deelname hebben bevestigd (ten laatste woensdagavond).
 
