@@ -13,7 +13,7 @@ info:
   title: ''
   image: /media/ertvelde-meditatie-visualisatie.jpg
 datalist:
-  description: '27 juli, 31 augustus '
+  description: '28 september, 26 oktober, 23 november, 14 december'
   items: []
   title: Data
 buttons:
@@ -29,7 +29,7 @@ Max 10 deelnemers, gelieve op tijd in te schrijven via mail of persoonlijk beric
 
 **Praktisch**
 
-De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde, al liggend op een yogamatje.
+De meditaties gaan door in het zaaltje van de Oemtata te Ertvelde, al liggend op een yogamatje. Graag dekentje meebrengen!
 
 
 
@@ -39,4 +39,4 @@ Meditatie van 20u15-21u00
 
 Delen ervaringen + thee 21u00-21u30
 
-Bijdrage 10 euro
+Bijdrage 15 euro
