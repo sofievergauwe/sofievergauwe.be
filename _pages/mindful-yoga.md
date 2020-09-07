@@ -70,6 +70,8 @@ Op donderdagavond 2 lessen
 * 19u-20u15
 * 20u45-22u
 
+Geen les tijdens de schoolvakanties!
+
 
 Graag je **_aanwezigheid bevestigen_** via mail of persoonlijk berichtje op mijn facebookpagina. De les gaat door vanaf drie mensen hun deelname hebben bevestigd (ten laatste woensdagavond).
 
