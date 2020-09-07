@@ -39,4 +39,4 @@ Meditatie van 20u15-21u00
 
 Delen ervaringen + thee 21u00-21u30
 
-Bijdrage 15 euro
+Bijdrage 13 euro
