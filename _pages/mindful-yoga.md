@@ -18,13 +18,13 @@ info:
   image: /media/mindful-yoga.png
 datalist:
   items:
-    - data: 7 €
+    - data: 9 €
       title: proefles
       info: 1u15'
-    - data: 10 €
+    - data: 12 €
       title: ' 1 les '
       info: 1u15'
-    - data: 90 €
+    - data: 110 €
       title: beurtenkaart
       info: 10 lessen
   title: Prijzen
@@ -62,7 +62,10 @@ De ademhaling is een soort van **_anker_** waar we steeds opnieuw onze aandacht 
 
 ### Praktisch
 
-Op donderdagavond gaan er twee lessen door: 
+Op woensdagavond 1 les
+* 19u-20u15
+
+Op donderdagavond 2 lessen
 
 * 19u-20u15
 * 20u45-22u
