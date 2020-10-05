@@ -2,7 +2,7 @@
 title: Contact
 permalink: /contact
 layout: page
-image: /media/paardje.jpg
+image: /media/sofie vergauwe boom contact 5.jpg
 caption:
   align: bottom right
   quote: Iedereen is welkom in mijn wereld
