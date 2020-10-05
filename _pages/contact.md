@@ -5,7 +5,7 @@ layout: page
 image: /media/sofie vergauwe boom contact 5.jpg
 caption:
   align: bottom right
-  quote: Iedereen is welkom in mijn wereld
+  quote: ''
 info:
   description: >-
     Ik werk op twee verschillende plaatsen:
