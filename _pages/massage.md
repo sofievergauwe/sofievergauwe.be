@@ -9,7 +9,7 @@ caption:
 info:
   description: '**Verwen jezelf of een ander met een (healing) massage!**'
   title: ''
-  image: /media/rugmassage.jpg
+  image: /media/sofie vergauwe massage bassevelde 2.jpg
 datalist:
   description: ''
   items:
