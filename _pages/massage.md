@@ -2,7 +2,7 @@
 title: Massage
 permalink: /massage
 layout: page
-image: /media/massage.jpg
+image: /media/sofie vergauwe massage kleur.jpg
 caption:
   align: bottom center
   quote: 'Koester je eigen huis, jouw lichaam'
