@@ -13,7 +13,7 @@ info:
   title: ''
   image: /media/ertvelde-meditatie-visualisatie.jpg
 datalist:
-  description: ' 5 oktober, 26 oktober, 23 november, 14 december'
+  description: '23 november, 14 december'
   items: []
   title: Data
 buttons:
