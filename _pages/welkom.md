@@ -7,9 +7,10 @@ caption:
   align: top right
   quote: Welkom in de wereld van Sofie...
 teasers:
-  - description: >-
-      Bij de wereld van Sofie kan u terecht voor **massages, healingsessies,
-      meditaties** en **yogalessen**.
+  - description: |-
+      Tijdelijk gesloten wegens COVID 19... 
+      ==
+        Bij de wereld van Sofie kan u terecht voor **massages, healingsessies, meditaties** en **yogalessen**.
     title: De wereld van Sofie
     image: /media/de-wereld-van-sofie-stoepe.jpg
     link: /wereldvansofie
