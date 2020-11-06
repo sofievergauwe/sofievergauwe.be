@@ -9,7 +9,7 @@ caption:
 instagram: ''
 info:
   description: |-
-    Voorlopig **GEEN LES door COVID 19** tem de herfstvakantie!
+    Voorlopig **GEEN LES door COVID 19**!
 
     Pastorijstraat 40, Ertvelde.
 
@@ -30,7 +30,7 @@ datalist:
   title: Prijzen
 buttons: []
 ---
-### Voorlopig **GEEN LES door COVID 19** tem de herfstvakantie!
+### Voorlopig **GEEN LES door COVID 19** 
 
 **_Yoga vindt zijn oorsprong in India, het woord Yoga komt uit het Sankskriet en betekent vereniging of verbinding,  tussen geest en lichaam._**
 
@@ -72,7 +72,7 @@ Op donderdagavond 2 lessen
 * 19u-20u15
 * 20u45-22u
 
-Voorlopig **GEEN LES door COVID 19** tem de herfstvakantie!
+Voorlopig **GEEN LES door COVID 19** 
 
 Graag je **_aanwezigheid bevestigen_** via mail of persoonlijk berichtje op mijn facebookpagina. De les gaat door vanaf drie mensen hun deelname hebben bevestigd (ten laatste woensdagavond).
 
