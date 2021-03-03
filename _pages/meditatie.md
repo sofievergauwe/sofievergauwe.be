@@ -13,7 +13,7 @@ info:
   title: ''
   image: /media/ertvelde-meditatie-visualisatie.jpg
 datalist:
-  description: '23 november, 14 december'
+  description: 'Voorlopig **GEEN MEDITATIES ingepland door COVID 19** '
   items: []
   title: Data
 buttons:
