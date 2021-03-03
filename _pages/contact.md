@@ -11,8 +11,7 @@ info:
     Ik werk op twee verschillende plaatsen:
 
 
-    ***Individuele sessies*** gaan door in Bassevelde, in de oude pastorij,
-    Landsdijk 74.
+    ***Individuele sessies*** gaan door in Watervliet, Heistraat 19.
 
 
     ***Yoga en meditaties*** gaan door in de zaal van de Oemtata, Pastorijstraat
